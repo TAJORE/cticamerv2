@@ -28,11 +28,11 @@ Route::get('/nous_contacter', function () {
     return view('nous-contacter');
 });
 
-Route::post('/messages', 'messageController@postMessages');
+Route::post('/messages', 'MessageController@postMessages');
 
 
 Auth::routes();
-Route::get('/messages', 'messageController@getMessages');
+Route::get('/messages', 'MessageController@getMessages');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
