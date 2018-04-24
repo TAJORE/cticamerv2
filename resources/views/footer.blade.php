@@ -15,7 +15,7 @@
     <ul class="list">
         <li class="list-item">
             <div class="list-content">
-                <div class="ftitle"><h2> {% trans from 'ctifooter' %} langAngl {% endtrans %} </h2></div>
+                <div class="ftitle"><h2> {{ __('footer.langAngl') }} </h2></div>
                 <p class="fcontent">
                     <span><a class="liens_footer" href="/main_anglais"> {{ __('footer.coursAngl') }} </a></span><br>
                     <span><a class="liens_footer" href="main_CoursIntensifs'"> {% trans from 'ctifooter' %} enseignerANGLAIS {% endtrans %} </a></span><br>
@@ -28,7 +28,7 @@
         </li>
         <li class="list-item">
             <div class="list-content">
-                <div class="ftitle"><h2> {% trans from 'ctifooter' %} langALL {% endtrans %} </h2></div>
+                <div class="ftitle"><h2> {{ __('footer.langALL') }} </h2></div>
                 <p class="fcontent">
                     <span><a class="liens_footer" href="main_allemand"> {% trans from 'ctifooter' %} coursAllemand {% endtrans %} </a></span><br>
                     <span><a class="liens_footer" href="main_etudierEnAllemagne') }}"> {% trans from 'ctifooter' %} enseignerAllemand {% endtrans %} </a></span><br>
@@ -40,7 +40,7 @@
 
         <li class="list-item">
             <div class="list-content">
-                <div class="ftitle"><h2> {% trans from 'ctifooter' %} informatique {% endtrans %} </h2></div>
+                <div class="ftitle"><h2> {{ __('footer.informatique') }} </h2></div>
                 <p class="fcontent">
 
                     <span><a class="liens_footer" href="main_LogicielsBureautique"> {% trans from 'ctifooter' %} bureautique {% endtrans %}  </a></span><br>
@@ -56,7 +56,7 @@
 
         <li class="list-item">
             <div class="list-content">
-                <div class="ftitle"><h2> {% trans from 'ctifooter' %} ctiQUI {% endtrans %} </h2></div>
+                <div class="ftitle"><h2> {{ __('footer.ctiQUI') }} </h2></div>
                 <p class="fcontent">
                     <span><a href="main_missionEtObjectifs"> {% trans from 'ctifooter' %} mission {% endtrans %} </a></span><br>
                     <span><a href="main_contactEtHoraires"> {% trans from 'ctifooter' %} contactEtHORAIRES {% endtrans %} </a></span><br>
