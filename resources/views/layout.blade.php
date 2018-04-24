@@ -26,54 +26,7 @@
     </div>
 </div>
 
-<br/>
-
-<div id="cti-nav">
-    <div class="ctic-nav" >
-        <div class="nav-and-logo">
-
-
-            <div class="nav_bar">
-
-                <div class="nav-items">
-                    <ul>
-
-
-
-
-                        <li class="ctidropdown">
-                            <a href="" class="dropbtn">
-                                {{ __('first-nav.ls') }}
-                            </a>
-
-                            <div class="dropdown-content">
-                                <a href="lang/fr">Français</a>
-                                <a href="lang/en">English</a>
-                            </div>
-                        </li>
-
-
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+@include('cti-navbar')
 
 
 <br/>
