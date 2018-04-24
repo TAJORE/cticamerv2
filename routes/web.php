@@ -32,6 +32,21 @@ Route::get('/allemand', function () {
     return view('allemand');
 });
 
+
+Route::group(['prefix' => 'informatique'], function() {
+
+
+    Route::get('/', function () {
+        return view('informatique');
+    });
+
+
+});
+
+
+
+
+
 Route::post('/messages', 'MessageController@postMessages');
 
 

@@ -1,12 +1,13 @@
 
 
 
+
 {% extends 'MainBundle::cti-layout.html.twig' %}
 
 {% block meta %}
 <meta charset="utf-8">
-<meta name = "description" content = "{% trans from 'allemand' %} descriptionALL {% endtrans %}" >
-<meta name = "keywords" content = "{% trans from 'allemand' %} keywordALL {% endtrans %}" >
+<meta name = "description" content = " {% trans from 'informatique' %} descriptionINFO {% endtrans %} " >
+<meta name = "keywords" content = "{% trans from 'informatique' %} keywordINFO {% endtrans %}" >
 <meta name="author" content="semanticatechnologies.com - Douala Bonamoussadi">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% endblock %}
@@ -15,7 +16,7 @@
 {% endblock  %}
 
 {% block mycss %}
-{{ parent() }}
+
 
 <style>
     .students-img {
@@ -143,7 +144,7 @@
         <img  id="top_img" src="{{ asset('data/img/baniere2.png') }}" alt="">
 
         <div class="message_on_image">
-            {% trans from 'allemand' %} title1 {% endtrans %} <BR>
+            {% trans from 'informatique' %} text1 {% endtrans %} <BR>
 
         </div>
 
@@ -151,12 +152,12 @@
     </div>
 
     <div class="row line">
-        <div>  {% trans from 'allemand' %} text2 {% endtrans %} </div>
+        <div>  {% trans from 'informatique' %} text2 {% endtrans %} </div>
 
     </div>
 
 
-    <div class="flex-contain">
+    <div class="">
 
         <div class="">
 
@@ -164,97 +165,81 @@
             <div class="accueil">
 
                 <div>
-                    {% trans from 'allemand' %} text1 {% endtrans %} <br>
-                    Plusieurs formats disponibles:
+                    {% trans from 'informatique' %} texte_01 {% endtrans %} <br>
                     <ul>
-                        <li><a href="{{ path('main_etudierEnAllemagne') }}">Cours Pour Etudes en Allemagne</a></li>
-                        <li><a href="{{ path('main_regroupementFamilial') }}">Pour Regroupement familial</a></li>
-                        <li><a href="{{ path('main_CoursParticuliersdAll') }}">Cours aux Particuliers</a></li>
-                        <li><a href="{{ path('main_CoursSpecialise') }}">Cours Spécialisés</a> </li>
+                        <li><a href="{{ ('main_LogicielsBureautique') }}">{% trans from 'informatique' %}module_01{% endtrans %}</a></li>
+                        <li><a href="{{ ('main_Design') }}">{% trans from 'informatique' %}module_02{% endtrans %}</a></li>
+                        <li><a href="{{ ('main_Internet') }}">{% trans from 'informatique' %}module_03{% endtrans %}</a></li>
+                        <li><a href="{{ ('main_AppliWeb') }}">{% trans from 'informatique' %}module_04{% endtrans %}</a> </li>
+                        <li><a href="{{ ('main_SecuriteInfo') }}">{% trans from 'informatique' %}module_05{% endtrans %}</a> </li>
                     </ul>
                 </div>
 
-                <div>  {% trans from 'allemand' %} Block1 {% endtrans %} </div>
-                <div class="utiles">
-                    <a class="liens-utiles" href="{{ path('main_NiveauxDeLangue') }}">>>Consulter les différents niveaux de langue</a>
-                </div>
+                <div>  {% trans from 'informatique' %}  {% endtrans %} </div>
+
 
             </div>
 
             <div class="row section admission">
-                <h2 class="bloc-title">  {% trans from 'allemand' %} coursDispo {% endtrans %} </h2>
+                <h2 class="bloc-title">  {% trans from 'informatique' %} coursDispo {% endtrans %} </h2>
                 <div class="inner padding">
                     <div class="flex">
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">Goethe-Zertifikat A1</div>
-                            <h3>
-                                <i class="icon-fleche-droite grand"></i>
-                                <span class="adm-niv">GZA1</span>
-                                <i class="icon-fleche-gauche grand"></i></h3>
+                            <div class="titre">  {% trans from 'informatique' %} secrBuro {% endtrans %} </div>
+
                             <div class="content">
-                                {% trans from 'allemand' %} gza1 {% endtrans %}
+                                {% trans from 'informatique' %} detail-1 {% endtrans %}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
                             <div class="triangle-bottom"></div>
                         </div>
 
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">Goethe-Zertifikat A2</div>
-                            <h3>
-                                <i class="icon-fleche-droite grand"></i>
-                                <span class="adm-niv">GZA2</span>
-                                <i class="icon-fleche-gauche grand"></i></h3>
+                            <div class="titre">  {% trans from 'informatique' %} Infograph {% endtrans %} </div>
+
                             <div class="content">
-                                {% trans from 'allemand' %} gza2 {% endtrans %}
+                                {% trans from 'informatique' %} detail-2 {% endtrans %}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
                             <div class="triangle-bottom"></div>
                         </div>
 
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">Goethe-Zertifikat B1</div>
-                            <h3>
-                                <i class="icon-fleche-droite grand"></i>
-                                <span class="adm-niv">GZB1</span>
-                                <i class="icon-fleche-gauche grand"></i></h3>
+                            <div class="titre">  {% trans from 'informatique' %} devAppli {% endtrans %} </div>
+
                             <div class="content">
-                                {% trans from 'allemand' %} gzb1 {% endtrans %}
+                                {% trans from 'informatique' %} detail-3 {% endtrans %}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
+                            <div class="triangle-bottom"></div>
+                        </div>
+
+                        <!--
+                        <div class="hexagon degrade admission-hexagon">
+                            <div class="triangle-top"></div>
+                            <div class="titre">  {% trans from 'informatique' %} util_Internet {% endtrans %} </div>
+
+                            <div class="content">
+                                {% trans from 'informatique' %} detail-4 {% endtrans %}
+                            </div>
+                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
                             <div class="triangle-bottom"></div>
                         </div>
 
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">Goethe-Zertifikat B2</div>
-                            <h3>
-                                <i class="icon-fleche-droite grand"></i>
-                                <span class="adm-niv">GZB2</span>
-                                <i class="icon-fleche-gauche grand"></i></h3>
+                            <div class="titre">  {% trans from 'informatique' %} securite_IT {% endtrans %} </div>
+
                             <div class="content">
-                                {% trans from 'allemand' %} gzb2 {% endtrans %}
+                                {% trans from 'informatique' %} detail-5 {% endtrans %}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
                             <div class="triangle-bottom"></div>
                         </div>
-
-                        <div class="hexagon degrade admission-hexagon">
-                            <div class="triangle-top"></div>
-                            <div class="titre">Goethe-Zertifikat C1</div>
-                            <h3>
-                                <i class="icon-fleche-droite grand"></i>
-                                <span class="adm-niv">GZC1</span>
-                                <i class="icon-fleche-gauche grand"></i></h3>
-                            <div class="content">
-                                {% trans from 'allemand' %} gzb2 {% endtrans %}
-                            </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
-                            <div class="triangle-bottom"></div>
-                        </div>
-
+-->
 
 
                     </div>
@@ -268,7 +253,29 @@
 
     </div>
 
+    <div class="row line">
+        <div> {% trans from 'about' %} about.title1 {% endtrans %} : {% trans from 'about' %} about.block14 {% endtrans %} </div>
 
+    </div>
+
+
+    <div class="section admission parallax-container ">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('data/img/computerstudents2.jpg') }}" data-position="left top">
+
+
+        </div>
+
+        <div class="edito supinfo-slogan">
+            <div class="triangle-left"></div>
+            <div class="contenu">
+                <div class="supinfo-slogan-titre">CTI: {% trans from 'informatique' %} slogan1 {% endtrans %}</div>
+                <p class="home-slogan">{% trans from 'informatique' %} slogan2 {% endtrans %}</p>
+                <p><a href="">{% trans from 'informatique' %} slogan3 {% endtrans %}</a></p>
+
+            </div>
+
+        </div>
+    </div>
 
     <div class="separator"></div>
 

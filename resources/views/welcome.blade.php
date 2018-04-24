@@ -21,7 +21,7 @@
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
-                height: 100vh;
+                /*height: 100vh;*/
                 margin: 0;
             }
 
@@ -85,7 +85,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Churchill Training Institute
                 </div>
 
 
