@@ -28,8 +28,15 @@ Route::get('/nous_contacter', function () {
     return view('nous-contacter');
 });
 
-Route::get('/allemand', function () {
-    return view('allemand');
+
+Route::group(['prefix' => 'allemand'], function() {
+
+
+    Route::get('/', function () {
+        return view('allemand');
+    });
+
+
 });
 
 
@@ -38,6 +45,17 @@ Route::group(['prefix' => 'informatique'], function() {
 
     Route::get('/', function () {
         return view('informatique');
+    });
+
+
+});
+
+
+Route::group(['prefix' => 'anglais'], function() {
+
+
+    Route::get('/', function () {
+        return view('/anglais/anglais');
     });
 
 
