@@ -28,6 +28,10 @@ Route::get('/nous_contacter', function () {
     return view('nous-contacter');
 });
 
+Route::get('/allemand', function () {
+    return view('allemand');
+});
+
 Route::post('/messages', 'MessageController@postMessages');
 
 
