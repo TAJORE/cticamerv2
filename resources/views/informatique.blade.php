@@ -1,8 +1,8 @@
 
 
+@extends('layout')
 
-
-{% extends 'MainBundle::cti-layout.html.twig' %}
+@section('content')
 
 {% block meta %}
 <meta charset="utf-8">
@@ -137,6 +137,9 @@
 {% endblock %}
 
 {% block  mainLg %}
+
+
+
 
 <div class="main_allemand">
 
@@ -317,9 +320,4 @@
 </div>
 {% endblock %}
 
-{% block footer %}
-{% include 'MainBundle:Default:cti-footer.html.twig' %}
-{% endblock %}
-{% block myjs %}
-{# mettre des liens vers des pages externe js si c'est  necessaire #}
-{% endblock %}
+@endsection
