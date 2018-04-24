@@ -24,8 +24,6 @@
         {{ __('first-nav.ls') }} : <a href="lang/fr">Français</a> | <a href="lang/en">English</a>
 
     </div>
-
-
 </div>
 
 <br/>
