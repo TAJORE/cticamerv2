@@ -7,6 +7,7 @@
 
 require('./bootstrap');
 require('./nous-contacter');
+require('./scroll-top');
 window.Vue = require('vue');
 
 /**

@@ -373,6 +373,328 @@
   }
 }
 
+#cti-footer {
+  /* button to push the page up */
+  /* END button */
+  /*Flex items*/
+  /*iPhone 6 in portrait*/
+  /*iPhone 5 & 5S in portrait*/
+}
+
+#cti-footer #toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 3px;
+  right: 30px;
+  z-index: 98;
+}
+
+#cti-footer #toTopBtn img {
+  width: 80%;
+}
+
+#cti-footer #myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+#cti-footer ul,
+#cti-footer li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#cti-footer img {
+  width: 100%;
+}
+
+#cti-footer h2 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  color: #f16e00;
+}
+
+#cti-footer .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #373737;
+  width: 100%;
+}
+
+#cti-footer .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+#cti-footer .social-div-item {
+  width: 100%;
+}
+
+#cti-footer .link-footer-botom-constrction {
+  color: white;
+}
+
+#cti-footer .link-footer-botom-constrctions {
+  color: #f16e00;
+  text-decoration: none;
+}
+
+@media all and (min-width: 40em) {
+  #cti-footer .list-item {
+    width: 50%;
+  }
+
+  #cti-footer .social-div-item {
+    width: 10%;
+  }
+}
+
+@media all and (min-width: 60em) {
+  #cti-footer .list-item {
+    /*width: 33.33%;*/
+    width: 25%;
+  }
+
+  #cti-footer .social-div-item {
+    width: 10%;
+  }
+}
+
+#cti-footer .list-content {
+  /* background-color: #fff;*/
+  border: 1px solid darkgrey;
+  background-color: #373737;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+#cti-footer .list-content p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+#cti-footer .list-item a {
+  color: darkgrey !important;
+  background-color: transparent !important;
+  display: inline-block;
+  color: black;
+  text-align: left !important;
+  padding: 0px;
+  margin: 5px;
+}
+
+#cti-footer .list-item a:hover {
+  color: #f16e00 !important;
+}
+
+#cti-footer .social-div-item a {
+  color: #4B4B4B !important;
+}
+
+#cti-footer .social-div-item a:hover {
+  color: #f16e00 !important;
+}
+
+#cti-footer .social-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: darkgray;
+  padding: 10px;
+  width: 100%;
+}
+
+#cti-footer .social-div-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+#cti-footer .social-div-item img {
+  height: 36px;
+  width: 36px;
+}
+
+#cti-footer .copyright-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #4B4B4B;
+  text-align: center;
+  padding: 7px;
+}
+
+#cti-footer .copyright-div {
+  color: #797979  !important;
+}
+
+#cti-footer .copyright-div a:hover {
+  color: #f16e00 !important;
+}
+
+#cti-footer .footer-botom-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  /* cet element prend le double de l'espace pris par l'autre element */
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cti-footer .copy {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: white;
+}
+
+#cti-footer .link-footer-botom {
+  padding-left: 20px;
+}
+
+#cti-footer body {
+  margin: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #cti-footer #toTopBtn {
+    right: 5px;
+    bottom: 1px;
+  }
+
+  #cti-footer .list-item {
+    /*width: 33.33%;*/
+    width: 100%;
+    padding: 0px !important;
+  }
+
+  #cti-footer .social-div-item {
+    width: 19%;
+    font-size: 35px !important;
+  }
+
+  #cti-footer .ftitle {
+    font-size: 50px !important;
+  }
+
+  #cti-footer .fcontent {
+    display: none;
+    font-size: 20px !important;
+  }
+
+  #cti-footer h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    color: #f16e00;
+    font-size: 25px !important;
+  }
+
+  #cti-footer .list-content {
+    padding: 0.5em;
+  }
+
+  #cti-footer .footer-botom-items {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #cti-footer .item-text {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  #cti-footer #toTopBtn {
+    right: 5px;
+    bottom: 1px;
+  }
+
+  #cti-footer .list-item {
+    /*width: 33.33%;*/
+    width: 100%;
+    padding: 0px !important;
+  }
+
+  #cti-footer .social-div-item {
+    width: 19%;
+  }
+
+  #cti-footer .ftitle {
+    font-size: 50px !important;
+  }
+
+  #cti-footer .fcontent {
+    display: none;
+    font-size: 20px !important;
+  }
+
+  #cti-footer .item-text {
+    display: none;
+  }
+
+  #cti-footer .item-text {
+    display: none;
+  }
+
+  #cti-footer h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    color: #f16e00;
+    font-size: 25px !important;
+  }
+
+  #cti-footer .list-content {
+    padding: 0.5em;
+  }
+
+  #cti-footer .footer-botom-items {
+    display: none;
+  }
+}
+
 /*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
