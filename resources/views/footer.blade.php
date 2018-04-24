@@ -17,8 +17,7 @@
             <div class="list-content">
                 <div class="ftitle"><h2> {{ __('footer.langAngl') }} </h2></div>
                 <p class="fcontent">
-                    <span><a class="liens_footer" href="/main_anglais"> {{ __('footer.coursAngl') }} </a></span><br>
-                    <span><a class="liens_footer" href="main_CoursIntensifs'"> {% trans from 'ctifooter' %} enseignerANGLAIS {% endtrans %} </a></span><br>
+                    <span><a class="liens_footer" href="/main_anglais"> {{ __('footer.coursAngl') }} </a></span><br>                    <span><a class="liens_footer" href="main_CoursIntensifs'"> {% trans from 'ctifooter' %} enseignerANGLAIS {% endtrans %} </a></span><br>
                     <span><a class="liens_footer" href="main_FormationContinue"> {% trans from 'ctifooter' %} examANGLAIS {% endtrans %} </a></span><br>
                     <span><a class="liens_footer" href="main_PourEntreprises"> {% trans from 'ctifooter' %} inscrLIGNE {% endtrans %} </a></span><br>
                     <span><a class="liens_footer" href="main_CoursDeVacances"> {% trans from 'ctifooter' %} coursvacances {% endtrans %} </a></span><br>
