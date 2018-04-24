@@ -14,7 +14,7 @@ return [
     */
 
     'eng' => 'Anglais',
-    'fre' => 'Franclais',
+    'fre' => 'Français',
     'ls' => 'Langue du site',
 
 ];
