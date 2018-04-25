@@ -2,70 +2,74 @@
 
 return [
 
-
-    'PlsFormats'=> 'Plusieurs formats disponibles:',
-    'CoursIntens'=> 'Cours Intensifs',
-    'FormatReg'=> 'FORMATION REGULIERE (REPL)',
-    'FormatRegACC'=> 'FORMATION REGULIERE ACCELEREE (REPL2)',
-    'prEntrep'=> 'Cours pour les Entreprises',
-    'CoursVACCANCES'=> 'Cours de Vacances',
-    'CoursPARTICULIERS'=> 'Cours Particuliers',
-    'diffNIVEAUX'=>'Consulter les diff�rents niveaux de langue',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Traduction pour la page anglais en anglais
+    |--------------------------------------------------------------------------
+    |
+    | plus d'info...
+    |
+    */
 
 
-    'coursDispo'=> 'COURS DISPONIBLES',
-    'block1'=> 'FORMATION INTENSIVE',
-    'block2'=> 'FORMATION REGULIERE',
-    'block3'=> 'FORMATION REGULIERE ACCELEREE',
-    'block4'=> 'COURS PARTICULIERS',
-    'block5'=> 'COURS DE VACANCES',
-    'f1'=> 'Cette formule s\'adresse aux personnes d�sirant acqu�rir des connaissances en anglais dans  un d�lai plus bref.',
-    'f2'=> 'La formation R�guli�re  est  subdivis�e en 6 niveaux  et permet � l\'apprenant de parler couramment l\'Anglais dans
-      tous les domaines de la vie.',
-    'bac3'=> 'Cette seconde option permet � l\'apprenant de parler l\'anglais dans un d�lai plus bref et dans  tous les domaines de
-      la vie.',
-    'bac5'=> 'Vous d�sirez une formation � domicile ou  en ligne et � votre rythme, n\'h�sitez pas � nous contacter.',
-    'bac6'=> 'Etudiants et El�ves, Profiter de vos vacances pour accel�rer votre apprentissage, et ayez plus d\'aisance � �tudier en Anglais.',
-    'bac4'=> 'PLUS D\'INFO',
+    'descriptionANGL'=> 'English courses for all levels, accessible to all. Intensive Courses, Normal Training, Holyday Classes,
+                 Private Lessons, Corporate Training, for you give the perfect mastery of English',
+'keywordANGL'=> 'bilingualism, english, courses, become bilingual, language center, training, English courses, learning English, TOEFL, TOEIC, IELTS, Douala,
+             Bonamoussadi, Cameroon A1, A2, B1, B2, C1, C2',
+'title'=> 'English courses at Douala with Churchill Training Institute - A reference language center.',
+
+
+#Les formats disponibles
+
+'PlsFormats'=> 'Several options available:',
+'CoursIntens'=> 'Accelerated Training',
+'FormatReg'=> 'REGULAR TRAINING (REPL)',
+'FormatRegACC'=> 'ACCELERETED REGULAR TRAINING (REPL2)',
+'prEntrep'=> 'Corporate Training',
+'CoursVACCANCES'=> 'Holydays Courses',
+'CoursPARTICULIERS'=> 'Private Lessons',
+'diffNIVEAUX'=> 'Consult the different language levels',
+
+
+# Block Cours Disponibles
+
+'coursDispo'=> 'VAILABLE COURSES',
+'block1'=> 'INTENSIVE TRAINING',
+'block2'=> 'REGULAR TRAINING',
+'block3'=> 'ACCELERATED REGULAR TRAINING',
+'block4'=> 'PRIVATE LESSONS',
+'block5'=> 'HOLYDAY COURSES',
+'bac1'=> 'This formula is for people wishing to increase thier level in English in a shorter time.',
+'bac2'=> 'Regular training is divided into 6 levels and allows the learner to speak English fluently.',
+'bac3'=>'With this option the learner is able to speak English in a shorter time.',
+'bac4'=> 'MORE ABOUT',
+'bac5'=> 'You want to be trained at home or online and at your own pace, do not hesitate to contact us.',
+'bac6'=> 'Students!! During these holidays, accelerate your learning, and have more ease to study in English.',
 
 
 
 
 
 
-    'niv'=> 'LES DIFFERENTS NIVEAUX',
 
-    'baniere'=> 'AVEC LE CTI, DEVENEZ BILINGUE EN QUELQUES SEMAINES. Tous nos cours permettent de pr�parer les candidats aux examens
-         internationaux, TOEFL, IELTS, TOEIC.
-         Nos cours sont con�us d\'apr�s le Cadre Europ�en Commun de R�f�rence pour les Langues (CECR).',
-    'discover'=> 'Peut comprendre et utiliser des expressions famili�res et quotidiennes ainsi que des �nonc�s tr�s simples.
-Peut communiquer de fa�on simple si l\'interlocuteur parle lentement et distinctement et se montre coop�ratif.',
+'niv'=> 'DIFFERENT LEVELS',
 
-    'learn'=> 'Peut comprendre des phrases isol�es et des expressions fr�quemment utilis�es en relation avec des domaines
-       imm�diats de priorit�.
-       Peut d�crire avec des moyens simples sa formation, son environnement et �voquer des sujets
-       qui correspondent � ses besoins.',
+'baniere'=> 'COMPLETE YOUR DREAM OF BILINGUALISM IN A FEW WEEKS. All our courses prepare candidates for international exams,
+           TOEFL, IELTS, TOEIC. Our courses are designed according to the Common European Framework of Reference for Languages',
+'discover'=> 'A basic ability to communicate and exchange information in a simple way.',
+'learn'=> 'An ability to deal with simple, straightforward information and begin to express oneself in familiar contexts.',
+'improve'=> 'The ability to express oneself in a limited way in familiar situations and to deal in a general way with
+         nonroutine information.',
+    'master'=> 'The capacity to achieve most goals and express oneself on a range of topics.',
+    'expert1'=> 'The ability to communicate with the emphasis on how well it is done, in terms of appropriacy, sensitivity and the
+        capacity to deal with unfamiliar topics.',
+    'expert2'=> 'The capacity to deal with material which is academic or cognitively demanding, and to use language to good
+         effect at a level of performance which may in certain respects be more advanced than that of an average native
+          speaker.',
 
-    'improve'=> ' Peut comprendre les points essentiels quand un langage clair et standard est utilis� et s\'il s\'agit de choses
-         famili�res dans le travail, � l\'�cole, dans les loisirs, etc.
-Peut raconter un �v�nement, d�crire un espoir ou
-         un but et exposer bri�vement des explications pour un projet.',
 
-    'master'=> 'Peut comprendre le contenu essentiel de sujets concrets ou abstraits dans un texte complexe, y compris une discussion
-        technique dans sa sp�cialit�.
-Peut s\'exprimer de fa�on claire et d�taill�e sur plusieurs sujets, �mettre un avis sur
-        un sujet et exposer les avantages et les inconv�nients.',
+    'niveauxLANGUE'=> 'After your level test, we are able to admit you to one of the 6 language levels established by the Common
+               European Framework of Reference for Languages (CEFR).',
 
-    'expert1'=> 'Peut comprendre des textes longs et exigeants, ainsi que saisir des significations implicites.
-        Peut s\'exprimer spontan�ment et couramment sans trop devoir chercher ses mots, sur des sujets  de sa vie sociale,
-        professionnelle ou acad�mique.',
 
-    'expert2'=> 'Peut comprendre sans effort pratiquement tout ce qu\'il/elle lit ou entend. Peut restituer faits et arguments de
-         diverses sources �crites et orales en les r�sumant de fa�on coh�rente. Peut s\'exprimer spontan�ment,
-         tr�s couramment et de fa�on pr�cise et peut rendre distinctes de fines nuances de sens en rapport avec des
-         sujets complexes.',
-
-    'niveauxLANGUE'=> 'Apr�s votre test de niveau, nous sommes en m�sure de vous admettre � un des 6 niveaux de langue �tablis
-               par le Cadre europ�en commun de r�f�rence pour les langues (CECRL).',
 ];
