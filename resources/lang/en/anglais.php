@@ -68,4 +68,19 @@ Peut s\'exprimer de façon claire et détaillée sur plusieurs sujets, émettre un a
 
     'niveauxLANGUE'=> 'Après votre test de niveau, nous sommes en mésure de vous admettre à un des 6 niveaux de langue établis
                par le Cadre européen commun de référence pour les langues (CECRL).',
+
+    'news' => 'ACTUALITIES',
+    'english'=> 'COURS d\'ANGLAIS',
+    'german'=> 'COURS D\'ALLEMAND',
+    'computing'=> 'COURS D\'INFORMATIQUE',
+    'englishNews'=> 'La prochaine session des cours d\'anglais au CTI débutera le 30 Avril 2018. Encore quelques places disponibles.
+             Améliorez votre niveau en Anglais avec le Churchill Training Institute et accroissez vos chances de décrocher
+             un emploi ou de progresser plus rapidement dans votre emploi actuel.',
+    'allemandNews'=> 'La prochaine session des cours d\'allemand au CTI débutera le 30 Avril 2018. Les inscriptions se poursuivent
+              tous les jours au centre du CTI, sis à Bonamoussadi, à l\'entrée du centre des impôts de douala 5ème.
+              Obtenez facilement votre visa d’étude en Allemagne en suivant des cours intensif d’Allemand au Churchill
+              Training Institute',
+    'infoNews'=> 'Les inscriptions pour la formation en secrétariat bureautique continuent au siège de CTI a Bonamoussadi.
+          Vous pouvez débuter votre formation chaque Lundi. Un suivi particulier est accordé à chaque apprenant.
+          Les inscriptions pour la formation en infographie et en développement d application Web se poursuivent également.'
 ];

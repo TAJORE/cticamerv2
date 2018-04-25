@@ -264,24 +264,24 @@
 
 
     <div class="section programmes-main-div">
-        <h2 class="bloc-title">{{ __('anglais.') }}{% trans from 'about' %} about.news {% endtrans %}</h2>
+        <h2 class="bloc-title">{{ __('anglais.news') }}</h2>
 
         <div class="inner padding">
             <div class="flex">
                 <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{{ __('anglais.') }}{% trans from 'ctihome' %} english {% endtrans %}</h4></div>
+                    <div class="news-title"><h4>{{ __('anglais.english') }}</h4></div>
 
-                    <p style="text-align: left">{{ __('anglais.') }}{% trans from 'ctihome' %} englishNews {% endtrans %}</p>
+                    <p style="text-align: left">{{ __('anglais.englishNews') }}</p>
                 </div>
 
                 <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{{ __('anglais.') }}{% trans from 'ctihome' %} german {% endtrans %}</h4></div>
-                    <p style="text-align: left">{{ __('anglais.') }}{% trans from 'ctihome' %} allemandNews {% endtrans %}</p>
+                    <div class="news-title"><h4>{{ __('anglais.german') }}</h4></div>
+                    <p style="text-align: left">{{ __('anglais.allemandNews') }}</p>
                 </div>
 
                 <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{{ __('anglais.') }}{% trans from 'ctihome' %} computing {% endtrans %}</h4></div>
-                    <p style="text-align: left">{{ __('anglais.') }}{% trans from 'ctihome' %} infoNews {% endtrans %}</p>
+                    <div class="news-title"><h4>{{ __('anglais.computing') }}</h4></div>
+                    <p style="text-align: left">{{ __('anglais.infoNews') }}</p>
                 </div>
 
             </div>
