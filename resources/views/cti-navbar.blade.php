@@ -36,12 +36,11 @@
                             </a>
 
                             <div class="dropdown-content">
-                                <a href="{{  ('main_etudierEnAllemagne') }}"> {{ __('ctinav.etudeAll') }} </a>
-                                <a href="{{  ('main_regroupementFamilial') }}"> {{ __('ctinav.regrFamill') }} </a>
-                                <a href="/allemand/cours_particuliers">  {{ __('ctinav.coursParti') }} </a>
-                                <!--
-                                <a href="{{  ('main_CoursSpecialise') }}"> {% trans from 'ctinav' %} coursSpec {% endtrans %} </a>
-                                -->
+                                <a href="/allemand/pour_etudier"> {{ __('ctinav.etudeAll') }} </a>
+                                <a href="/allemand/regroupement_familial"> {{ __('ctinav.regrFamill') }} </a>
+                                <a href="/allemand/cours_particuliers_dallemand">  {{ __('ctinav.coursParti') }} </a>
+                                <a href="/allemand/cours_specialises"> {{ __('ctinav.coursSpec') }}</a>
+
                             </div>
                         </li>
 
@@ -53,11 +52,11 @@
 
                             <div class="dropdown-content">
                                 <a href="/informatique/bureautique"> {{ __('ctinav.logiBur') }}  </a>
-                                <a href="{{  ('main_Design') }}"> {% trans from 'ctinav' %} art {% endtrans %} </a>
-                                <a href="{{  ('main_Internet') }}"> {% trans from 'ctinav' %} internet {% endtrans %} </a>
-                                <a href="{{  ('main_AppliWeb') }}"> {% trans from 'ctinav' %} appWeb {% endtrans %}  </a>
-                                <a href="{{  ('main_SecuriteInfo') }}"> {% trans from 'ctinav' %} secuInfo {% endtrans %} </a>
-                                <a href="{{  ('main_CoursParticuliersdInfo') }}"> {% trans from 'ctinav' %} coursPartiInfo {% endtrans %} </a>
+                                <a href="{{  ('main_Design') }}"> {{ __('ctinav.art') }} </a>
+                                <a href="{{  ('main_Internet') }}"> {{ __('ctinav.internet') }} </a>
+                                <a href="{{  ('main_AppliWeb') }}"> {{ __('ctinav.appWeb') }} </a>
+                                <a href="{{  ('main_SecuriteInfo') }}"> {{ __('ctinav.secuInfo') }} </a>
+                                <a href="{{  ('main_CoursParticuliersdInfo') }}"> {{ __('ctinav.coursPartiInfo') }} </a>
                             </div>
                         </li>
 

@@ -37,11 +37,11 @@ return [
     'internet'=> 'Internet Usage Training',
     'appWeb'=> 'Web Application Development',
     'secuInfo'=> 'IT Security',
-'coursPartiInfo: Private lessons
-contact: CONTACT US
-EN: ENGLISH LANGUAGE
-DE: GERMAN LANGUAGE
-IT: IT COURSES'
+    'coursPartiInfo'=> 'Private lessons',
+    'contact'=> 'CONTACT US',
+    'EN'=> 'ENGLISH LANGUAGE',
+    'DE'=> 'GERMAN LANGUAGE',
+    'IT'=> 'IT COURSES'
 
 ];
 
