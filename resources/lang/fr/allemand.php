@@ -61,8 +61,4 @@ return [
        Vous pouvez débuter votre formation chaque Lundi.  Un suivi particulier est accordé à chaque apprenant.
        Les inscriptions pour la formation en infographie et en développement d application Web se poursuivent également.'
 
-
-
-
-
 ];

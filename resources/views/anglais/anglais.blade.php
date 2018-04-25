@@ -183,7 +183,7 @@
                                 <span class="adm-niv">IEPL</span>
                                 <i class="icon-fleche-gauche grand"></i></h3>
                             <div class="content">
-                                {{ __('anglais.bac1') }}
+                                {{ __('anglais.f1') }}
                             </div>
                             <a class="myButton" href="{{ route('login') }}">{{ __('anglais.bac4') }}</a>
                             <div class="triangle-bottom"></div>
@@ -197,7 +197,7 @@
                                 <span class="adm-niv">REPL</span>
                                 <i class="icon-fleche-gauche grand"></i></h3>
                             <div class="content">
-                                {{ __('anglais.bac2') }}
+                                {{ __('anglais.f2') }}
                             </div>
                             <a class="myButton" href="{{ route('login') }}">{{ __('anglais.bac4') }}</a>
                             <div class="triangle-bottom"></div>
