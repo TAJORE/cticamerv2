@@ -1,4 +1,35 @@
 @extends('layout')
+<style>
+    .baniere{
+        width: 100%;
+        max-height: 400px;
+    }
+
+    table.table01 td,th {
+        padding: 2%;
+        margin: 5px!important;
+        border: 5px solid transparent!important;
+    }
+
+    .accueil {
+        background-color: rgba(225, 225, 225, 0.55);
+        color: #403574;
+        font-size: 150%;
+        padding: 3%;
+    }
+
+    .utiles {
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .liens-utiles {
+
+        background-color: #f16e00;
+        color: white;
+    }
+
+</style>
 
 @section('content')
     <div id="main_home">
@@ -7,8 +38,7 @@
             <div class="message_on_image">{{ __('anglais.baniere') }}</div>
 
             <div id="about_top" style="background-image:url('{{ asset('data/img/about4.jpg') }}')">
-                <img class="baniere" id="top_img" src="{{ asset('data/img/baniere1.jpg') }}" alt="">
-                {# il  est possible de travailler directement  ici. si  vous voulez occuper toute la page dans la width #}
+                <img class="baniere" id="top_img" src="{{ URL::asset('img/baniere1.jpg') }}" alt="">
             </div>
         </div>
 
@@ -30,84 +60,84 @@
                         </ul>
                     </div>
 
-                    <div>  {% trans from 'about' %} about.block15 {% endtrans %} </div>
+                    <div>  {{ __('anglais.block15') }} </div>
                     <div class="utiles">
-                        <a class="liens-utiles" href="{{ ('main_NiveauxDeLangue') }}">>>{% trans from 'anglais' %} diffNIVEAUX {% endtrans %}</a>
+                        <a class="liens-utiles" href="{{ ('main_NiveauxDeLangue') }}">>>{{ __('anglais.diffNIVEAUX') }}</a>
                     </div>
 
                 </div>
 
                 <div class="row section admission">
-                    <h2 class="bloc-title"> {% trans from 'anglais' %} coursDispo {% endtrans %} </h2>
+                    <h2 class="bloc-title"> {{ __('anglais.coursDispo') }} </h2>
                     <div class="">
                         <div class="flex">
                             <div class="hexagon degrade admission-hexagon">
                                 <div class="triangle-top"></div>
-                                <div class="titre"> {% trans from 'anglais' %} block1 {% endtrans %} </div>
+                                <div class="titre"> {{ __('anglais.block1') }} </div>
                                 <h3>
                                     <i class="icon-fleche-droite grand"></i>
                                     <span class="adm-niv">IEPL</span>
                                     <i class="icon-fleche-gauche grand"></i></h3>
                                 <div class="content">
-                                    {% trans from 'anglais' %} bac1 {% endtrans %}
+                                    {{ __('anglais.bac1') }}
                                 </div>
-                                <a class="myButton" href="{{ ('main_CoursIntensifs') }}">{% trans from 'anglais' %} bac4 {% endtrans %}</a>
+                                <a class="myButton" href="{{ ('main_CoursIntensifs') }}">{{ __('anglais.bac4') }}</a>
                                 <div class="triangle-bottom"></div>
                             </div>
 
                             <div class="hexagon degrade admission-hexagon">
                                 <div class="triangle-top"></div>
-                                <div class="titre"> {% trans from 'anglais' %} block2 {% endtrans %} </div>
+                                <div class="titre"> {{ __('anglais.block2') }} </div>
                                 <h3>
                                     <i class="icon-fleche-droite grand"></i>
                                     <span class="adm-niv">REPL</span>
                                     <i class="icon-fleche-gauche grand"></i></h3>
                                 <div class="content">
-                                    {% trans from 'anglais' %} bac2 {% endtrans %}
+                                    {{ __('anglais.bac2') }}
                                 </div>
-                                <a class="myButton" href="{{ ('main_FormationContinue') }}">{% trans from 'anglais' %} bac4 {% endtrans %}</a>
+                                <a class="myButton" href="{{ ('main_FormationContinue') }}">{{ __('anglais.bac4') }}</a>
                                 <div class="triangle-bottom"></div>
                             </div>
 
                             <div class="hexagon degrade admission-hexagon">
                                 <div class="triangle-top"></div>
-                                <div class="titre">{% trans from 'anglais' %} block3 {% endtrans %}</div>
+                                <div class="titre">{{ __('anglais.block3') }}</div>
                                 <h3>
                                     <i class="icon-fleche-droite grand"></i>
                                     <span class="adm-niv">REPL2</span>
                                     <i class="icon-fleche-gauche grand"></i></h3>
                                 <div class="content">
-                                    {% trans from 'anglais' %} bac3 {% endtrans %}
+                                    {{ __('anglais.bac3') }}
                                 </div>
-                                <a class="myButton" href="{{ ('main_FormationContinue') }}">{% trans from 'anglais' %} bac4 {% endtrans %}</a>
+                                <a class="myButton" href="{{ ('main_FormationContinue') }}">{{ __('anglais.bac4') }}</a>
                                 <div class="triangle-bottom"></div>
                             </div>
 
                             <div class="hexagon degrade admission-hexagon">
                                 <div class="triangle-top"></div>
-                                <div class="titre">{% trans from 'anglais' %} block4 {% endtrans %}</div>
+                                <div class="titre">{{ __('anglais.block4') }}</div>
                                 <h3>
                                     <i class="icon-fleche-droite grand"></i>
                                     <span class="adm-niv"></span>
                                     <i class="icon-fleche-gauche grand"></i></h3>
                                 <div class="content">
-                                    {% trans from 'anglais' %} bac5 {% endtrans %}
+                                    {{ __('anglais.bac5') }}
                                 </div>
-                                <a class="myButton" href="{{ ('main_CoursParticulier') }}">{% trans from 'anglais' %} bac4 {% endtrans %}</a>
+                                <a class="myButton" href="{{ ('main_CoursParticulier') }}">{{ __('anglais.bac4') }}</a>
                                 <div class="triangle-bottom"></div>
                             </div>
 
                             <div class="hexagon degrade admission-hexagon">
                                 <div class="triangle-top"></div>
-                                <div class="titre">{% trans from 'anglais' %} block5 {% endtrans %}</div>
+                                <div class="titre">{{ __('anglais.block5') }}</div>
                                 <h3>
                                     <i class="icon-fleche-droite grand"></i>
                                     <span class="adm-niv"></span>
                                     <i class="icon-fleche-gauche grand"></i></h3>
                                 <div class="content">
-                                    {% trans from 'anglais' %} bac6 {% endtrans %}
+                                    {{ __('anglais.bac6') }}
                                 </div>
-                                <a class="myButton" href="{{ ('main_CoursDeVacances') }}">{% trans from 'anglais' %} bac4 {% endtrans %}</a>
+                                <a class="myButton" href="{{ ('main_CoursDeVacances') }}">{{ __('anglais.bac4') }}</a>
                                 <div class="triangle-bottom"></div>
                             </div>
 
@@ -130,29 +160,27 @@
 
 
         <div class="section programmes-main-div">
-            <h2 class="bloc-title">{% trans from 'about' %} about.news {% endtrans %}</h2>
+            <h2 class="bloc-title">{{ __('allemand.news') }}</h2>
 
             <div class="inner padding">
                 <div class="flex">
                     <div class="hexagon degrade admission-hexagon">
-                        <div class="news-title"><h4>{% trans from 'ctihome' %} english {% endtrans %}</h4></div>
+                        <div class="news-title"><h4>{{ __('allemand.cours_anglais') }}</h4></div>
 
-                        <p style="text-align: left">{% trans from 'ctihome' %} englishNews {% endtrans %}</p>
+                        <p style="text-align: left">{{ __('allemand.english_news') }}</p>
                     </div>
 
                     <div class="hexagon degrade admission-hexagon">
-                        <div class="news-title"><h4>{% trans from 'ctihome' %} german {% endtrans %}</h4></div>
-                        <p style="text-align: left">{% trans from 'ctihome' %} allemandNews {% endtrans %}</p>
+                        <div class="news-title"><h4>{{ __('allemand.cours_allemand') }}</h4></div>
+                        <p style="text-align: left">{{ __('allemand.allemandNews') }}</p>
                     </div>
 
                     <div class="hexagon degrade admission-hexagon">
-                        <div class="news-title"><h4>{% trans from 'ctihome' %} computing {% endtrans %}</h4></div>
-                        <p style="text-align: left">{% trans from 'ctihome' %} infoNews {% endtrans %}</p>
+                        <div class="news-title"><h4>{{ __('allemand.cours_informatique') }}</h4></div>
+                        <p style="text-align: left">{{ __('allemand.infoNews') }}</p>
                     </div>
-
                 </div>
             </div>
-
         </div>
 
 
