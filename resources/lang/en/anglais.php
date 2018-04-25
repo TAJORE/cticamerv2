@@ -29,6 +29,10 @@ return [
 'CoursVACCANCES'=> 'Holydays Courses',
 'CoursPARTICULIERS'=> 'Private Lessons',
 'diffNIVEAUX'=> 'Consult the different language levels',
+    'block15'=> 'After a level test, the learner is admitted to one of the program levels, A1, A2, B1, B2, C1, C2.
+We provide general English classes for all levels. Whether you are a student, a job seeker or even a worker, the
+various English courses we offer at the Churchill Training Institute will help you improve your level in English,
+giving you an additional advantage for your professional progress.',
 
 
 # Block Cours Disponibles
