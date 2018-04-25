@@ -35,9 +35,9 @@ return [
     'logiBur'=> 'Office Software',
     'art'=> 'Infographics, Artistic Design and Media',
     'internet'=> 'Internet Usage Training',
-'appWeb: Web Application Development
-secuInfo: IT Security
-coursPartiInfo: Private lessons
+    'appWeb'=> 'Web Application Development',
+    'secuInfo'=> 'IT Security',
+'coursPartiInfo: Private lessons
 contact: CONTACT US
 EN: ENGLISH LANGUAGE
 DE: GERMAN LANGUAGE
