@@ -19,7 +19,6 @@
                             <a href="{{ ('main_anglais') }}" class="dropbtn">
                                 {{ __('ctinav.m_anglais') }}
                             </a>
-
                             <div class="dropdown-content">
                                 <a href="{{ ('main_CoursIntensifs') }}"> {{ __('ctinav.CI') }} </a>
                                 <a href="{{ ('main_FormationContinue') }}"> {% trans from 'ctinav' %} FC {% endtrans %} </a>
@@ -44,8 +43,6 @@
                                 -->
                             </div>
                         </li>
-
-
                         <li class="ctidropdown">
                             <a href="{{ ('main_informatique') }}" class="dropbtn">
                                 {{ __('ctinav.m_informatique') }}
