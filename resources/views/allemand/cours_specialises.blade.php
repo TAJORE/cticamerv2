@@ -1,12 +1,15 @@
-
 @extends('layout')
 
-@section('content'){% extends 'MainBundle::layout.html.twig' %}
+@section('content')
+
+
 
 {% block meta %}
 <meta name = "{% trans from 'about' %} about.block14 {% endtrans %}" >
 <meta name = "keywords" content = "{% trans from 'about' %} about.block15 {% endtrans %}" >
 <meta charset="utf-8">
+
+
 
 <style>
     .students-img {
@@ -34,8 +37,19 @@
         background-size: 50%  auto;
     }
 </style>
+{# mettre le css si la page t'oublige #}
+{% endblock %}
+{% block header %}
+{% include 'MainBundle:CTI:first-nav.html.twig' %}
+{% include 'MainBundle:CTI:mobile-nav.html.twig' %}
+{% include 'MainBundle:Default:cti-navbar.html.twig' %}
 
-<div id="main_regroupement_familial">
+
+{% endblock %}
+
+{% block  mainLg %}
+
+<div id="main_cours_specialises">
 
     <div class="message_and_image">
         <div class="message_on_image">
@@ -206,6 +220,7 @@
 
     </div>
 
+
     <div class="separator"></div>
 
 
@@ -232,7 +247,7 @@
 
             </div>
         </div>
+
     </div>
 </div>
-
 @endsection
