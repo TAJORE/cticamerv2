@@ -1,16 +1,14 @@
-
-
 @extends('layout')
 
 @section('content')
 
-{% block meta %}
+
 <meta charset="utf-8">
 <meta name = "description" content = " {% trans from 'informatique' %} descriptionINFO {% endtrans %} " >
 <meta name = "keywords" content = "{% trans from 'informatique' %} keywordINFO {% endtrans %}" >
 <meta name="author" content="semanticatechnologies.com - Douala Bonamoussadi">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% endblock %}
+
 {% block title %}
 {% trans from 'about' %} about.title {% endtrans %}
 {% endblock  %}
@@ -318,6 +316,6 @@
 
 
 </div>
-{% endblock %}
+
 
 @endsection

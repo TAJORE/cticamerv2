@@ -28,15 +28,8 @@ Route::get('/nous_contacter', function () {
     return view('nous-contacter');
 });
 
-
-Route::group(['prefix' => 'allemand'], function() {
-
-
-    Route::get('/', function () {
-        return view('allemand');
-    });
-
-
+Route::get('/allemand', function () {
+    return view('allemand');
 });
 
 
@@ -47,22 +40,9 @@ Route::group(['prefix' => 'informatique'], function() {
         return view('informatique');
     });
 
-    Route::get('/bureautique', function () {
+    Route::get('/Secretariat_Bureautique', function () {
         return view('informatique/bureautique');
     });
-
-
-});
-
-
-Route::group(['prefix' => 'anglais'], function() {
-
-
-    Route::get('/', function () {
-        return view('/anglais/anglais');
-    });
-
-
 
 
 });

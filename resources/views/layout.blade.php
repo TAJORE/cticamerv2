@@ -13,37 +13,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <link href="css/app.css" rel="stylesheet" type="text/css">
-    <script src="js/app.js"></script>
+
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+
+    <script src="{{ URL::asset('js/app.js') }}"></script>
+
     <!-- Styles -->
 
 </head>
 <body>
+
 <div id="first-nav">
     <div class="first-nav-items">
-        {{ __('first-nav.ls') }} : <a href="lang/fr">Français</a> | <a href="lang/en">English</a>
+        {{ __('first-nav.ls') }} :  <a  href="{{ URL::asset('lang/fr') }}">Francais</a> | <a  href="{{ URL::asset('lang/en') }}">English</a>
 
     </div>
 </div>
 
 @include('cti-navbar')
-
-
-<br/>
-<li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        {{ Config::get('languages')[App::getLocale()] }}
-    </a>
-    <ul class="dropdown-menu">
-        @foreach (Config::get('languages') as $lang => $language)
-            @if ($lang != App::getLocale())
-                <li>
-                    <a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
-                </li>
-            @endif
-        @endforeach
-    </ul>
-</li>
 
 @yield('content')
 @include('footer')
