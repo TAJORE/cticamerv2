@@ -36,6 +36,10 @@ Route::group(['prefix' => 'allemand'], function() {
         return view('allemand');
     });
 
+    Route::get('/cours_particuliers', function () {
+        return view('/allemand/cours_particuliers');
+    });
+
 
 });
 

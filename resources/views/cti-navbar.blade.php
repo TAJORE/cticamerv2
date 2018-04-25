@@ -36,9 +36,9 @@
                             </a>
 
                             <div class="dropdown-content">
-                                <a href="{{  ('main_etudierEnAllemagne') }}"> {% trans from 'ctinav' %} etudeAll {% endtrans %} </a>
-                                <a href="{{  ('main_regroupementFamilial') }}"> {% trans from 'ctinav' %} regrFamill {% endtrans %} </a>
-                                <a href="{{  ('main_CoursParticuliersdAll') }}"> {% trans from 'ctinav' %} coursParti {% endtrans %} </a>
+                                <a href="{{  ('main_etudierEnAllemagne') }}"> {{ __('ctinav.etudeAll') }} </a>
+                                <a href="{{  ('main_regroupementFamilial') }}"> {{ __('ctinav.regrFamill') }} </a>
+                                <a href="/allemand/cours_particuliers">  {{ __('ctinav.coursParti') }} </a>
                                 <!--
                                 <a href="{{  ('main_CoursSpecialise') }}"> {% trans from 'ctinav' %} coursSpec {% endtrans %} </a>
                                 -->
