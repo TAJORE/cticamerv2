@@ -40,6 +40,13 @@ Route::group(['prefix' => 'allemand'], function() {
         return view('/allemand/cours_particuliers');
     });
 
+    Route::get('/pour_etudier', function () {
+        return view('/allemand/pour_etudier');
+    });
+
+    Route::get('/regroupement_familial', function () {
+        return view('/allemand/regroupement_familial');
+    });
 
 });
 

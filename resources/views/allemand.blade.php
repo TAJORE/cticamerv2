@@ -27,7 +27,8 @@
                         <ul>
                             <li><a href="main_etudierEnAllemagne">Cours Pour Etudes en Allemagne</a></li>
                             <li><a href="main_regroupementFamilial">Pour Regroupement familial</a></li>
-                            <li><a href="main_CoursParticuliersdAll">Cours aux Particuliers</a></li>
+                                <a href="/informatique/bureautique"> {{ __('ctinav.logiBur') }}  </a>
+                            <li><a href="/allemand/cours_particuliers_dallemand"> {{ __('cours_particuliers_dallemand.title') }}  </a></li>
                         </ul>
                     </div>
 
