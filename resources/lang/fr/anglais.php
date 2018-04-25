@@ -9,7 +9,7 @@ return [
     'prEntrep'=> 'Cours pour les Entreprises',
     'CoursVACCANCES'=> 'Cours de Vacances',
     'CoursPARTICULIERS'=> 'Cours Particuliers',
-    'diffNIVEAUX'=>'Consulter les différents niveaux de langue',
+    'diffNIVEAUX'=>'Consulter les diffï¿½rents niveaux de langue',
 
 
 
@@ -19,55 +19,58 @@ return [
     'block3'=> 'FORMATION REGULIERE ACCELEREE',
     'block4'=> 'COURS PARTICULIERS',
     'block5'=> 'COURS DE VACANCES',
-    'bac1'=> 'Cette formule s\'adresse aux personnes désirant acquérir des connaissances en anglais dans  un délai plus bref.',
-    'bac2'=> 'La formation Régulière  est  subdivisée en 6 niveaux  et permet à l\'apprenant de parler couramment l\'Anglais dans
-      tous les domaines de la vie.',
-    'bac3'=> 'Cette seconde option permet à l\'apprenant de parler l\'anglais dans un délai plus bref et dans  tous les domaines de
+
+    'f1'=> 'Cette formule s\â€™adresse aux personnes dÃ©sirant acquÃ©rir des connaissances en anglais dans  un dÃ©lai plus bref.',
+    'f2'=> 'La  formation RÃ©guliÃ¨re  est  subdivisÃ©e en 6 niveaux  et permet Ã  lâ€™apprenant de parler couramment lâ€™Anglais dans
+      tous les domaines',
+
+    'bac3'=> 'Cette seconde option permet ï¿½ l\'apprenant de parler l\'anglais dans un dï¿½lai plus bref et dans  tous les domaines de
       la vie.',
-    'bac5'=> 'Vous désirez une formation à domicile ou  en ligne et à votre rythme, n\'hésitez pas à nous contacter.',
-    'bac6'=> 'Etudiants et Elèves, Profiter de vos vacances pour accelérer votre apprentissage, et ayez plus d\'aisance à étudier en Anglais.',
+    'bac5'=> 'Vous dï¿½sirez une formation ï¿½ domicile ou  en ligne et ï¿½ votre rythme, n\'hï¿½sitez pas ï¿½ nous contacter.',
+    'bac6'=> 'Etudiants et Elï¿½ves, Profiter de vos vacances pour accelï¿½rer votre apprentissage, et ayez plus d\'aisance ï¿½ ï¿½tudier en Anglais.',
     'bac4'=> 'PLUS D\'INFO',
 
 
 
     'niv'=> 'LES DIFFERENTS NIVEAUX',
 
-    'baniere'=> 'AVEC LE CTI, DEVENEZ BILINGUE EN QUELQUES SEMAINES. Tous nos cours permettent de préparer les candidats aux examens
+    'baniere'=> 'AVEC LE CTI, DEVENEZ BILINGUE EN QUELQUES SEMAINES. Tous nos cours permettent de prï¿½parer les candidats aux examens
          internationaux, TOEFL, IELTS, TOEIC.
-         Nos cours sont conçus d\'après le Cadre Européen Commun de Référence pour les Langues (CECR).',
-    'discover'=> 'Peut comprendre et utiliser des expressions familières et quotidiennes ainsi que des énoncés très simples.
-Peut communiquer de façon simple si l\'interlocuteur parle lentement et distinctement et se montre coopératif.',
+         Nos cours sont conï¿½us d\'aprï¿½s le Cadre Europï¿½en Commun de Rï¿½fï¿½rence pour les Langues (CECR).',
+    'discover'=> 'Peut comprendre et utiliser des expressions familiï¿½res et quotidiennes ainsi que des ï¿½noncï¿½s trï¿½s simples.
+Peut communiquer de faï¿½on simple si l\'interlocuteur parle lentement et distinctement et se montre coopï¿½ratif.',
 
-    'learn'=> 'Peut comprendre des phrases isolées et des expressions fréquemment utilisées en relation avec des domaines
-       immédiats de priorité.
-       Peut décrire avec des moyens simples sa formation, son environnement et évoquer des sujets
-       qui correspondent à ses besoins.',
+    'learn'=> 'Peut comprendre des phrases isolï¿½es et des expressions frï¿½quemment utilisï¿½es en relation avec des domaines
+       immï¿½diats de prioritï¿½.
+       Peut dï¿½crire avec des moyens simples sa formation, son environnement et ï¿½voquer des sujets
+       qui correspondent ï¿½ ses besoins.',
 
-    'improve'=> ' Peut comprendre les points essentiels quand un langage clair et standard est utilisé et s\'il s\'agit de choses
-         familières dans le travail, à l\'école, dans les loisirs, etc.
-Peut raconter un événement, décrire un espoir ou
-         un but et exposer brièvement des explications pour un projet.',
+    'improve'=> ' Peut comprendre les points essentiels quand un langage clair et standard est utilisï¿½ et s\'il s\'agit de choses
+         familiï¿½res dans le travail, ï¿½ l\'ï¿½cole, dans les loisirs, etc.
+Peut raconter un ï¿½vï¿½nement, dï¿½crire un espoir ou
+         un but et exposer briï¿½vement des explications pour un projet.',
 
     'master'=> 'Peut comprendre le contenu essentiel de sujets concrets ou abstraits dans un texte complexe, y compris une discussion
-        technique dans sa spécialité.
-Peut s\'exprimer de façon claire et détaillée sur plusieurs sujets, émettre un avis sur
-        un sujet et exposer les avantages et les inconvénients.',
+        technique dans sa spï¿½cialitï¿½.
+Peut s\'exprimer de faï¿½on claire et dï¿½taillï¿½e sur plusieurs sujets, ï¿½mettre un avis sur
+        un sujet et exposer les avantages et les inconvï¿½nients.',
 
     'expert1'=> 'Peut comprendre des textes longs et exigeants, ainsi que saisir des significations implicites.
-        Peut s\'exprimer spontanément et couramment sans trop devoir chercher ses mots, sur des sujets  de sa vie sociale,
-        professionnelle ou académique.',
+        Peut s\'exprimer spontanï¿½ment et couramment sans trop devoir chercher ses mots, sur des sujets  de sa vie sociale,
+        professionnelle ou acadï¿½mique.',
 
     'expert2'=> 'Peut comprendre sans effort pratiquement tout ce qu\'il/elle lit ou entend. Peut restituer faits et arguments de
-         diverses sources écrites et orales en les résumant de façon cohérente. Peut s\'exprimer spontanément,
-         très couramment et de façon précise et peut rendre distinctes de fines nuances de sens en rapport avec des
+         diverses sources ï¿½crites et orales en les rï¿½sumant de faï¿½on cohï¿½rente. Peut s\'exprimer spontanï¿½ment,
+         trï¿½s couramment et de faï¿½on prï¿½cise et peut rendre distinctes de fines nuances de sens en rapport avec des
          sujets complexes.',
 
-    'niveauxLANGUE'=> 'Après votre test de niveau, nous sommes en mésure de vous admettre à un des 6 niveaux de langue établis
-               par le Cadre européen commun de référence pour les langues (CECRL).',
+    'niveauxLANGUE'=> 'Aprï¿½s votre test de niveau, nous sommes en mï¿½sure de vous admettre ï¿½ un des 6 niveaux de langue ï¿½tablis
+               par le Cadre europï¿½en commun de rï¿½fï¿½rence pour les langues (CECRL).',
 
 
 
 
+<<<<<<< HEAD
     'news' => 'ACTUALITÉS',
     'english'=> 'COURS d\'ANGLAIS',
 'german'=> 'COURS D\'ALLEMAND',
@@ -82,5 +85,8 @@ Peut s\'exprimer de façon claire et détaillée sur plusieurs sujets, émettre un a
 'infoNews'=> 'Les inscriptions pour la formation en secrétariat bureautique continuent au siège de CTI a Bonamoussadi.
           Vous pouvez débuter votre formation chaque Lundi. Un suivi particulier est accordé à chaque apprenant.
           Les inscriptions pour la formation en infographie et en développement d application Web se poursuivent également.'
+=======
+    'news' => 'ACTUALITï¿½S',
+>>>>>>> be39dbb28e9dc1cb7566a36545ef78c93cf3d96e
 
 ];

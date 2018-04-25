@@ -33,6 +33,7 @@
 @include('cti-navbar')
 
 @yield('content')
+@include('magnetique')
 @include('footer')
 </body>
 </html>

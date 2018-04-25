@@ -125,19 +125,6 @@
     }
 
 </style>
-{# mettre le css si la page t'oublige #}
-{% endblock %}
-{% block header %}
-{% include 'MainBundle:CTI:first-nav.html.twig' %}
-{% include 'MainBundle:CTI:mobile-nav.html.twig' %}
-{% include 'MainBundle:Default:cti-navbar.html.twig' %}
-
-{% endblock %}
-
-{% block  mainLg %}
-
-
-
 
 <div class="main_allemand">
 
@@ -217,30 +204,6 @@
                             <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
                             <div class="triangle-bottom"></div>
                         </div>
-
-                        <!--
-                        <div class="hexagon degrade admission-hexagon">
-                            <div class="triangle-top"></div>
-                            <div class="titre">  {% trans from 'informatique' %} util_Internet {% endtrans %} </div>
-
-                            <div class="content">
-                                {% trans from 'informatique' %} detail-4 {% endtrans %}
-                            </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
-                            <div class="triangle-bottom"></div>
-                        </div>
-
-                        <div class="hexagon degrade admission-hexagon">
-                            <div class="triangle-top"></div>
-                            <div class="titre">  {% trans from 'informatique' %} securite_IT {% endtrans %} </div>
-
-                            <div class="content">
-                                {% trans from 'informatique' %} detail-5 {% endtrans %}
-                            </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
-                            <div class="triangle-bottom"></div>
-                        </div>
--->
 
 
                     </div>
