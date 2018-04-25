@@ -4,7 +4,7 @@
     <div id="main_home">
 
         <div class="message_and_image">
-            <div class="message_on_image">{% trans from 'anglais' %} baniere {% endtrans %}</div>
+            <div class="message_on_image">{{ __('anglais.baniere') }}</div>
 
             <div id="about_top" style="background-image:url('{{ asset('data/img/about4.jpg') }}')">
                 <img class="baniere" id="top_img" src="{{ asset('data/img/baniere1.jpg') }}" alt="">
@@ -19,14 +19,14 @@
                 <div class="accueil">
 
                     <div>
-                        {% trans from 'anglais' %} PlsFormats {% endtrans %}
+                        {{ __('anglais.PlsFormats') }}
                         <ul>
-                            <li><a href="{{ ('main_CoursIntensifs') }}">{% trans from 'anglais' %} CoursIntens {% endtrans %}</a></li>
-                            <li><a href="{{ ('main_FormationContinue') }}">{% trans from 'anglais' %} FormatReg {% endtrans %}</a></li>
-                            <li><a href="{{ ('main_FormationContinue') }}">{% trans from 'anglais' %} FormatRegACC {% endtrans %}</a></li>
-                            <li><a href="{{ ('main_PourEntreprises') }}">{% trans from 'anglais' %} prEntrep {% endtrans %}</a> </li>
-                            <li><a href="{{ ('main_CoursDeVacances') }}">{% trans from 'anglais' %} CoursVACCANCES {% endtrans %}</a> </li>
-                            <li><a href="{{ ('main_CoursParticulier') }}">{% trans from 'anglais' %} CoursPARTICULIERS {% endtrans %}</a> </li>
+                            <li><a href="{{ ('main_CoursIntensifs') }}">{{ __('anglais.CoursIntens') }}</a></li>
+                            <li><a href="{{ ('main_FormationContinue') }}">{{ __('anglais.FormatReg') }}</a></li>
+                            <li><a href="{{ ('main_FormationContinue') }}">{{ __('anglais.FormatRegACC') }}</a></li>
+                            <li><a href="{{ ('main_PourEntreprises') }}">{{ __('anglais.prEntrep') }}</a> </li>
+                            <li><a href="{{ ('main_CoursDeVacances') }}">{{ __('anglais.CoursVACCANCES') }}</a> </li>
+                            <li><a href="{{ ('main_CoursParticulier') }}">{{ __('anglais.CoursPARTICULIERS') }}</a> </li>
                         </ul>
                     </div>
 
