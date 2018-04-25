@@ -2,83 +2,74 @@
 
 return [
 
+    /*
+    |--------------------------------------------------------------------------
+    | Traduction pour la page anglais en anglais
+    |--------------------------------------------------------------------------
+    |
+    | plus d'info...
+    |
+    */
 
-'descriptionANGL'=> "Le Centre linguistique de reférence Churchill Training Institute vous propose des cours d'Anglais pour
-                 tous niveaux, accessibles à tous. Cours Intensifs, Formation Continue, Cours
-                 Particuliers, Formations pour Entreprise, pour vous donnez la maitrise parfaire de l'Anglais",
-'keywordANGL' => "anglais, cours, cours d'Anglais, centre linguistique, bilinguisme, devenir bilingue, formation, apprendre l'anglais, TOEFL, TOEIC, IELTS, Douala,
-             Bonamoussadi, Cameroun, A1, A2, B1, B2, C1, C2",
-'title'=> "Cours d'Anglais à Douala au CHURCHILL TRAINING INSTITUTE - Centre linguistique de Reférence",
+
+    'descriptionANGL'=> 'English courses for all levels, accessible to all. Intensive Courses, Normal Training, Holyday Classes,
+                 Private Lessons, Corporate Training, for you give the perfect mastery of English',
+'keywordANGL'=> 'bilingualism, english, courses, become bilingual, language center, training, English courses, learning English, TOEFL, TOEIC, IELTS, Douala,
+             Bonamoussadi, Cameroon A1, A2, B1, B2, C1, C2',
+'title'=> 'English courses at Douala with Churchill Training Institute - A reference language center.',
 
 
 #Les formats disponibles
 
-'PlsFormats' => "Plusieurs formats disponibles:",
-'CoursIntens' => "Cours Intensifs",
-'FormatReg' => "FORMATION REGULIERE (REPL)",
-'FormatRegACC' => "FORMATION REGULIERE ACCELEREE (REPL2)",
-'prEntrep' => "Cours pour les Entreprises",
-'CoursVACCANCES'=> "Cours de Vacances",
-'CoursPARTICULIERS'=> "Cours Particuliers",
-'diffNIVEAUX'=> "Consulter les différents niveaux de langue",
-'deroulement' => "Après un test de niveau qui dure 30 minutes, l’apprenant  est admis à un des niveaux du programme, A1, A2, B1, B2, C1, C2.Nous dispensons des cours d’Anglais général pour tous les niveaux. Que vous soyez élève, étudiant, chercheur d’emplois ou même travailleurs les différents cours d’Anglais que nous dispensons au Churchill Training Institute permettrons d’améliorer ou de perfectionner vos connaissances en anglais, vous donnant ainsi un atout supplémentaire pour votre progrès professionnel ou académique.",
+'PlsFormats'=> 'Several options available:',
+'CoursIntens'=> 'Accelerated Training',
+'FormatReg'=> 'REGULAR TRAINING (REPL)',
+'FormatRegACC'=> 'ACCELERETED REGULAR TRAINING (REPL2)',
+'prEntrep'=> 'Corporate Training',
+'CoursVACCANCES'=> 'Holydays Courses',
+'CoursPARTICULIERS'=> 'Private Lessons',
+'diffNIVEAUX'=> 'Consult the different language levels',
+
 
 # Block Cours Disponibles
 
-'coursDispo'=> 'COURS DISPONIBLES',
-'block1' => "FORMATION INTENSIVE",
-'block2' => "FORMATION REGULIERE",
-'block3' => "FORMATION REGULIERE ACCELEREE",
-'block4' => "COURS PARTICULIERS",
-'block5' =>"COURS DE VACANCES",
-'bac1' => "Cette formule s’adresse aux personnes désirant acquérir des connaissances en anglais dans  un délai plus bref.",
-'bac2' => "La  formation Régulière  est  subdivisée en 6 niveaux  et permet à l’apprenant de parler couramment l’Anglais dans
-      tous les domaines de la vie.",
-'bac3' => "Cette seconde option permet à l’apprenant de parler l’anglais dans un délai plus bref et dans  tous les domaines de
-      la vie.",
-'bac5' => "Vous désirez une formation à domicile ou  en ligne et à votre rythme, n'hésitez pas à nous contacter.",
-'bac6' => "Etudiants et Elèves, Profiter de vos vacances pour accelérer votre apprentissage, et ayez plus d'aisance à étudier en Anglais.",
-'bac4' => "PLUS D'INFO",
+'coursDispo'=> 'VAILABLE COURSES',
+'block1'=> 'INTENSIVE TRAINING',
+'block2'=> 'REGULAR TRAINING',
+'block3'=> 'ACCELERATED REGULAR TRAINING',
+'block4'=> 'PRIVATE LESSONS',
+'block5'=> 'HOLYDAY COURSES',
+'bac1'=> 'This formula is for people wishing to increase thier level in English in a shorter time.',
+'bac2'=> 'Regular training is divided into 6 levels and allows the learner to speak English fluently.',
+'bac3'=>'With this option the learner is able to speak English in a shorter time.',
+'bac4'=> 'MORE ABOUT',
+'bac5'=> 'You want to be trained at home or online and at your own pace, do not hesitate to contact us.',
+'bac6'=> 'Students!! During these holidays, accelerate your learning, and have more ease to study in English.',
 
 
 
 
 
 
-'niv' => "LES DIFFERENTS NIVEAUX",
 
-'baniere' => "AVEC LE CTI, DEVENEZ BILINGUE EN QUELQUES SEMAINES. Tous nos cours permettent de préparer les candidats aux examens
-         internationaux, TOEFL, IELTS, TOEIC.
-         Nos cours sont conçus d'après le Cadre Européen Commun de Référence pour les Langues (CECR).",
-'discover' => "Peut comprendre et utiliser des expressions familières et quotidiennes ainsi que des énoncés très simples.
-      Peut communiquer de façon simple si l'interlocuteur parle lentement et distinctement et se montre coopératif.",
+'niv'=> 'DIFFERENT LEVELS',
 
-'learn' => "Peut comprendre des phrases isolées et des expressions fréquemment utilisées en relation avec des domaines
-       immédiats de priorité.
-       Peut décrire avec des moyens simples sa formation, son environnement et évoquer des sujets
-       qui correspondent à ses besoins.",
+'baniere'=> 'COMPLETE YOUR DREAM OF BILINGUALISM IN A FEW WEEKS. All our courses prepare candidates for international exams,
+           TOEFL, IELTS, TOEIC. Our courses are designed according to the Common European Framework of Reference for Languages',
+'discover'=> 'A basic ability to communicate and exchange information in a simple way.',
+'learn'=> 'An ability to deal with simple, straightforward information and begin to express oneself in familiar contexts.',
+'improve'=> 'The ability to express oneself in a limited way in familiar situations and to deal in a general way with
+         nonroutine information.',
+    'master'=> 'The capacity to achieve most goals and express oneself on a range of topics.',
+    'expert1'=> 'The ability to communicate with the emphasis on how well it is done, in terms of appropriacy, sensitivity and the
+        capacity to deal with unfamiliar topics.',
+    'expert2'=> 'The capacity to deal with material which is academic or cognitively demanding, and to use language to good
+         effect at a level of performance which may in certain respects be more advanced than that of an average native
+          speaker.',
 
-'improve' => " Peut comprendre les points essentiels quand un langage clair et standard est utilisé et s'il s'agit de choses
-         familières dans le travail, à l'école, dans les loisirs, etc.
-         Peut raconter un événement, décrire un espoir ou
-         un but et exposer brièvement des explications pour un projet.",
 
-'master' => "Peut comprendre le contenu essentiel de sujets concrets ou abstraits dans un texte complexe, y compris une discussion
-        technique dans sa spécialité.
-        Peut s'exprimer de façon claire et détaillée sur plusieurs sujets, émettre un avis sur
-        un sujet et exposer les avantages et les inconvénients.",
-
-'expert1' => "Peut comprendre des textes longs et exigeants, ainsi que saisir des significations implicites.
-        Peut s'exprimer spontanément et couramment sans trop devoir chercher ses mots, sur des sujets  de sa vie sociale,
-        professionnelle ou académique.",
-
-'expert2' => "Peut comprendre sans effort pratiquement tout ce qu'il/elle lit ou entend. Peut restituer faits et arguments de
-         diverses sources écrites et orales en les résumant de façon cohérente. Peut s'exprimer spontanément,
-         très couramment et de façon précise et peut rendre distinctes de fines nuances de sens en rapport avec des
-         sujets complexes.",
-
-'niveauxLANGUE' => "Après votre test de niveau, nous sommes en mésure de vous admettre à un des 6 niveaux de langue établis
-               par le Cadre européen commun de référence pour les langues (CECRL).",
+    'niveauxLANGUE'=> 'After your level test, we are able to admit you to one of the 6 language levels established by the Common
+               European Framework of Reference for Languages (CEFR).',
 
 
 ];
