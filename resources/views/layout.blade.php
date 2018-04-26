@@ -22,13 +22,8 @@
 
 </head>
 <body>
+@include('first-nav')
 
-<div id="first-nav">
-    <div class="first-nav-items">
-        {{ __('first-nav.ls') }} :  <a  href="{{ URL::asset('lang/fr') }}">Francais</a> | <a  href="{{ URL::asset('lang/en') }}">English</a>
-
-    </div>
-</div>
 
 @include('cti-navbar')
 

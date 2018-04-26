@@ -10,7 +10,7 @@
                 <div class="nav-items">
                     <ul>
                         <li>
-                            <a href="{{ ('main_homepage') }}" class="dropbtn">
+                            <a href="/" class="dropbtn">
                                 CTI-CM
                             </a>
 

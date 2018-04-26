@@ -14,7 +14,9 @@ return [
     */
 
     'eng' => 'Anglais',
-    'fre' => 'FranÁais',
+    'fre' => 'FranÔøΩais',
     'ls' => 'Langue du site',
+    'login' => 'Connexion',
+    'register' => 'Cr√©er un compte',
 
 ];
