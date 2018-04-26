@@ -12,7 +12,7 @@
                 </span>
             @endif
 
-            | <a href="lang/fr">Fr</a> | <a href="lang/en">En</a>
+            | <a href="{{url('/lang/fr')}}">Fr</a> | <a href="{{('/lang/en')}}">En</a>
 
     </div>
 </div>
