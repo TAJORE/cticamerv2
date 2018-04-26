@@ -1,6 +1,6 @@
 
 <div class="left-nav-contain">
-    <div class="titre_lef-nav">{% trans from 'left-nav' %} title {% endtrans %}</div>
+    <div class="titre_lef-nav">{{ __('left-nav.title') }} </div>
 
     <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-an"><h4>{% trans from 'left-nav' %} CoursANGL {% endtrans %}</h4></div>
     <div class="sous-titre-contenu" id="sous-titre-anglais">
@@ -8,7 +8,7 @@
             {% trans from 'left-nav' %} TexteANGL {% endtrans %}
         </div>
         <div class="left-nav-links">
-            <a href="{{ ('main_CoursIntensifs') }}"> {% trans from 'ctinav' %} CI {% endtrans %} </a>
+            <a href="{{ ('main_CoursIntensifs') }}">  {{ __('ctinav.CI') }} </a>
             <a href="{{ ('main_FormationContinue') }}"> {% trans from 'ctinav' %} FC {% endtrans %} </a>
             <a href="{{  ('main_PourEntreprises') }}"> {% trans from 'ctinav' %} PE {% endtrans %} </a>
             <a href="{{  ('main_CoursDeVacances') }}"> {% trans from 'ctinav' %} CV {% endtrans %} </a>
@@ -16,7 +16,7 @@
 
         </div>
     </div>
-    <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-al"><h4>{% trans from 'left-nav' %} CoursALL {% endtrans %}</h4></div>
+    <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-al"><h4>{{ __('left-nav.CoursALL') }} </h4></div>
     <div class="sous-titre-contenu" id="left-nav-al-cont">
         <div class="left-nav-text">
             {% trans from 'left-nav' %} TexteALL {% endtrans %}
@@ -28,7 +28,7 @@
 
         </div>
     </div>
-    <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-it"><h4>{% trans from 'left-nav' %} CoursINFO {% endtrans %}</h4></div>
+    <div class="sous-titre-lef-nav" id="sous-titre-lef-nav-it"><h4> {{ __('left-nav.CoursINFO') }}</h4></div>
     <div class="sous-titre-contenu" id="left-nav-it-cont">
         <div class="left-nav-text">
             {% trans from 'left-nav' %} TexteINFO {% endtrans %}

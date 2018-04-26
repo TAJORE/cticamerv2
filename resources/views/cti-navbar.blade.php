@@ -22,7 +22,7 @@
 
                             <div class="dropdown-content">
                                 <a href="/anglais/cours-intensifs"> {{ __('ctinav.CI') }} </a>
-                                <a href="{{ ('main_FormationContinue') }}"> {{ __('ctinav.FC') }} </a>
+                                <a href="/anglais/formation-continue"> {{ __('ctinav.FC') }} </a>
                                 <a href="{{  ('main_PourEntreprises') }}"> {{ __('ctinav.PE') }} </a>
                                 <a href="{{  ('main_CoursDeVacances') }}"> {{ __('ctinav.CV') }} </a>
                                 <a href="{{  ('main_CoursParticulier') }}"> {{ __('ctinav.CP') }} </a>
