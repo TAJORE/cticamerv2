@@ -1,18 +1,7 @@
 @extends('layout')
 
 @section('content')
-    {% block meta %}
-    <meta charset="utf-8">
-    <meta name = "description" content = "{% trans from 'etudes-allemagne' %} descriptionEtudALL {% endtrans %}" >
-    <meta name = "keywords" content = "{% trans from 'etudes-allemagne' %} keywordEtudALL {% endtrans %}" >
-    <meta name="author" content="semanticatechnologies.com - Douala Bonamoussadi">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% endblock %}
-    {% block title %}
-    {% trans from 'about' %} about.title {% endtrans %}
-    {% endblock  %}
 
-    {% block mycss %}
 
 
     <style>
@@ -23,7 +12,6 @@
             width: 45%;
             height: 100%;
         }
-
         .parallax {
             /* The image used
             background-image: url("img_parallax.jpg");*/
@@ -32,7 +20,6 @@
             min-height: 500px;
             width: 50%;
             display:block;
-
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
             background-position: left;
@@ -40,7 +27,6 @@
             /*background-size: cover;*/
             background-size: 50%  auto;
         }
-
         .manuels-img {
             width: 18%;
         }
@@ -65,170 +51,157 @@
             font-size: 150%;
             padding: 3%;
         }
-
         .sous-menu {
             background-color: #f16e00;
             color: white;
             font-size: 200%;
             text-align: center;
         }
-
     </style>
-    {# mettre le css si la page t'oublige #}
-    {% endblock %}
-    {% block header %}
-    {% include 'MainBundle:CTI:first-nav.html.twig' %}
-    {% include 'MainBundle:CTI:mobile-nav.html.twig' %}
-    {% include 'MainBundle:Default:cti-navbar.html.twig' %}
 
+        <div id="main_sousRubriqAngl">
 
-    {% endblock %}
+        <div class="sous-menu">
+            {{ __('pour_etudier.title2') }}
 
-<div id="main_pour_etudier">
-
-    <div class="sous-menu">
-        Pour étudier en Allemagne
-    </div>
-    <div class="flex-contain">
-
-        <div class="left-nav">
-
-            {% block left_nav %}
-            {% include 'MainBundle:Inc:left_nav.html.twig' %}
-            {% endblock %}
         </div>
 
-        <div class="main-contain-middle">
 
-            <div class="baniere cat-container">
+        <div class="flex-contain">
 
-                <img class="baniere-img box-baniere" src="{{ asset('data/img/students1.jpg') }}" alt="">
+            <div class="left-nav">
 
-                <div class="baniere-msg box-baniere ">
-                    <h2>{% trans from 'allemand' %} title1 {% endtrans %}</h2> <BR>
-                    {% trans from 'allemand' %} text1 {% endtrans %}
-                </div>
-
-                <!--
-                    <div id="about_top" style="background-image:url('{{ asset('data/img/about4.jpg') }}')">
-
-                        {# il  est possible de travailler directement  ici. si  vous voulez occuper toute la page dans la width #}
-                    </div>
--->
+                {% block left_nav %}
+                {% include 'MainBundle:Inc:left_nav.html.twig' %}
+                {% endblock %}
 
             </div>
 
-            <div class="row line">
-                <div>  {% trans from 'allemand' %} text2 {% endtrans %} </div>
+            <div class="main-contain-middle">
 
-            </div>
+                <div class="baniereb">
 
-
-
-            <div class="cat-container">
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="{{ __('main_allemand') }}">COURS D'ALLEMAND POUR ETUDE OU SEJOUR EN ALLEMAGNE</a></h3>
+                    <div class="img-et-msg-baniere">
+                        <img class="baniere-img " src="{{ URL::asset('img/students1.jpg') }}" alt="">
+                        <div class="messages-baniere">
+                            <div class="vertical">
+                                <div class="">
+                                    <h2>{{ __('pour_etudier.title1') }}</h2>
+                                </div>
+                                <div class="baniere-msg-2">
+                                    {{ __('pour_etudier.text1') }}
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="datecours">
-                        {% trans from 'ctihome' %} prochaineRentree {% endtrans %}:
-                        {% trans from 'ctihome' %} debutDesCours {% endtrans %}
+                    <div class="lineb">
+                        {{ __('pour_etudier.text2') }}
                     </div>
-
-                    <div class="annonce-inscription">
-                        Les Inscriptions sont en cour. Il y a encore quelques places disponibles.
-                    </div>
-
-                    <div class="category-desktop-contain">
-                        Le Churchill Training Institute offres des cours de langue allemande aux jeunes souhaitant étudier en Allemagne.
-                        Nous préparons les candidats aux examens de langue allemande Nécessaires pour obtenir un visa étudiant
-                        ( Goethe-Zertifikat A1: Start Deutsch1, Goethe-Zertifikat B1, Goethe-Zertifikat B2, Test-DaF) offerts par l’Institut-Goethe à Yaoundé.<br/>
-                        <a href="/ile/Views/allemand_prepa_exam.php">plus d'informations sont disponible sur la page speciale allemand</a>
-                    </div>
-
                 </div>
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="{{ __('main_anglais') }}"> MANUELS REQUIS </a></h3>
-                    </div>
-                    Pour votre formation, vous avez droit aux meilleurs manuels d'apprentissage; principalement les manuels des collections MENSCHEN et Aspekte.<br>
-                    Nos cours sont conçus d’après le Cadre Européen Commun de Référence pour les Langues (CECR).<br>
-                    <div class="category-desktop-contain">
-                        <ul>
-                            <li>Goethe Zertifikat A1 (Start Deutsch 1): Menschen A1, 2 mois + sessions pratiques</li>
-                            <li>Goethe Zertifikat A2 : Menschen A2, 2 mois + sessions pratiques</li>
-                            <li>Goethe Zertifikat B1 : Aspekte B1, 2 mois + sessions pratiques</li>
-                            <li>Goethe Zertifikat B2 : Aspekte B2, 2 mois + sessions pratiques</li>
-                            <li>Goethe Zertifikat C1 : Aspekte C1, 2 mois + sessions pratiques</li>
-                        </ul>
-                        NB: Seuls les niveaux A1, A2 et B1 sont requis pour obtenir un visa
-                        <br>
-                        La qualité de nos formation garantit votre succès aux examens de langue Allemande organisés par le Goetthe Institut à Yaoundé: Goethe-zertifikat A1, A2, B1.
-                    </div>
-                    <div class="category-desktop-contain">
-                        <img class="manuels-img" src="{{ asset('data/img/menschen-a1.jpg') }}">
-                        <img class="manuels-img" src="{{ asset('data/img/menschen-a2.1.jpg') }}">
-                        <img class="manuels-img" src="{{ asset('data/img/ASPEKTE1.jpg') }}">
-                        <img class="manuels-img" src="{{ asset('data/img/ASPEKTE2.jpg') }}">
-                        <img class="manuels-img" src="{{ asset('data/img/Aspekte-neu.jpg') }}">
-
-                    </div>
-
-                </div>
-
-
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="{{ __('main_informatique') }}">HORAIRES DE COURS</a></h3>
-                    </div>
-
-                    Choisissez vos heures de cours en fonction de votre disponibilité. <br>
-
+                <div class="cat-containerb">
                     <div class="">
-                        <div class=" horaire ">
-                            <div class="news-title"><h4>Matinées</h4></div>
+                        <div class="category-title">
+                            <h4>
+                                {{ __('pour_etudier.rentree') }}
 
-                            <div class="news-title"><p>08H00 - 10h30</p></div>
+                            </h4>
                         </div>
-
-                        <div class=" horaire ">
-                            <div class="news-title"><h4>Après-midi</h4></div>
-
-                            <div class="news-title"><p>14H00 - 16h30</p></div>
+                        <div class="datecours">
+                            <div class="annonce-inscription">
+                                {{ __('pour_etudier.text3') }}
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="horaire">
-                            <div class="news-title"><h4>Cours du Soirs</h4></div>
 
-                            <div class="news-title"><p>18H30 - 21h00</p></div>
+                <div class="cat-container">
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('pour_etudier.text4') }}
+                            </h3>
+                        </div>
+                        <div class="datecours">
+                            {{ __('pour_etudier.text5') }}
+                        </div>
+                        <div class="annonce-inscription">
+                            {{ __('pour_etudier.text6') }}
+                        </div>
+                        <div class="category-desktop-contain">
+
                         </div>
 
                     </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('pour_etudier.text7') }}</h3>
+                        </div>
+                        {{ __('pour_etudier.text8') }}<br>
+                        <div class="category-desktop-contain">
+                            <ul>
+                                <li>{{ __('pour_etudier.text9') }}</li>
+                                <li>{{ __('pour_etudier.text10') }}</li>
+                                <li>{{ __('pour_etudier.text11') }}</li>
+                                <li>{{ __('pour_etudier.text12') }}</li>
+                                <li>{{ __('pour_etudier.text13') }}</li>
+                            </ul>
+                            NB: {{ __('pour_etudier.text14') }}<br>
+                            {{ __('pour_etudier.text15') }}
 
+                        </div>
+                        <div class="category-desktop-contain">
+                            <img class="manuels-img" src="{{ URL::asset('img/menschen-a1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/menschen-a2.1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/ASPEKTE1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/ASPEKTE2.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/Aspekte-neu.jpg') }}" alt="">
 
-                </div>
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="{{ __('main_anglais') }}">Cours aux particuliers</a></h3>
+                        </div>
                     </div>
-                    Cours basés sur des contenus particuliers, destinés à des groupes-cibles spéciaux ou pour l’exercice d’aptitudes uniques: <br><br>
-                    N’hésitez pas à nous contacter si vous souhaitez suivre une formation à la carte dans un de nos domaines de compétence.
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('pour_etudier.text16') }} </h3>
+                        </div>
+
+                        {{ __('pour_etudier.text17') }}
+                        <div class="">
+                            <div class=" horaire ">
+                                <div class="news-title"><h4>{{ __('pour_etudier.text18') }}</h4></div>
+
+                                <div class="news-title"><p>{{ __('pour_etudier.text19') }}</p></div>
+                            </div>
+
+                            <div class=" horaire ">
+                                <div class="news-title"><h4>{{ __('pour_etudier.text20') }}</h4></div>
+
+                                <div class="news-title"><p>{{ __('pour_etudier.text21') }}</p></div>
+                            </div>
+
+                            <div class="horaire">
+                                <div class="news-title"><h4>{{ __('pour_etudier.text22') }}</h4></div>
+
+                                <div class="news-title"><p>{{ __('pour_etudier.text23') }}</p></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3><a href="{{ __('main_CoursParticulier') }}">{{ __('pour_etudier.text24') }}</a></h3>
+                        </div>
+                        {{ __('pour_etudier.text25') }} <br>
+                        {{ __('pour_etudier.text26') }}
+                    </div>
                 </div>
+                <div class="separator"></div>
+
             </div>
-
-
-
-           <div class="separator"></div>
-
         </div>
+            @include('actualites')
     </div>
 
-    <div class="section programmes-main-div ">
-        {% block ACTUALITE %}
-        {% include 'MainBundle:Inc:actualites.html.twig' %}
-        {% endblock %}
 
-    </div>
 
-</div>
+
 @endsection
