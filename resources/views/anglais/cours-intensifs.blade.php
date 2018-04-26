@@ -18,9 +18,7 @@
 
             <div class="left-nav">
 
-                {% block left_nav %}
-                {% include 'MainBundle:Inc:left_nav.html.twig' %}
-                {% endblock %}
+                @include('left-nav')
 
             </div>
 
@@ -29,7 +27,7 @@
                 <div class="baniereb">
 
                     <div class="img-et-msg-baniere">
-                        <img class="baniere-img " src="{{ asset('data/img/students2.jpg') }}" alt="">
+                        <img class="baniere-img " src="{{ URL::asset('img/students2.jpg') }}" alt="">
                         <div class="messages-baniere">
                             <div class="vertical">
                                 <div class="">
@@ -55,13 +53,13 @@
                 <div class="cat-containerb">
                     <div class="">
                         <div class="category-title">
-                            <h3>{{ __('ctihome.prochaineRentree') }}:
-                                {{ __('ctihome.debutDesCours') }}
+                            <h3>{{ __('actualites.prochaineRentree') }}:
+                                {{ __('actualites.debutDesCours') }}
                             </h3>
                         </div>
                         <div class="datecours">
                             <div class="annonce-inscription">
-                                {{ __('cours-intensifs.placesDISPO') }}
+                                {{ __('actualites.placesDISPO') }}
                             </div>
                         </div>
                     </div>
@@ -98,11 +96,11 @@
 
                         </div>
                         <div class="">
-                            <img class="manuels-angl-img" src="{{ asset('data/img/english-unlimited-elementary-a-combo-with-dvd-roms-2.png') }}">
-                            <img class="manuels-angl-img" src="{{ asset('data/img/Official-toelf-Test-Prep.jpg') }}">
-                            <img class="manuels-angl-img" src="{{ asset('data/img/IELTS-Cambridge-Books.jpg') }}">
-                            <img class="manuels-angl-img" src="{{ asset('data/img/englishUnlimited1.png') }}">
-                            <img class="manuels-angl-img" src="{{ asset('data/img/englishUnlimited2.jpg') }}">
+                            <img class="manuels-angl-img" src="{{ URL::asset('img/english-unlimited-elementary-a-combo-with-dvd-roms-2.png') }}">
+                            <img class="manuels-angl-img" src="{{ URL::asset('img/Official-toelf-Test-Prep.jpg') }}">
+                            <img class="manuels-angl-img" src="{{ URL::asset('img/IELTS-Cambridge-Books.jpg') }}">
+                            <img class="manuels-angl-img" src="{{ URL::asset('img/englishUnlimited1.png') }}">
+                            <img class="manuels-angl-img" src="{{ URL::asset('img/englishUnlimited2.jpg') }}">
                         </div>
 
                     </div>
@@ -147,25 +145,25 @@
                         <p> {{ __('cours-intensifs.phrase3') }} </p>
                     </div>
                 </div>
-                {{ __('cours-intensifs.') }}
+
                 <div class="cat-container">
                     <div class="">
                         <div class="nos-rentrees">
-                            {{ __('cours-intensifs.choixRENTREE') }}
+                            {{ __('actualites.choixRENTREE') }}
                         </div>
                         <table class="table02">
                             <tr>
-                                <td class="abc"> {{ __('ctihome.rentree1') }}  </td>
-                                <td class="abc"> {{ __('ctihome.rentree2') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree3') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree4') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree5') }}  </td>
-                                <td class="abc"> {{ __('ctihome.rentree6') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree7') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree8') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree9') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree10') }} </td>
-                                <td class="abc"> {{ __('ctihome.rentree11') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree1') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree2') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree3') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree4') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree5') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree6') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree7') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree8') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree9') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree10') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree11') }}  </td>
                             </tr>
 
                         </table>
@@ -178,12 +176,7 @@
         </div>
 
 
-
-        <div class="section programmes-main-div ">
-            {% block ACTUALITE %}
-            {% include 'MainBundle:Inc:actualites.html.twig' %}
-            {% endblock %}
-        </div>
+@include('actualites')
     </div>
 
 @endsection
