@@ -76,7 +76,10 @@ Route::group(['prefix' => 'anglais'], function() {
     Route::get('/', function () {
         return view('/anglais/anglais');
     });
-
+    
+    Route::get('/cours-intensifs', function () {
+        return view('anglais/cours-intensifs');
+    });
 
 
 

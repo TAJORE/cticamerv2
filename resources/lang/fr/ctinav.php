@@ -36,12 +36,12 @@ return [
     'art'=> 'Infographie, Design Artistique et Média',
     'internet'=> 'Formation à l’utilisation de l’Internet',
     'appWeb'=> 'Développement d’Applications Web',
-    'secuInfo: Sécurité informatique
-coursPartiInfo: Cours aux particuliers
-contact: NOUS CONTACTER
-EN: LANGUE ANGLAISE
-DE: LANGUE ALLEMANDE
-IT: INFORMATIQUE'
+    'secuInfo'=> 'Sécurité informatique',
+    'coursPartiInfo'=> 'Cours aux particuliers',
+    'contact'=> 'NOUS CONTACTER',
+    'EN'=> 'LANGUE ANGLAISE',
+    'DE'=> 'LANGUE ALLEMANDE',
+    'IT'=> 'INFORMATIQUE'
 
 ];
 
