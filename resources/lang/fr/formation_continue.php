@@ -1,0 +1,54 @@
+<?php
+
+return [
+#Block META TAGS
+    'descriptionFormCont'=> 'Apprendre l\'Anglais en formation continue avec le Churchill Training Institue sis à Bonamoussadi, Douala, Cameroun.',
+    'title'=> 'CTI, Cours d\'Anglais en Continu au Churchill Training Institute',                                # Titre de la page
+    'keywordFormCont'=> 'bilinguisme, anglais, cours, devenir bilingue, formation, apprendre l\'anglais, TOEFL, TOEIC, IELTS, A1, A2, B1, B2, C1, C2, Douala, Bonamoussadi, Cameroun',
+    'continuANGL'=> 'Formation continue',                                                                       # Sujet de la page
+
+
+    #Messages de la banière
+
+    'formationCONTINUE'=> ' DES FORMATIONS CONTINUES POUR VOUS',
+    'object'=> 'Avec des cours d\'anglais  en formation continue,  faites des progrès rapides, facilement et à
+        votre rythme.',
+    'serviceCONTINUE'=> 'Le CTI vous offre la formule régulière accélérée et la formule régulière simple.
+                        Deux  formules qui vous préparent également au test de langue IELTS TOIEC TOEFL.',
+
+
+# Block FORMATION REGULIERE
+    'FReg'=> 'FORMATION REGULIERE (REPL)',
+    'freq0'=> 'Deux fois / semaine',
+    'detail0'=> '(Regular English Proficiency Learner)',
+    'messag0'=> 'La  formation Régulière  est  subdivisée en 6 niveaux  et permet à l’apprenant de parler
+         couramment l’Anglais et interagir avec son environnement.',
+    'tbl0Elt1'=> 'SIX Niveaux',
+    'tbl0Elt2'=> 'Préparation aux tests',
+    'tbl0Elt3'=> 'Durée de la formation',
+    'tbl0Elt4'=> '5 semaines par niveaux',
+    'tbl0Elt5'=> 'Fréquence',
+    'tbl0Elt6'=> '2 fois par semaine',
+
+
+    # Block FORMATION REGULIERE ACCELEREE
+
+    'FRegAcc'=> 'FORMATION REGULIERE ACCELEREE (REPL2)',
+    'freq1'=> 'Trois fois / semaine',
+    'detail2'=> '(Regular English Proficiency Learner Accelerated)',
+    'messag1'=> 'Cette seconde option permet à l’apprenant de parler l’anglais en peu de temps et de façon régulière.',
+    'tbl1Elt1'=> 'SIX Niveaux',
+    'tbl1Elt2'=> 'Préparation aux tests',
+    'tbl1Elt3'=> 'Durée de la formation',
+    'tbl1Elt4'=> '5 semaines par niveaux',
+    'tbl1Elt5'=> 'Fréquence',
+    'tbl1Elt6'=> '3 fois par semaine',
+
+
+# Block Cours Particuliers
+
+    'crsParti'=> 'Cours aux particuliers',
+    'presentationCoursParti'=> 'Cours basés sur des contenus particuliers, destinés à des groupes-cibles spéciaux ou pour
+                        l’exercice d’aptitudes uniques. N’hésitez pas à nous contacter si vous souhaitez suivre une
+                        formation à la carte dans un de nos domaines de compétence.',
+];
