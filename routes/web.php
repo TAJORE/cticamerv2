@@ -81,6 +81,22 @@ Route::group(['prefix' => 'anglais'], function() {
         return view('anglais/cours-intensifs');
     });
 
+    Route::get('/formation-continue', function () {
+        return view('anglais/formation-continue');
+    });
+
+    Route::get('/pour-entreprise', function () {
+        return view('anglais/pour-entreprise');
+    });
+
+    Route::get('/cours-particuliers', function () {
+        return view('anglais/cours-particuliers');
+    });
+
+    Route::get('/cours-de-vacances', function () {
+        return view('anglais/cours-de-vacances');
+    });
+
 
 
 });
