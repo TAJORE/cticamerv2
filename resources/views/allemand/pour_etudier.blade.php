@@ -74,16 +74,6 @@
         }
 
     </style>
-    {# mettre le css si la page t'oublige #}
-    {% endblock %}
-    {% block header %}
-    {% include 'MainBundle:CTI:first-nav.html.twig' %}
-    {% include 'MainBundle:CTI:mobile-nav.html.twig' %}
-    {% include 'MainBundle:Default:cti-navbar.html.twig' %}
-
-
-    {% endblock %}
-
 <div id="main_pour_etudier">
 
     <div class="sous-menu">
@@ -102,24 +92,25 @@
 
             <div class="baniere cat-container">
 
-                <img class="baniere-img box-baniere" src="{{ asset('data/img/students1.jpg') }}" alt="">
+                <img class="baniere-img box-baniere"  src="{{ URL::asset('img/students1.jpg') }}" alt="">
 
                 <div class="baniere-msg box-baniere ">
-                    <h2>{% trans from 'allemand' %} title1 {% endtrans %}</h2> <BR>
-                    {% trans from 'allemand' %} text1 {% endtrans %}
+                    <h2>{{ __('pour_etudier.title21') }}</h2>
+
+                     <BR>
+                    {{ __('pour_etudier.block1') }}
                 </div>
 
                 <!--
-                    <div id="about_top" style="background-image:url('{{ asset('data/img/about4.jpg') }}')">
 
-                        {# il  est possible de travailler directement  ici. si  vous voulez occuper toute la page dans la width #}
-                    </div>
--->
 
             </div>
 
             <div class="row line">
-                <div>  {% trans from 'allemand' %} text2 {% endtrans %} </div>
+                <div>
+                    {{ __('pour_etudier.text2') }}
+
+                </div>
 
             </div>
 
