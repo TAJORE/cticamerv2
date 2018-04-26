@@ -20,4 +20,19 @@ return [
     'rentree10'=> '01 oct',
     'rentree11'=> '05 nov',
 
+    'news'=> 'ACTUALITES',
+    'cours_anglais'=> 'COURS D\'ANGLAIS',
+    'cours_allemand'=> 'COURS D\'ALLEMAND',
+    'cours_informatique'=> 'COURS D\'INFORMATIQUE',
+    'english_news'=> 'La prochaine session des cours d’anglais au CTI débutera le 16 Avril 2018.
+       Les inscriptions sont en cours. Améliorez vos compétences en Anglais avec le Churchill Training Institute.
+       Avec nous, vous améliorez vos chances de décrocher un emploi ou de progresser plus rapidement dans votre emploi actuel.',
+    'allemandNews'=> 'La prochaine session des cours d’allemand au CTI débutera le 16 Avril 2018. Les inscriptions se poursuivent
+       tous les jours au centre du CTI, sis à Bonamoussadi, à l’entrée du centre des impôts de douala 5ème.
+       Obtenez facilement votre visa d’étude en Allemagne en suivant des cours intensif d’Allemand au Churchill
+       Training Institute',
+    'infoNews'=> 'Les inscriptions pour la formation en secrétariat bureautique continuent au siège de CTI a Bonamoussadi.
+       Vous pouvez débuter votre formation chaque Lundi.  Un suivi particulier est accordé à chaque apprenant.
+       Les inscriptions pour la formation en infographie et en développement d application Web se poursuivent également.'
+
 ];
