@@ -7393,6 +7393,1452 @@
   }
 }
 
+#main_cours_particuliers_dallemand .baniereb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main_cours_particuliers_dallemand .img-et-msg-baniere {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ebeff0;
+}
+
+#main_cours_particuliers_dallemand .messages-baniere {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+#main_cours_particuliers_dallemand .baniere-img {
+  width: 60%;
+  max-width: 60%;
+  height: auto;
+  max-height: 400px;
+}
+
+#main_cours_particuliers_dallemand .baniere-msg-2 {
+  margin-top: 20px;
+  font-family: Roboto,BCSans,Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-weight: 100;
+  font-size: larger;
+}
+
+#main_cours_particuliers_dallemand .baniere-msgb {
+  font-weight: bolder;
+  font-weight: 900;
+}
+
+#main_cours_particuliers_dallemand .lineb {
+  /*height: 4.3cm;*/
+  border-bottom: 5px solid orange;
+  width: 100%;
+  /*background-color: darkgrey !important;*/
+  background-color: #c1c1c1;
+  color: white;
+  /*text-align: center;*/
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+#main_cours_particuliers_dallemand .vertical {
+  padding-top: 2em;
+}
+
+#main_cours_particuliers_dallemand .nousContacter {
+  background-color: #f16e00;
+  color: #FFFFFF;
+  font-size: 125%;
+  font-weight: 600;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px grey;
+          box-shadow: 3px 3px grey;
+  float: right;
+  padding: 0.1em;
+}
+
+#main_cours_particuliers_dallemand .manuels-img {
+  width: 18%;
+}
+
+#main_cours_particuliers_dallemand .manuels-angl-img {
+  display: block;
+  height: 6em;
+  float: left;
+  margin: 2px;
+}
+
+#main_cours_particuliers_dallemand .horaire {
+  float: left;
+  display: inline-block;
+  padding: 1%;
+  margin: 1%;
+  background: white;
+}
+
+#main_cours_particuliers_dallemand .cat-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#main_cours_particuliers_dallemand .box-baniere {
+  border-top: 2px solid white;
+  width: 50%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: #c1c1c1;
+}
+
+#main_cours_particuliers_dallemand .sous-menu {
+  background-color: #f16e00;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+
+#main_cours_particuliers_dallemand .but {
+  color: #221199;
+}
+
+#main_cours_particuliers_dallemand .table01 {
+  width: 98%;
+  color: #f16e00;
+  border-collapse: separate;
+}
+
+#main_cours_particuliers_dallemand .table01 td,
+#main_cours_particuliers_dallemand .table01 th {
+  padding: 2%;
+  margin: 2%;
+  background-color: white;
+  border: #75787b;
+}
+
+#main_cours_particuliers_dallemand .table02 {
+  width: 100%;
+  color: white;
+  background-color: #f16e00;
+  border-collapse: separate;
+}
+
+#main_cours_particuliers_dallemand .table03 {
+  width: 100%;
+  background-color: #0000cc;
+  color: white;
+  border-collapse: separate;
+}
+
+#main_cours_particuliers_dallemand .abc {
+  border-left: double;
+}
+
+#main_cours_particuliers_dallemand .importante {
+  text-align: right;
+  color: #710909;
+  font-size: 150%;
+}
+
+#main_cours_particuliers_dallemand .titreFormation {
+  font-size: 160%;
+  background-color: #B0BED9;
+  color: #b35e14;
+  margin-top: 0.3em;
+  padding-left: 0.3em;
+}
+
+#main_cours_particuliers_dallemand .vagues {
+  color: #710909;
+  font-size: 150%;
+}
+
+#main_cours_particuliers_dallemand .objectifs {
+  width: 100%;
+}
+
+#main_cours_particuliers_dallemand .objectifs li {
+  color: #3300aa;
+}
+
+#main_cours_particuliers_dallemand .objectifs li:nth-child(even) {
+  color: #8e2600;
+}
+
+#main_cours_particuliers_dallemand .news-title {
+  color: #271549;
+  line-height: 42px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#main_cours_particuliers_dallemand #jssor_1 {
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  width: 1080px;
+  max-width: 100% !important;
+  /*height:480px;*/
+}
+
+#main_cours_particuliers_dallemand #slider-images {
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1080px;
+  height: 530px;
+  max-height: 530px;
+  overflow: hidden;
+}
+
+#main_cours_particuliers_dallemand #imge {
+  height: 480px !important;
+}
+
+#main_cours_particuliers_dallemand .slide-img {
+  width: 100% !important;
+}
+
+#main_cours_particuliers_dallemand .flex-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+#main_cours_particuliers_dallemand .left-nav {
+  margin-right: 1%;
+  background-color: white;
+  padding: 5px;
+  width: 15%;
+}
+
+#main_cours_particuliers_dallemand .main-contain-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  background-color: white;
+  padding: 25px;
+}
+
+#main_cours_particuliers_dallemand .left-nav-contain {
+  background-color: white;
+}
+
+#main_cours_particuliers_dallemand .titre_lef-nav {
+  font-weight: bolder;
+}
+
+#main_cours_particuliers_dallemand .sous-titre-lef-nav {
+  background-color: #c3c3c3;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  color: #474d50;
+  text-transform: uppercase;
+  padding-left: 10px;
+  border-left: 5px solid #f16e00;
+}
+
+#main_cours_particuliers_dallemand .sous-titre-lef-nav:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+#main_cours_particuliers_dallemand .sous-titre-contenu {
+  display: none;
+  margin-top: 10px;
+}
+
+#main_cours_particuliers_dallemand .sous-titre-contenu a {
+  display: block;
+  text-decoration: none !important;
+  color: #4B4B4B;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  width: 100%;
+  padding: 5px;
+}
+
+#main_cours_particuliers_dallemand .left-nav-links {
+  border-top: 1px solid lightgrey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#main_cours_particuliers_dallemand .arrow-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid green;
+  margin-right: 5px;
+}
+
+#main_cours_particuliers_dallemand .sous-titre-contenu a:hover {
+  color: #474d50;
+  font-weight: bold;
+  border-left: 3px solid #f16e00;
+}
+
+#main_cours_particuliers_dallemand .categorie {
+  border-top: 2px solid white;
+  width: 50%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: #e9e9e9;
+}
+
+#main_cours_particuliers_dallemand .category-title {
+  display: block;
+  /*line-height: 105.56%;*/
+  color: #251549;
+  font-size: 60px;
+  padding-bottom: 0.1em;
+  font-weight: bolder;
+  text-align: left !important;
+}
+
+#main_cours_particuliers_dallemand .category-title a {
+  color: #474d50;
+  text-decoration: none;
+}
+
+#main_cours_particuliers_dallemand .category-title a {
+  color: #474d50;
+  text-decoration: none;
+}
+
+#main_cours_particuliers_dallemand .category-title a:hover {
+  color: #474d50;
+  text-decoration: underline;
+}
+
+#main_cours_particuliers_dallemand .info-title a {
+  color: white;
+  text-decoration: none;
+}
+
+#main_cours_particuliers_dallemand .info-title a:hover {
+  text-decoration: underline;
+}
+
+#main_cours_particuliers_dallemand .datecours {
+  font-weight: bolder;
+  font-size: large;
+}
+
+#main_cours_particuliers_dallemand .titre {
+  font-weight: bolder;
+  font-size: large;
+}
+
+#main_cours_particuliers_dallemand .sous-titre {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#main_cours_particuliers_dallemand .annonce-inscription {
+  font-weight: bolder;
+  font-size: large;
+  padding: 2px 0px;
+}
+
+#main_cours_particuliers_dallemand .categorie:nth-of-type(even) {
+  border-left: 2px solid white !important;
+}
+
+#main_cours_particuliers_dallemand .info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid lightgray;
+}
+
+#main_cours_particuliers_dallemand .info-title {
+  display: block;
+  color: white;
+}
+
+#main_cours_particuliers_dallemand .information {
+  /* background-color: #ffbe00;*/
+  background-color: #f16e00;
+  /*background-color: #a0c814;*/
+  display: table-cell;
+  color: black;
+  width: 33.3%;
+  /*height: 250px;*/
+  border: 1px solid white;
+  padding-left: 15px;
+}
+
+#main_cours_particuliers_dallemand .nos-rentrees {
+  font-weight: bolder;
+  width: 100%;
+}
+
+#main_cours_particuliers_dallemand .message_and_image {
+  /*height: 450px;*/
+  border: 2px solid white;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#main_cours_particuliers_dallemand .message_on_image {
+  position: absolute;
+  z-index: 2;
+  padding-top: 5%;
+  width: 100%;
+  padding-left: 20%;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  font-size: 30px;
+}
+
+#main_cours_particuliers_dallemand .section {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#main_cours_particuliers_dallemand .separator {
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  background-color: #efeef3;
+  clear: both;
+}
+
+#main_cours_particuliers_dallemand .bloc-title {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #271549;
+  position: relative;
+  /*padding-bottom: 20px;*/
+  padding-top: 20px;
+  text-align: center;
+  /*margin: 0 0 70px;*/
+}
+
+#main_cours_particuliers_dallemand .section.padding {
+  padding: 68px 0;
+}
+
+#main_cours_particuliers_dallemand .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#main_cours_particuliers_dallemand .hexagon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 42px;
+  margin-bottom: 45px;
+  background: #fff;
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:before {
+  top: -40px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #efeef3), color-stop(50%, transparent));
+  background: linear-gradient(to right top, #efeef3 50%, transparent 50%);
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:before {
+  left: 50%;
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:before,
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .triangle-top:before {
+  top: -40px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #fff), color-stop(50%, transparent));
+  background: linear-gradient(to right top, #fff 50%, transparent 50%);
+}
+
+#main_cours_particuliers_dallemand .triangle-top:before,
+#main_cours_particuliers_dallemand .triangle-top:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .triangle-top:before {
+  left: 50%;
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:after {
+  top: -40px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, #efeef3));
+  background: linear-gradient(to right bottom, transparent 50%, #efeef3 50%);
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:after {
+  left: 0;
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:before,
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-top:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .triangle-top:after {
+  top: -40px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, #fff));
+  background: linear-gradient(to right bottom, transparent 50%, #fff 50%);
+}
+
+#main_cours_particuliers_dallemand .triangle-top:after {
+  left: 0;
+}
+
+#main_cours_particuliers_dallemand .triangle-top:before,
+#main_cours_particuliers_dallemand .triangle-top:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #efeef3), to(#cfccd9));
+  background: linear-gradient(to bottom, #efeef3 0, #cfccd9 100%);
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:before {
+  bottom: -40px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #cfccd9), color-stop(50%, transparent));
+  background: linear-gradient(to right bottom, #cfccd9 50%, transparent 50%);
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:before {
+  left: 50%;
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:before,
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .triangle-bottom:before {
+  bottom: -40px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #fff), color-stop(50%, transparent));
+  background: linear-gradient(to right bottom, #fff 50%, transparent 50%);
+}
+
+#main_cours_particuliers_dallemand .triangle-bottom:before {
+  left: 50%;
+}
+
+#main_cours_particuliers_dallemand .triangle-bottom:before,
+#main_cours_particuliers_dallemand .triangle-bottom:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:after {
+  bottom: -40px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #cfccd9));
+  background: linear-gradient(to right top, transparent 50%, #cfccd9 50%);
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:after {
+  left: 0;
+}
+
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:before,
+#main_cours_particuliers_dallemand .hexagon.degrade .triangle-bottom:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .triangle-bottom:after {
+  bottom: -40px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #fff));
+  background: linear-gradient(to right top, transparent 50%, #fff 50%);
+}
+
+#main_cours_particuliers_dallemand .triangle-bottom:after {
+  left: 0;
+}
+
+#main_cours_particuliers_dallemand .triangle-bottom:before,
+#main_cours_particuliers_dallemand .triangle-bottom:after {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .admission h3 {
+  font-size: 40px;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+#main_cours_particuliers_dallemand .admission h3 i {
+  color: #fdce37;
+  font-size: 64px;
+  width: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+}
+
+#main_cours_particuliers_dallemand .adm-niv {
+  padding-left: 15px;
+}
+
+#main_cours_particuliers_dallemand [class^=icon-],
+#main_cours_particuliers_dallemand #menu-h > ul > li .sub-menu li a:before,
+#main_cours_particuliers_dallemand [class*=" icon-"] {
+  font-family: icons;
+  display: inline-block;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+#main_cours_particuliers_dallemand .admission .titre {
+  border-bottom: 1px solid rgba(28, 12, 55, 0.25);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+#main_cours_particuliers_dallemand .admission h3 i.grand {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fdce37;
+}
+
+#main_cours_particuliers_dallemand .icon-fleche-droite::before,
+#main_cours_particuliers_dallemand #menu-h > ul > li .sub-menu li a::before {
+  content: "\BB";
+}
+
+#main_cours_particuliers_dallemand .icon-fleche-gauche:before {
+  content: "\AB";
+}
+
+#main_cours_particuliers_dallemand .admission .content {
+  line-height: 16px;
+  margin-bottom: 27px;
+  border-top: 1px solid rgba(28, 12, 55, 0.25);
+  border-bottom: 2px solid rgba(28, 12, 55, 0.25);
+  padding: 27px 0;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+#main_cours_particuliers_dallemand .button.border:before,
+#main_cours_particuliers_dallemand .accordeon-title:before,
+#main_cours_particuliers_dallemand .onglets-wrapper .onglet-title .lien:before,
+#main_cours_particuliers_dallemand form input.border[type=submit]:before,
+#main_cours_particuliers_dallemand form input.border[type=button]:before,
+#main_cours_particuliers_dallemand .nf-form-cont input.border[type=submit]:before,
+#main_cours_particuliers_dallemand .nf-form-cont input.border[type=button]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background-color: #fdce37;
+  z-index: -1;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transition: opacity .3s,background-color .3s,-webkit-transform .3s;
+  transition: opacity .3s,background-color .3s,-webkit-transform .3s;
+  transition: transform .3s,opacity .3s,background-color .3s;
+  transition: transform .3s,opacity .3s,background-color .3s,-webkit-transform .3s;
+}
+
+#main_cours_particuliers_dallemand .button.border:after,
+#main_cours_particuliers_dallemand .accordeon-title:after,
+#main_cours_particuliers_dallemand .onglets-wrapper .onglet-title .lien:after,
+#main_cours_particuliers_dallemand form input.border[type=submit]:after,
+#main_cours_particuliers_dallemand form input.border[type=button]:after,
+#main_cours_particuliers_dallemand .nf-form-cont input.border[type=submit]:after,
+#main_cours_particuliers_dallemand .nf-form-cont input.border[type=button]:after {
+  background-color: #fff;
+}
+
+#main_cours_particuliers_dallemand .button:after,
+#main_cours_particuliers_dallemand form input[type=submit]:after,
+#main_cours_particuliers_dallemand form input[type=button]:after,
+#main_cours_particuliers_dallemand .nf-form-cont input[type=submit]:after,
+#main_cours_particuliers_dallemand .nf-form-cont input[type=button]:after {
+  z-index: -2;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e4e2e9;
+}
+
+#main_cours_particuliers_dallemand .button.border,
+#main_cours_particuliers_dallemand .accordeon-title,
+#main_cours_particuliers_dallemand .onglets-wrapper .onglet-title .lien,
+#main_cours_particuliers_dallemand form input.border[type=submit],
+#main_cours_particuliers_dallemand form input.border[type=button],
+#main_cours_particuliers_dallemand .nf-form-cont input.border[type=submit],
+#main_cours_particuliers_dallemand .nf-form-cont input.border[type=button] {
+  border: 2px solid #fdce37;
+  color: #403574;
+}
+
+#main_cours_particuliers_dallemand .button.border:hover {
+  border-top: 10px solid #fdce37;
+  color: #403574;
+}
+
+#main_cours_particuliers_dallemand .button,
+#main_cours_particuliers_dallemand form input[type=submit],
+#main_cours_particuliers_dallemand form input[type=button],
+#main_cours_particuliers_dallemand .nf-form-cont input[type=submit],
+#main_cours_particuliers_dallemand .nf-form-cont input[type=button] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-decoration: none;
+  border: 2px solid #e4e2e9;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #271549;
+  padding: 8px 18px;
+  background-color: transparent;
+  font-family: Source Sans Pro,sans-serif;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  z-index: 1;
+}
+
+#main_cours_particuliers_dallemand a {
+  text-decoration: none;
+}
+
+#main_cours_particuliers_dallemand .myButton {
+  -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), to(#ffec64));
+  background: linear-gradient(to bottom, #ffffff 5%, #ffec64 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+  background-color: #ffec64;
+  border-radius: 1px;
+  border: 2px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #271549;
+  padding: 8px 18px;
+}
+
+#main_cours_particuliers_dallemand .myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+  background-color: #ffab23;
+}
+
+#main_cours_particuliers_dallemand .myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#main_cours_particuliers_dallemand .admission-hexagon {
+  width: 316px;
+  padding: 7px 38px 17px;
+  text-align: center;
+  color: #271549;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#main_cours_particuliers_dallemand .programmes-main-div {
+  background-color: #efeef3;
+}
+
+#main_cours_particuliers_dallemand .programme {
+  text-align: center;
+  color: #271549;
+  background-color: #fff;
+  padding: 0 30px 40px;
+  width: 264px;
+  position: relative;
+  margin: 28px 14px 45px;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: -48px;
+  margin-bottom: 40px;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant-shape {
+  width: 0;
+  height: 0;
+  border: 72px solid transparent;
+  border-bottom: 18px solid #271549;
+  border-top: 0;
+  position: relative;
+  display: inline-block;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant-shape:before {
+  border-top: 83px solid #efeef3;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant-shape:before {
+  left: -83px;
+  border: 83px solid transparent;
+  border-top: 83px solid #fff;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant-shape:after,
+#main_cours_particuliers_dallemand .programme .diamant-shape:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  width: 0;
+  height: 0;
+  border-bottom: 0;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant-shape:after {
+  left: -72px;
+  border: 72px solid transparent;
+  border-top: 72px solid #271549;
+}
+
+#main_cours_particuliers_dallemand .programme .diamant-content {
+  width: 100%;
+  position: absolute;
+  top: 34px;
+}
+
+#main_cours_particuliers_dallemand .programme h3 {
+  font-size: 30px;
+  line-height: 32px;
+  margin: 0 0 18px;
+  padding: 16px 0;
+  border-top: 1px solid rgba(28, 12, 55, 0.15);
+  border-bottom: 1px solid rgba(28, 12, 55, 0.15);
+}
+
+#main_cours_particuliers_dallemand .titre-prog {
+  text-transform: uppercase;
+  color: #fdce37;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+#main_cours_particuliers_dallemand .supinfo-slogan-titre {
+  text-transform: uppercase;
+  color: #fdce37;
+  font-size: 35px;
+  line-height: 42px;
+  margin: 0 0 10px;
+  font-weight: 500;
+  z-index: 100;
+  position: relative;
+  padding-top: 10px !important;
+}
+
+#main_cours_particuliers_dallemand .contenu {
+  margin-right: 25%;
+}
+
+#main_cours_particuliers_dallemand .home-slogan {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#main_cours_particuliers_dallemand .inner {
+  width: calc(100% - 50px);
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#main_cours_particuliers_dallemand .inner-prog {
+  width: calc(100% - 50px);
+  /*border: 2px solid red;
+    max-width: 1140px;*/
+  margin: 0 auto;
+  position: relative;
+}
+
+#main_cours_particuliers_dallemand .footer-top {
+  min-height: 75px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#main_cours_particuliers_dallemand .footer-bottom {
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  background-color: #222222;
+  color: white;
+  /* background-color: #271549;*/
+}
+
+#main_cours_particuliers_dallemand .background-image {
+  float: left;
+  background-position: left;
+  background-color: transparent !important;
+  height: 500px;
+  width: 65%;
+  background-size: 20%;
+}
+
+#main_cours_particuliers_dallemand .parallax-window {
+  background-size: 40% !important;
+  width: 65%;
+  min-height: 700px;
+  float: left;
+  z-index: 100;
+  background-color: transparent !important;
+}
+
+#main_cours_particuliers_dallemand .supinfo-slogan {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 70px 0 70px 30px;
+  margin-left: auto;
+  width: 35%;
+  min-height: 700px;
+  position: relative;
+  text-align: left;
+  z-index: 2;
+  float: right;
+}
+
+#main_cours_particuliers_dallemand .edito .triangle-left:before {
+  left: -214px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.95)));
+  background: linear-gradient(to right top, transparent 50%, rgba(255, 255, 255, 0.95) 50%);
+}
+
+#main_cours_particuliers_dallemand .edito .triangle-left:after {
+  left: -214px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.95)));
+  background: linear-gradient(to right bottom, transparent 50%, rgba(255, 255, 255, 0.95) 50%);
+}
+
+#main_cours_particuliers_dallemand .edito .triangle-left:after {
+  top: 0;
+}
+
+#main_cours_particuliers_dallemand .edito .triangle-left:before {
+  top: 50%;
+}
+
+#main_cours_particuliers_dallemand .edito .triangle-left:before,
+#main_cours_particuliers_dallemand .edito .triangle-left:after {
+  width: 214px;
+  height: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .triangle-left:before {
+  left: -40px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #fff));
+  background: linear-gradient(to right top, transparent 50%, #fff 50%);
+}
+
+#main_cours_particuliers_dallemand .triangle-left:before {
+  top: 50%;
+}
+
+#main_cours_particuliers_dallemand .triangle-left:before,
+#main_cours_particuliers_dallemand .triangle-left:after {
+  width: 40px;
+  height: 50%;
+  position: absolute;
+  content: "";
+}
+
+#main_cours_particuliers_dallemand .supinfo-slogan:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  right: -50vw;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+#main_cours_particuliers_dallemand #parallax-container {
+  border: 2px solid orange;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #main_sousRubriqAngl .img-et-msg-baniere {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  #main_sousRubriqAngl .messages-baniere {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5px;
+  }
+
+  #main_sousRubriqAngl .img-class {
+    width: 319px !important;
+  }
+
+  #main_sousRubriqAngl #jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    width: 100%;
+    /*height:480px;*/
+  }
+
+  #main_sousRubriqAngl #slider-images {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+  }
+
+  #main_sousRubriqAngl .slide-img {
+    width: 100% !important;
+  }
+
+  #main_sousRubriqAngl .slide-banner {
+    width: 300px !important;
+    position: absolute !important;
+    top: 5px !important;
+    left: 5px !important;
+    height: 20px !important;
+    background-color: rgba(255, 188, 5, 0.8);
+    font-family: Oswald,sans-serif;
+    font-size: 15px !important;
+    font-weight: 200;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  #main_sousRubriqAngl .message_on_image {
+    position: absolute;
+    z-index: 2;
+    padding-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    font-size: 150%;
+    font-weight: bolder;
+  }
+
+  #main_sousRubriqAngl .left-nav {
+    display: none;
+  }
+
+  #main_sousRubriqAngl .main-contain-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 2px;
+  }
+
+  #main_sousRubriqAngl .flex-contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+
+  #main_sousRubriqAngl .categorie {
+    border: 2px solid white;
+    display: inline-block;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+  #main_sousRubriqAngl .info-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #main_sousRubriqAngl .information {
+    /* background-color: #ffbe00;*/
+    background-color: #f16e00;
+    color: black !important;
+    display: table-cell;
+    max-width: 100%;
+    width: 100% !important;
+    /*height: 250px;*/
+    border: 1px solid white;
+    padding-left: 15px;
+  }
+
+  #main_sousRubriqAngl .contact {
+    background-color: #251549 !important;
+    color: white !important;
+    font-size: 20px !important;
+  }
+
+  #main_sousRubriqAngl .parallax-window {
+    display: none;
+    background-repeat: no-repeat;
+  }
+
+  #main_sousRubriqAngl .supinfo-slogan {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 812px) {
+  #main_sousRubriqAngl .baniereb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #main_sousRubriqAngl .h2 {
+    font-weight: 200;
+  }
+
+  #main_sousRubriqAngl .img-et-msg-baniere {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #main_sousRubriqAngl .messages-baniere {
+    padding: 2px;
+  }
+
+  #main_sousRubriqAngl .baniere-img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #main_sousRubriqAngl .lineb {
+    /*height: 4.3cm;*/
+    border-bottom: 5px solid orange;
+    width: 100%;
+    background-color: darkgrey !important;
+    color: white;
+    /*text-align: center;*/
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  #main_sousRubriqAngl .nousContacter {
+    float: none;
+    width: 50%;
+    margin: auto;
+  }
+
+  #main_sousRubriqAngl .img-class {
+    width: 319px !important;
+  }
+
+  #main_sousRubriqAngl #jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    width: 100%;
+    /*height:480px;*/
+  }
+
+  #main_sousRubriqAngl #slider-images {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+  }
+
+  #main_sousRubriqAngl .slide-img {
+    width: 100% !important;
+  }
+
+  #main_sousRubriqAngl .slide-banner {
+    width: 300px !important;
+    position: absolute !important;
+    top: 5px !important;
+    left: 5px !important;
+    height: 20px !important;
+    background-color: rgba(255, 188, 5, 0.8);
+    font-family: Oswald,sans-serif;
+    font-size: 15px !important;
+    font-weight: 200;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  #main_sousRubriqAngl .message_on_image {
+    position: absolute;
+    z-index: 2;
+    padding-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    font-size: 150%;
+    font-weight: bolder;
+  }
+
+  #main_sousRubriqAngl .left-nav {
+    display: none;
+  }
+
+  #main_sousRubriqAngl .main-contain-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 2px;
+  }
+
+  #main_sousRubriqAngl .flex-contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+
+  #main_sousRubriqAngl .categorie {
+    border: 2px solid white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: justify;
+  }
+
+  #main_sousRubriqAngl .info-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #main_sousRubriqAngl .information {
+    /* background-color: #ffbe00;*/
+    background-color: #f16e00;
+    color: black !important;
+    display: table-cell;
+    max-width: 100%;
+    width: 100% !important;
+    /*height: 250px;*/
+    border: 1px solid white;
+    padding-left: 15px;
+  }
+
+  #main_sousRubriqAngl .contact {
+    background-color: #251549 !important;
+    color: white !important;
+    font-size: 20px !important;
+  }
+
+  #main_sousRubriqAngl .parallax-window {
+    display: none;
+    background-repeat: no-repeat;
+  }
+
+  #main_sousRubriqAngl .supinfo-slogan {
+    display: none;
+  }
+
+  #main_sousRubriqAngl .hexagon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 42px;
+    margin-bottom: 45px;
+    background: #fff;
+    width: 100%;
+  }
+
+  #main_sousRubriqAngl .separator {
+    display: none;
+  }
+
+  #main_sousRubriqAngl .admission-hexagon {
+    width: 100%;
+    padding: 7px;
+    text-align: justify;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  #main_sousRubriqAngl .table01 {
+    width: 100%;
+  }
+
+  #main_sousRubriqAngl .sous-menu {
+    font-size: 150%;
+  }
+
+  #main_sousRubriqAngl .vagues {
+    font-size: 100%;
+  }
+}
+
 #main_cours_specialises .manuels-img {
   width: 18%;
 }

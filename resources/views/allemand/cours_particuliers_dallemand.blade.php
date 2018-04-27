@@ -1,281 +1,239 @@
 @extends('layout')
 
 @section('content')
-<meta charset="utf-8">
-<meta name = "description" content = "{% trans from 'cours-particuliers' %} descriptionPAR {% endtrans %}" >
-<meta name = "keywords" content = "{% trans from 'cours-particuliers' %} keywordPAR {% endtrans %}" >
-<meta name="author" content="semanticatechnologies.com - Douala Bonamoussadi">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-    .students-img {
-        border: 3px solid red;
-        background-color: #0000cc;
-        display:block;
-        width: 45%;
-        height: 100%;
-    }
-
-    .parallax {
-        /* The image used
-        background-image: url("img_parallax.jpg");*/
-        border: 2px solid red;
-        /* Set a specific height */
-        min-height: 500px;
-        width: 50%;
-        display:block;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: left;
-        background-repeat: no-repeat;
-        /*background-size: cover;*/
-        background-size: 50%  auto;
-    }
-
-    .manuels-img {
-        width: 18%;
-    }
-    .manuels-img {
-        width: 18%;
-    }
-    .horaire {
-        display: inline-block;
-        padding: 1%;
-        margin: 1%;
-        background: white;
-    }
-    .baniere{
-        width: 100%;
-        max-height: 400px;
-    }
-    .baniere-img{
-        width: 40%;
-    }
-    .baniere-msg {
-        width: 55%;
-        float: right;
-        color: white;
-        font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-        font-size: 150%;
-        padding: 3%;
-    }
-
-    .sous-menu {
-        background-color: #f16e00;
-        color: white;
-        font-size: 200%;
-        text-align: center;
-    }
-
-    table.table01 {
-        width: 90%;
-        color: #f16e00;
-        background-color: white;
-
-    }
 
 
-    table.table01 td,th {
-        padding: 2%;
-        margin: 5px!important;
-        border: 5px solid transparent!important;
-    }
 
-    .table02 {
-        width: 100%;
-        background-color: #f16e00;
-        color: white;
-        border-collapse: separate;
-    }
+    <style>
+        .students-img {
+            border: 3px solid red;
+            background-color: #0000cc;
+            display:block;
+            width: 45%;
+            height: 100%;
+        }
+        .parallax {
+            /* The image used
+            background-image: url("img_parallax.jpg");*/
+            border: 2px solid red;
+            /* Set a specific height */
+            min-height: 500px;
+            width: 50%;
+            display:block;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: left;
+            background-repeat: no-repeat;
+            /*background-size: cover;*/
+            background-size: 50%  auto;
+        }
+        .manuels-img {
+            width: 18%;
+        }
+        .horaire {
+            display: inline-block;
+            padding: 1%;
+            margin: 1%;
+            background: white;
+        }
+        .baniere{
+            width: 100%;
+            max-height: 400px;
+        }
+        .baniere-img{
+            width: 40%;
+        }
+        .baniere-msg {
+            width: 55%;
+            float: right;
+            color: white;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+            font-size: 150%;
+            padding: 3%;
+        }
+        .sous-menu {
+            background-color: #f16e00;
+            color: white;
+            font-size: 200%;
+            text-align: center;
+        }
+    </style>
 
-    .table03 {
-        width: 100%;
-        background-color: #0000cc;
-        color: white;
-        border-collapse: separate;
-    }
+    <div id="main_cours_particuliers_dallemand">
 
-    .abc {
-        border: 5px solid transparent;
-    }
-
-</style>
-
-<div id="main_sousRubriqAngl">
-
-    <div class="sous-menu">
-        Cours Particuliers d'Allemand
-    </div>
-
-    <div class="flex-contain">
-
-        <div class="left-nav">
-
-            {% block left_nav %}
-            {% include 'MainBundle:Inc:left_nav.html.twig' %}
-            {% endblock %}
+        <div class="sous-menu">
+            {{ __('cours_particuliers_dallemand.title2') }}
 
         </div>
 
-        <div class="main-contain-middle">
 
-            <div class="baniereb">
+        <div class="flex-contain">
 
-                <div class="img-et-msg-baniere">
-                    <img class="baniere-img box-baniereb" src="{{ asset('data/img/coursParticulier.jpg') }}" alt="">
-                    <div class="messages-baniere">
-                        <div class="vertical">
-                            <div class="baniere-msgb">
-                                <h2>{% trans from 'cours-particuliers' %} coursPARangl {% endtrans %}</h2>
+            <div class="left-nav">
 
-                            </div>
+                {% block left_nav %}
+                {% include 'MainBundle:Inc:left_nav.html.twig' %}
+                {% endblock %}
 
-                            <div class="baniere-msg-2">
-                                {% trans from 'cours-particuliers' %} object3 {% endtrans %}
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="lineb">
-                    {% trans from 'cours-particuliers' %} servicePARTICULIERS {% endtrans %}
-                </div>
             </div>
 
-            <div class="cat-containerb">
-                <div class="">
-                    <div class="category-title">
-                        <h3>{% trans from 'ctihome' %} prochaineRentree {% endtrans %}:
-                            {% trans from 'ctihome' %} debutDesCours {% endtrans %}
-                        </h3>
+            <div class="main-contain-middle">
+
+                <div class="baniereb">
+
+                    <div class="img-et-msg-baniere">
+                        <img class="baniere-img " src="{{ URL::asset('img/coursParticulier.jpg') }}" alt="">
+                        <div class="messages-baniere">
+                            <div class="vertical">
+                                <div class="">
+                                    <h2>{{ __('cours_particuliers_dallemand.title1') }}</h2>
+                                </div>
+                                <div class="baniere-msg-2">
+                                    {{ __('cours_particuliers_dallemand.text1') }}
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="datecours">
+                    <div class="lineb">
+                        {{ __('cours_particuliers_dallemand.text2') }}
+                    </div>
+                </div>
+                <div class="cat-containerb">
+                    <div class="">
+                        <div class="category-title">
+                            <h4>
+                                {{ __('cours_particuliers_dallemand.rentree') }}
+
+                            </h4>
+                        </div>
+                        <div class="datecours">
+                            <div class="annonce-inscription">
+                                {{ __('cours_particuliers_dallemand.text3') }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cat-container">
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('cours_particuliers_dallemand.text4') }}
+                            </h3>
+                        </div>
+                        <div class="datecours">
+                            {{ __('cours_particuliers_dallemand.text5') }}
+                        </div>
                         <div class="annonce-inscription">
-                            {% trans from 'ctihome' %} placesDISPO {% endtrans %}
+
+                            <div>
+                                <ul>
+                                    <li>{{ __('cours_particuliers_dallemand.text6') }}</li>
+                                    <li>{{ __('cours_particuliers_dallemand.text61') }}</li>
+                                    <li>{{ __('cours_particuliers_dallemand.text62') }}</li>
+                                    <li>{{ __('cours_particuliers_dallemand.text63') }}</li>
+                                </ul>
+                            </div>
+                            {{ __('cours_particuliers_dallemand.text64') }}
+                        </div>
+
+                        <div class="category-desktop-contain">
+
+                        </div>
+
+                    </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('cours_particuliers_dallemand.text7') }}</h3>
+                        </div>
+                        {{ __('cours_particuliers_dallemand.text8') }}<br>
+                        <div>
+                            <ul>
+                                <li>{{ __('cours_particuliers_dallemand.text81') }}</li>
+                                <li>{{ __('cours_particuliers_dallemand.text82') }}</li>
+                                <li>{{ __('cours_particuliers_dallemand.text83') }}</li>
+                            </ul>
+                        </div>
+                        <div class="category-desktop-contain">
+
+                            {{ __('cours_particuliers_dallemand.text14') }}
+                            {{ __('cours_particuliers_dallemand.text15') }}
+
+                        </div>
+                        <div class="category-desktop-contain">
+                            <img class="manuels-img" src="{{ URL::asset('img/menschen-a1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/menschen-a2.1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/ASPEKTE1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/ASPEKTE2.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/Aspekte-neu.jpg') }}" alt="">
+
                         </div>
                     </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('cours_particuliers_dallemand.text16') }} </h3>
+
+
+                        </div>
+                        {{ __('cours_particuliers_dallemand.text17') }}
+                        <div class="">
+                            <div>
+                                <ul>
+                                    <li>{{ __('cours_particuliers_dallemand.text18') }}</li>
+                                    <li>{{ __('cours_particuliers_dallemand.text19') }}</li>
+                                    <li>{{ __('cours_particuliers_dallemand.text20') }}</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3><a href="">{{ __('cours_particuliers_dallemand.text241') }}</a></h3>
+                        </div>
+                        <p>{{ __('cours_particuliers_dallemand.text242') }}</p>
+                        <p>{{ __('cours_particuliers_dallemand.text243') }}</p>
+                        <p>{{ __('cours_particuliers_dallemand.text25') }}</p>
+
+
+
+                        <div class="category-title">
+                            <h3><a href=""></a></h3>
+                        </div>
+
+                    </div>
                 </div>
+                <div class="cat-container">
+                    <div class="">
+                        <div class="nos-rentrees">
+                            {{ __('actualites.choixRENTREE') }}
+                        </div>
+                        <table class="table02">
+                            <tr>
+                                <td class="abc"> {{ __('actualites.rentree1') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree2') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree3') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree4') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree5') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree6') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree7') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree8') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree9') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree10') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree11') }}  </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+                <div class="separator"></div>
+
             </div>
-
-
-
-            <div class="cat-container">
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="#"> {% trans from 'cours-particuliers' %} programSurMesur {% endtrans %} </a></h3>
-                    </div>
-
-                    <div class="category-desktop-contain">
-                        {% trans from 'cours-particuliers' %} texte_01 {% endtrans %}
-                        <ul>
-                            <li>{% trans from 'cours-particuliers' %} detail_01 {% endtrans %}</li>
-                            <li>{% trans from 'cours-particuliers' %} detail_02 {% endtrans %}</li>
-                            <li>{% trans from 'cours-particuliers' %} detail_03 {% endtrans %}</li>
-                            <li>{% trans from 'cours-particuliers' %} detail_04 {% endtrans %}</li>
-                        </ul>
-                        {% trans from 'cours-particuliers' %} texte_02 {% endtrans %}
-                    </div>
-
-                </div>
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="#"> {% trans from 'cours-particuliers' %} materielDIDAC {% endtrans %} </a></h3>
-                    </div>
-                    {% trans from 'cours-particuliers' %} texte_11 {% endtrans %}<br><br>
-                    <ul>
-                        <li>{% trans from 'cours-particuliers' %} detail_11 {% endtrans %}</li>
-                        <li>{% trans from 'cours-particuliers' %} detail_12 {% endtrans %}</li>
-                        <li>{% trans from 'cours-particuliers' %} detail_13 {% endtrans %}</li>
-                    </ul>
-                    <div class="category-desktop-contain">
-                        <img class="manuels-angl-img" src="{{ asset('data/img/ASPEKTE2.jpg') }}">
-                        <img class="manuels-angl-img" src="{{ asset('data/img/Aspekte-neu.jpg') }}">
-                        <img class="manuels-angl-img" src="{{ asset('data/img/ASPEKTE1.jpg') }}">
-                    </div>
-                    <div class="category-desktop-contain">
-
-
-                    </div>
-
-                </div>
-
-
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3><a href="#"> {% trans from 'cours-particuliers' %} approchCoach {% endtrans %} </a></h3>
-                    </div>
-
-                    {% trans from 'cours-particuliers' %} texte_21 {% endtrans %} <br>
-
-                    <ul>
-                        <li>{% trans from 'cours-particuliers' %} detail_21 {% endtrans %}</li>
-                        <li>{% trans from 'cours-particuliers' %} detail_22 {% endtrans %}</li>
-                        <li>{% trans from 'cours-particuliers' %} detail_23 {% endtrans %}</li>
-                    </ul>
-
-
-                </div>
-                <div class="categorie">
-                    <div class="category-title">
-                        <h3> {% trans from 'cours-intensifs' %} diffNIV {% endtrans %} </h3>
-                    </div>
-                    <p> {% trans from 'cours-intensifs' %} phrase1 {% endtrans %} </p>
-                    <p> {% trans from 'cours-intensifs' %} phrase2 {% endtrans %} </p>
-                    <p> {% trans from 'cours-intensifs' %} phrase3 {% endtrans %} </p>
-                </div>
-            </div>
-
-            <div class="cat-container">
-                <div class="">
-                    <div class="datecours annonce-inscription">
-                        {% trans from 'ctihome' %} choixRENTREE {% endtrans %}
-                    </div>
-                    <table class="table02">
-                        <tr>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree1 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree2 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree3 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree4 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree5 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree6 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree7 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree8 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree9 {% endtrans %}  </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree10 {% endtrans %} </td>
-                            <td class="abc"> {% trans from 'ctihome' %} rentree11 {% endtrans %}  </td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-
-
-            <div class="separator"></div>
-
-
-
-
         </div>
-    </div>
-
-
-
-    <div class="section programmes-main-div ">
-        {% block ACTUALITE %}
-        {% include 'MainBundle:Inc:actualites.html.twig' %}
-        {% endblock %}
-
+        @include('actualites')
     </div>
 
 
 
 
-
-
-
-
-</div>
 @endsection
