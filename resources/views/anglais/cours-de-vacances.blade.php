@@ -17,7 +17,7 @@
         <div class="flex-contain">
 
             <div class="left-nav">
-                @include('left-nav')
+                @include('Inc.left-nav')
             </div>
 
             <div class="main-contain-middle">

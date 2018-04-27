@@ -2,17 +2,16 @@
 
 @section('content')
     <meta charset="utf-8">
-    <meta name = "description" content = "{% trans from 'cours-intensifs' %} descriptionINT {% endtrans %}" >
-    <meta name = "keywords" content = "{% trans from 'cours-intensifs' %} keywordINT {% endtrans %}" >
+    <meta name = "description" content = "{% trans from 'cours-particuliers' %} descriptionPAR {% endtrans %}" >
+    <meta name = "keywords" content = "{% trans from 'cours-particuliers' %} keywordPAR {% endtrans %}" >
     <meta name="author" content="semanticatechnologies.com - Douala Bonamoussadi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <div id="main_sousRubriqAngl">
 
         <div class="sous-menu">
-            {{ __('cours-intensifs.coursIntensANGL') }}
+            {{ __('cours_particuliers.coursPartiANGL') }}
         </div>
-
 
         <div class="flex-contain">
 
@@ -27,16 +26,16 @@
                 <div class="baniereb">
 
                     <div class="img-et-msg-baniere">
-                        <img class="baniere-img " src="{{ URL::asset('img/students2.jpg') }}" alt="">
+                        <img class="baniere-img box-baniereb" src="{{ URL::asset('img/coursParticulier2.jpg') }}" alt="">
                         <div class="messages-baniere">
                             <div class="vertical">
-                                <div class="">
-                                    <h2>{{ __('cours-intensifs.coursINTENSIF') }}</h2>
+                                <div class="baniere-msgb">
+                                    <h2>{{ __('cours_particuliers.coursPARangl') }}</h2>
 
                                 </div>
 
                                 <div class="baniere-msg-2">
-                                    {{ __('cours-intensifs.objectifs') }}
+                                    {{ __('cours_particuliers.object3') }}
                                 </div>
                             </div>
 
@@ -45,10 +44,9 @@
                     </div>
 
                     <div class="lineb">
-                        {{ __('cours-intensifs.service') }}
+                        {{ __('cours_particuliers.servicePARTICULIERS') }}
                     </div>
                 </div>
-
 
                 <div class="cat-containerb">
                     <div class="">
@@ -65,42 +63,42 @@
                     </div>
                 </div>
 
-
-
                 <div class="cat-container">
                     <div class="categorie">
                         <div class="category-title">
-                            <h3> {{ __('cours-intensifs.IntensPrTous') }} </h3>
+                            <h3><a href="#"> {{ __('cours_particuliers.programSurMesur') }} </a></h3>
                         </div>
-                        <div class="importante"> {{ __('cours-intensifs.frequence') }} </div>
 
                         <div class="category-desktop-contain">
-                            {{ __('cours-intensifs.messagDEBUT') }}
+                            {{ __('cours_particuliers.texte_01') }}
                             <ul>
-                                <li> {{ __('cours-intensifs.atout1') }} </li>
-                                <li> {{ __('cours-intensifs.atout2') }} </li>
-                                <li> {{ __('cours-intensifs.atout3') }} </li>
-                                <li> {{ __('cours-intensifs.atout4') }} </li>
-                                <li> {{ __('cours-intensifs.atout5') }} </li>
+                                <li>{{ __('cours_particuliers.detail_01') }}</li>
+                                <li>{{ __('cours_particuliers.detail_02') }}</li>
+                                <li>{{ __('cours_particuliers.detail_03') }}</li>
+                                <li>{{ __('cours_particuliers.detail_04') }}</li>
                             </ul>
-                            {{ __('cours-intensifs.messagFIN') }}
+                            {{ __('cours_particuliers.texte_02') }}
                         </div>
 
                     </div>
                     <div class="categorie">
                         <div class="category-title">
-                            <h3> {{ __('cours-intensifs.manuels') }} </h3>
+                            <h3><a href="#"> {{ __('cours_particuliers.materielDIDAC') }} </a></h3>
                         </div>
-                        {{ __('cours-intensifs.messagMANUELS') }}
+                        {{ __('cours_particuliers.texte_11') }}<br><br>
+                        <ul>
+                            <li>{{ __('cours_particuliers.detail_11') }}</li>
+                            <li>{{ __('cours_particuliers.detail_12') }}</li>
+                            <li>{{ __('cours_particuliers.detail_13') }}</li>
+                        </ul>
                         <div class="category-desktop-contain">
-
-                        </div>
-                        <div class="">
                             <img class="manuels-angl-img" src="{{ URL::asset('img/english-unlimited-elementary-a-combo-with-dvd-roms-2.png') }}">
                             <img class="manuels-angl-img" src="{{ URL::asset('img/Official-toelf-Test-Prep.jpg') }}">
                             <img class="manuels-angl-img" src="{{ URL::asset('img/IELTS-Cambridge-Books.jpg') }}">
-                            <img class="manuels-angl-img" src="{{ URL::asset('img/englishUnlimited1.png') }}">
-                            <img class="manuels-angl-img" src="{{ URL::asset('img/englishUnlimited2.jpg') }}">
+                        </div>
+                        <div class="category-desktop-contain">
+
+
                         </div>
 
                     </div>
@@ -108,31 +106,16 @@
 
                     <div class="categorie">
                         <div class="category-title">
-                            <h3> {{ __('cours-intensifs.HORAIRES') }} </h3>
+                            <h3><a href="#"> {{ __('cours_particuliers.approchCoach') }} </a></h3>
                         </div>
 
-                        {{ __('cours-intensifs.messagHORAIRE') }}
+                        {{ __('cours_particuliers.texte_21') }} <br>
 
-                        <div class="">
-                            <div class=" horaire ">
-                                <div class="news-title"><h4>{{ __('cours-intensifs.periode1') }}</h4></div>
-
-                                <div class="news-title"><p>{{ __('cours-intensifs.heures1') }} </p></div>
-                            </div>
-
-                            <div class=" horaire ">
-                                <div class="news-title"><h4>{{ __('cours-intensifs.periode2') }}</h4></div>
-
-                                <div class="news-title"><p>{{ __('cours-intensifs.heures2') }}</p></div>
-                            </div>
-
-                            <div class="horaire">
-                                <div class="news-title"><h4>{{ __('cours-intensifs.periode3') }}</h4></div>
-
-                                <div class="news-title"><p>{{ __('cours-intensifs.heures3') }}</p></div>
-                            </div>
-
-                        </div>
+                        <ul>
+                            <li>{{ __('cours_particuliers.detail_21') }}</li>
+                            <li>{{ __('cours_particuliers.detail_22') }}</li>
+                            <li>{{ __('cours_particuliers.detail_23') }}</li>
+                        </ul>
 
 
                     </div>
@@ -175,8 +158,8 @@
             </div>
         </div>
 
+        @include('actualites')
 
-@include('actualites')
     </div>
 
 @endsection
