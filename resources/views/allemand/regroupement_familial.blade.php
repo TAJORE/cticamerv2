@@ -1,238 +1,214 @@
-
 @extends('layout')
 
-@section('content'){% extends 'MainBundle::layout.html.twig' %}
+@section('content')
 
-{% block meta %}
-<meta name = "{% trans from 'about' %} about.block14 {% endtrans %}" >
-<meta name = "keywords" content = "{% trans from 'about' %} about.block15 {% endtrans %}" >
-<meta charset="utf-8">
 
-<style>
-    .students-img {
-        border: 3px solid red;
-        background-color: #0000cc;
-        display:block;
-        width: 45%;
-        height: 100%;
-    }
 
-    .parallax {
-        /* The image used
-        background-image: url("img_parallax.jpg");*/
-        border: 2px solid red;
-        /* Set a specific height */
-        min-height: 500px;
-        width: 50%;
-        display:block;
+    <style>
+        .students-img {
+            border: 3px solid red;
+            background-color: #0000cc;
+            display:block;
+            width: 45%;
+            height: 100%;
+        }
+        .parallax {
+            /* The image used
+            background-image: url("img_parallax.jpg");*/
+            border: 2px solid red;
+            /* Set a specific height */
+            min-height: 500px;
+            width: 50%;
+            display:block;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: left;
+            background-repeat: no-repeat;
+            /*background-size: cover;*/
+            background-size: 50%  auto;
+        }
+        .manuels-img {
+            width: 18%;
+        }
+        .horaire {
+            display: inline-block;
+            padding: 1%;
+            margin: 1%;
+            background: white;
+        }
+        .baniere{
+            width: 100%;
+            max-height: 400px;
+        }
+        .baniere-img{
+            width: 40%;
+        }
+        .baniere-msg {
+            width: 55%;
+            float: right;
+            color: white;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+            font-size: 150%;
+            padding: 3%;
+        }
+        .sous-menu {
+            background-color: #f16e00;
+            color: white;
+            font-size: 200%;
+            text-align: center;
+        }
+    </style>
 
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: left;
-        background-repeat: no-repeat;
-        /*background-size: cover;*/
-        background-size: 50%  auto;
-    }
-</style>
+    <div id="main_regroupement_familial">
 
-<div id="main_regroupement_familial">
+        <div class="sous-menu">
+            {{ __('regroupement_familial.title2') }}
 
-    <div class="message_and_image">
-        <div class="message_on_image">
-            {% trans from 'allemand' %} title1 {% endtrans %} <BR>
-            {% trans from 'allemand' %} text1 {% endtrans %}
         </div>
 
-        <div id="about_top" style="background-image:url('{{ asset('data/img/about4.jpg') }}')">
-            <img  id="top_img" src="{{ asset('data/img/about4.jpg') }}" alt="">
-            {# il  est possible de travailler directement  ici. si  vous voulez occuper toute la page dans la width #}
-        </div>
-    </div>
 
-    <div class="row line">
-        <div>  {% trans from 'allemand' %} text2 {% endtrans %} </div>
+        <div class="flex-contain">
 
-    </div>
+            <div class="left-nav">
 
+                {% block left_nav %}
+                {% include 'MainBundle:Inc:left_nav.html.twig' %}
+                {% endblock %}
 
-    <div class="row section admission">
-        <h2 class="bloc-title">  {% trans from 'allemand' %} coursDispo {% endtrans %} </h2>
-        <div class="inner padding">
-            <div class="flex">
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="triangle-top"></div>
-                    <div class="titre">Goethe-Zertifikat A1</div>
-                    <h3>
-                        <i class="icon-fleche-droite grand"></i>
-                        <span class="adm-niv">GZA1</span>
-                        <i class="icon-fleche-gauche grand"></i></h3>
-                    <div class="content">
-                        {% trans from 'allemand' %} gza1 {% endtrans %}
+            </div>
+
+            <div class="main-contain-middle">
+
+                <div class="baniereb">
+
+                    <div class="img-et-msg-baniere">
+                        <img class="baniere-img " src="{{ URL::asset('img/regroupement-famille.gif') }}" alt="">
+                        <div class="messages-baniere">
+                            <div class="vertical">
+                                <div class="">
+                                    <h2>{{ __('regroupement_familial.title1') }}</h2>
+                                </div>
+                                <div class="baniere-msg-2">
+                                    {{ __('regroupement_familial.text1') }}
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
-                    <div class="triangle-bottom"></div>
+                    <div class="lineb">
+                        {{ __('regroupement_familial.text2') }}
+                    </div>
+                </div>
+                <div class="cat-containerb">
+                    <div class="">
+                        <div class="category-title">
+                            <h4>
+                                {{ __('regroupement_familial.rentree') }}
+
+                            </h4>
+                        </div>
+                        <div class="datecours">
+                            <div class="annonce-inscription">
+                                {{ __('regroupement_familial.text3') }}
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="triangle-top"></div>
-                    <div class="titre">Goethe-Zertifikat A2</div>
-                    <h3>
-                        <i class="icon-fleche-droite grand"></i>
-                        <span class="adm-niv">GZA2</span>
-                        <i class="icon-fleche-gauche grand"></i></h3>
-                    <div class="content">
-                        {% trans from 'allemand' %} gza2 {% endtrans %}
-                    </div>
-                    <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
-                    <div class="triangle-bottom"></div>
-                </div>
 
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="triangle-top"></div>
-                    <div class="titre">Goethe-Zertifikat B1</div>
-                    <h3>
-                        <i class="icon-fleche-droite grand"></i>
-                        <span class="adm-niv">GZB1</span>
-                        <i class="icon-fleche-gauche grand"></i></h3>
-                    <div class="content">
-                        {% trans from 'allemand' %} gzb1 {% endtrans %}
-                    </div>
-                    <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
-                    <div class="triangle-bottom"></div>
-                </div>
+                <div class="cat-container">
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('regroupement_familial.text4') }}
+                            </h3>
+                        </div>
+                        <div class="datecours">
+                            {{ __('regroupement_familial.text5') }}
+                        </div>
+                        <div class="annonce-inscription">
+                            {{ __('regroupement_familial.text6') }}
+                        </div>
+                        <div class="category-desktop-contain">
 
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="triangle-top"></div>
-                    <div class="titre">Goethe-Zertifikat B2</div>
-                    <h3>
-                        <i class="icon-fleche-droite grand"></i>
-                        <span class="adm-niv">GZB2</span>
-                        <i class="icon-fleche-gauche grand"></i></h3>
-                    <div class="content">
-                        {% trans from 'allemand' %} gzb2 {% endtrans %}
-                    </div>
-                    <a class="myButton" href="javascript:;"> {% trans from 'allemand' %} bac4 {% endtrans %} </a>
-                    <div class="triangle-bottom"></div>
-                </div>
+                        </div>
 
+                    </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('regroupement_familial.text7') }}</h3>
+                        </div>
+                        {{ __('pour_etudier.text8') }}<br>
+                        <div class="category-desktop-contain">
+                            <ul>
+                                <li>{{ __('regroupement_familial.text9') }}</li>
+                                <li>{{ __('regroupement_familial.text10') }}</li>
+                                <li>{{ __('regroupement_familial.text11') }}</li>
+                                <li>{{ __('regroupement_familial.text12') }}</li>
+                                <li>{{ __('regroupement_familial.text13') }}</li>
+                            </ul>
+                             {{ __('regroupement_familial.text14') }}
+                            {{ __('regroupement_familial.text15') }}
+
+                        </div>
+                        <div class="category-desktop-contain">
+                            <img class="manuels-img" src="{{ URL::asset('img/menschen-a1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/menschen-a2.1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/ASPEKTE1.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/ASPEKTE2.jpg') }}" alt="">
+                            <img class="manuels-img" src="{{ URL::asset('img/Aspekte-neu.jpg') }}" alt="">
+
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3> {{ __('regroupement_familial.text16') }} </h3>
+                        </div>
+
+                        {{ __('regroupement_familial.text17') }}
+                        <div class="">
+                            <div class=" horaire ">
+                                <div class="news-title"><h4>{{ __('regroupement_familial.text18') }}</h4></div>
+
+                                <div class="news-title"><p>{{ __('regroupement_familial.text19') }}</p></div>
+                            </div>
+
+                            <div class=" horaire ">
+                                <div class="news-title"><h4>{{ __('regroupement_familial.text20') }}</h4></div>
+
+                                <div class="news-title"><p>{{ __('regroupement_familial.text21') }}</p></div>
+                            </div>
+
+                            <div class="horaire">
+                                <div class="news-title"><h4>{{ __('regroupement_familial.text22') }}</h4></div>
+
+                                <div class="news-title"><p>{{ __('regroupement_familial.text23') }}</p></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="categorie">
+                        <div class="category-title">
+                            <h3><a href="{{ __('main_CoursParticulier') }}">{{ __('regroupement_familial.text241') }}</a></h3>
+                        </div>
+                        <ul>
+                            <li>{{ __('regroupement_familial.text242') }}</li>
+                            <li>{{ __('regroupement_familial.text243') }}</li>
+                        </ul>
+                        <div class="category-title">
+                            <h3><a href="{{ __('main_CoursParticulier') }}">{{ __('regroupement_familial.text24') }}</a></h3>
+                        </div>
+                        {{ __('regroupement_familial.text25') }}
+                        <span>{{ __('regroupement_familial.text261') }}</span>
+                    </div>
+                </div>
+                <div class="separator"></div>
 
             </div>
         </div>
-
+        @include('actualites')
     </div>
 
 
-    <div class="section programmes-main-div">
-        <h2 class="bloc-title"> {% trans from 'allemand' %} niv {% endtrans %} </h2>
 
-        <div class="inner-prog padding">
-            <div class="flex">
-
-                <div class="programme">
-                    <div class="diamant">
-                        <div class="diamant-shape">
-
-                        </div>
-                        <div class="diamant-content"> A1 </div>
-                    </div>
-                    <h4>{% trans from 'about' %}about.year1{% endtrans %}</h4>
-                    <h3 class="titre-prog">{% trans from 'about' %} about.discover1 {% endtrans %}</h3>
-                    {% trans from 'anglais' %} discover {% endtrans %}
-                </div>
-
-                <div class="programme">
-                    <div class="diamant">
-                        <div class="diamant-shape">
-
-                        </div>
-                        <div class="diamant-content"> A2 </div>
-                    </div>
-                    <h4> {% trans from 'about' %}about.year2{% endtrans %}  </h4>
-                    <h3 class="titre-prog">{% trans from 'about' %} about.learn1 {% endtrans %}  </h3>
-                    {% trans from 'anglais' %} learn {% endtrans %}
-                </div>
-
-                <div class="programme">
-                    <div class="diamant">
-                        <div class="diamant-shape">
-
-                        </div>
-                        <div class="diamant-content"> B1 </div>
-                    </div>
-                    <h4> {% trans from 'about' %}about.year3{% endtrans %} </h4>
-                    <h3 class="titre-prog">{% trans from 'about' %} about.improve1 {% endtrans %}</h3>
-                    {% trans from 'anglais' %} improve {% endtrans %}
-                </div>
-
-                <div class="programme">
-                    <div class="diamant">
-                        <div class="diamant-shape">
-
-                        </div>
-                        <div class="diamant-content"> B2 </div>
-                    </div>
-                    <h4>  {% trans from 'about' %}about.year4{% endtrans %} </h4>
-                    <h3 class="titre-prog">{% trans from 'about' %} about.master1 {% endtrans %}</h3>
-                    {% trans from 'anglais' %} master {% endtrans %}
-                </div>
-
-                <div class="programme">
-                    <div class="diamant">
-                        <div class="diamant-shape">
-
-                        </div>
-                        <div class="diamant-content"> C1 </div>
-                    </div>
-                    <h4>  {% trans from 'about' %}about.year5{% endtrans %} </h4>
-                    <h3 class="titre-prog">{% trans from 'about' %} about.expert1 {% endtrans %}</h3>
-                    {% trans from 'anglais' %} expert1 {% endtrans %}
-                </div>
-
-                <div class="programme">
-                    <div class="diamant">
-                        <div class="diamant-shape">
-
-                        </div>
-                        <div class="diamant-content"> C2 </div>
-                    </div>
-                    <h4>  {% trans from 'about' %}about.year6{% endtrans %} </h4>
-                    <h3 class="titre-prog">{% trans from 'about' %} about.expert1 {% endtrans %}</h3>
-                    {% trans from 'anglais' %} expert2 {% endtrans %}
-                </div>
-
-
-            </div>
-        </div>
-
-    </div>
-
-    <div class="separator"></div>
-
-
-    <div class="section programmes-main-div">
-        <h2 class="bloc-title">{% trans from 'about' %} about.news {% endtrans %}</h2>
-
-        <div class="inner padding">
-            <div class="flex">
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{% trans from 'ctihome' %} english {% endtrans %}</h4></div>
-
-                    <p style="text-align: left">{% trans from 'ctihome' %} englishNews {% endtrans %}</p>
-                </div>
-
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{% trans from 'ctihome' %} german {% endtrans %}</h4></div>
-                    <p style="text-align: left">{% trans from 'ctihome' %} allemandNews {% endtrans %}</p>
-                </div>
-
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{% trans from 'ctihome' %} computing {% endtrans %}</h4></div>
-                    <p style="text-align: left">{% trans from 'ctihome' %} infoNews {% endtrans %}</p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
 
 @endsection
