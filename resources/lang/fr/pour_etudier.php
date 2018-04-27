@@ -19,7 +19,7 @@ return [
     'text11'=> 'Goethe Zertifikat B1 : Aspekte B1, 2 mois + sessions pratiques',
     'text12'=> 'Goethe Zertifikat B2 : Aspekte B2, 2 mois + sessions pratiques',
     'text13'=> 'Goethe Zertifikat C1 : Aspekte C1, 2 mois + sessions pratiques',
-    'text14'=> 'NB: Seuls les niveaux A1, A2 et B1 sont requis pour obtenir un visa',
+    'text14'=> ' Seuls les niveaux A1, A2 et B1 sont requis pour obtenir un visa',
     'text15'=> 'La qualité de nos formation garantit votre succès aux examens de langue
                 Allemande organisés par le Goetthe Institut à Yaoundé; Goethe-zertifikat A1, A2, B1.',
     'text16'=> 'HORAIRES DE COURS',
