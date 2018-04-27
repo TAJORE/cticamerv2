@@ -2,78 +2,13 @@
 
 @section('content')
 
-
 <meta charset="utf-8">
 <meta name = "description" content = " {% trans from 'informatique' %} descriptionINFO {% endtrans %} " >
 <meta name = "keywords" content = "{% trans from 'informatique' %} keywordINFO {% endtrans %}" >
 <meta name="author" content="semanticatechnologies.com - Douala Bonamoussadi">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% block title %}
-{% trans from 'about' %} about.title {% endtrans %}
-{% endblock  %}
-
-{% block mycss %}
-
-
 <style>
-    .students-img {
-        border: 3px solid red;
-        background-color: #0000cc;
-        display:block;
-        width: 45%;
-        height: 100%;
-    }
-
-    .parallax {
-        /* The image used
-        background-image: url("img_parallax.jpg");*/
-        border: 2px solid red;
-        /* Set a specific height */
-        min-height: 500px;
-        width: 50%;
-        display:block;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: left;
-        background-repeat: no-repeat;
-        /*background-size: cover;*/
-        background-size: 50%  auto;
-    }
-
-    .manuels-img {
-        width: 18%;
-    }
-    .manuels-img {
-        width: 18%;
-    }
-    .horaire {
-        display: inline-block;
-        padding: 1%;
-        margin: 1%;
-        background: white;
-    }
-    .baniere{
-        width: 100%;
-        max-height: 400px;
-    }
-    .baniere-msg {
-        width: 55%;
-        float: right;
-        color: white;
-        font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-        font-size: 150%;
-        padding: 3%;
-    }
-
-    .sous-menu {
-        background-color: #f16e00;
-        color: white;
-        font-size: 200%;
-        text-align: center;
-    }
-
     table.table01 {
         width: 90%;
         color: #f16e00;
@@ -81,29 +16,10 @@
 
     }
 
-
     table.table01 td,th {
         padding: 2%;
         margin: 5px!important;
         border: 5px solid transparent!important;
-    }
-
-    .table02 {
-        width: 100%;
-        background-color: #f16e00;
-        color: white;
-        border-collapse: separate;
-    }
-
-    .table03 {
-        width: 100%;
-        background-color: #0000cc;
-        color: white;
-        border-collapse: separate;
-    }
-
-    .abc {
-        border: 5px solid transparent;
     }
 
     .accueil {
@@ -112,27 +28,16 @@
         font-size: 150%;
         padding: 3%;
     }
-
-    .utiles {
-        padding: 2%;
-        margin: 2%;
-    }
-
-    .liens-utiles {
-
-        background-color: #f16e00;
-        color: white;
-    }
-
 </style>
+
 
 <div class="main_allemand">
 
     <div class="message_and_image" style="background-image:url('{{ asset('data/img/about4.jpg') }}')">
-        <img  id="top_img" src="{{ asset('data/img/baniere2.png') }}" alt="">
+        <img  id="top_img" src="{{ URL::asset('img/baniere2.png') }}" alt="">
 
         <div class="message_on_image">
-            {% trans from 'informatique' %} text1 {% endtrans %} <BR>
+            {{ __('informatique.text1') }} <BR>
 
         </div>
 
@@ -140,7 +45,7 @@
     </div>
 
     <div class="row line">
-        <div>  {% trans from 'informatique' %} text2 {% endtrans %} </div>
+        <div>  {{ __('informatique.text2') }} </div>
 
     </div>
 
@@ -153,55 +58,55 @@
             <div class="accueil">
 
                 <div>
-                    {% trans from 'informatique' %} texte_01 {% endtrans %} <br>
+                    {{ __('informatique.texte_01') }} <br>
                     <ul>
-                        <li><a href="{{ ('main_LogicielsBureautique') }}">{% trans from 'informatique' %}module_01{% endtrans %}</a></li>
-                        <li><a href="{{ ('main_Design') }}">{% trans from 'informatique' %}module_02{% endtrans %}</a></li>
-                        <li><a href="{{ ('main_Internet') }}">{% trans from 'informatique' %}module_03{% endtrans %}</a></li>
-                        <li><a href="{{ ('main_AppliWeb') }}">{% trans from 'informatique' %}module_04{% endtrans %}</a> </li>
-                        <li><a href="{{ ('main_SecuriteInfo') }}">{% trans from 'informatique' %}module_05{% endtrans %}</a> </li>
+                        <li><a href="{{ ('main_LogicielsBureautique') }}">{{ __('informatique.module_01') }}</a></li>
+                        <li><a href="{{ ('main_Design') }}">{{ __('informatique.module_02') }}</a></li>
+                        <li><a href="{{ ('main_Internet') }}">{{ __('informatique.module_03') }}</a></li>
+                        <li><a href="{{ ('main_AppliWeb') }}">{{ __('informatique.module_04') }}</a> </li>
+                        <li><a href="{{ ('main_SecuriteInfo') }}">{{ __('informatique.module_05') }}</a> </li>
                     </ul>
                 </div>
 
-                <div>  {% trans from 'informatique' %}  {% endtrans %} </div>
+                <div>  {{ __('') }} </div>
 
 
             </div>
 
             <div class="row section admission">
-                <h2 class="bloc-title">  {% trans from 'informatique' %} coursDispo {% endtrans %} </h2>
+                <h2 class="bloc-title">  {{ __('informatique.coursDispo') }} </h2>
                 <div class="inner padding">
                     <div class="flex">
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">  {% trans from 'informatique' %} secrBuro {% endtrans %} </div>
+                            <div class="titre">  {{ __('informatique.secrBuro') }} </div>
 
                             <div class="content">
-                                {% trans from 'informatique' %} detail-1 {% endtrans %}
+                                {{ __('informatique.detail-1') }}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {{ __('informatique.bac4') }} </a>
                             <div class="triangle-bottom"></div>
                         </div>
 
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">  {% trans from 'informatique' %} Infograph {% endtrans %} </div>
+                            <div class="titre">  {{ __('informatique.Infograph') }} </div>
 
                             <div class="content">
-                                {% trans from 'informatique' %} detail-2 {% endtrans %}
+                                {{ __('informatique.detail-2') }}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {{ __('informatique.bac4') }} </a>
                             <div class="triangle-bottom"></div>
                         </div>
 
                         <div class="hexagon degrade admission-hexagon">
                             <div class="triangle-top"></div>
-                            <div class="titre">  {% trans from 'informatique' %} devAppli {% endtrans %} </div>
+                            <div class="titre">  {{ __('informatique.devAppli') }} </div>
 
                             <div class="content">
-                                {% trans from 'informatique' %} detail-3 {% endtrans %}
+                                {{ __('informatique.detail-3') }}
                             </div>
-                            <a class="myButton" href="javascript:;"> {% trans from 'informatique' %} bac4 {% endtrans %} </a>
+                            <a class="myButton" href="javascript:;"> {{ __('informatique.bac4') }} </a>
                             <div class="triangle-bottom"></div>
                         </div>
 
@@ -218,13 +123,13 @@
     </div>
 
     <div class="row line">
-        <div> {% trans from 'about' %} about.title1 {% endtrans %} : {% trans from 'about' %} about.block14 {% endtrans %} </div>
+        <div> {{ __('informatique.title1') }} : {{ __('informatique.block14') }} </div>
 
     </div>
 
 
     <div class="section admission parallax-container ">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('data/img/computerstudents2.jpg') }}" data-position="left top">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="{{ URL::asset('img/computerstudents2.jpg') }}" data-position="left top">
 
 
         </div>
@@ -232,9 +137,9 @@
         <div class="edito supinfo-slogan">
             <div class="triangle-left"></div>
             <div class="contenu">
-                <div class="supinfo-slogan-titre">CTI: {% trans from 'informatique' %} slogan1 {% endtrans %}</div>
-                <p class="home-slogan">{% trans from 'informatique' %} slogan2 {% endtrans %}</p>
-                <p><a href="">{% trans from 'informatique' %} slogan3 {% endtrans %}</a></p>
+                <div class="supinfo-slogan-titre">CTI: {{ __('informatique.slogan1') }}</div>
+                <p class="home-slogan">{{ __('informatique.slogan2') }}</p>
+                <p><a href="">{{ __('informatique.slogan3') }}</a></p>
 
             </div>
 
@@ -243,40 +148,7 @@
 
     <div class="separator"></div>
 
-
-    <div class="section programmes-main-div">
-        <h2 class="bloc-title">{% trans from 'about' %} about.news {% endtrans %}</h2>
-
-        <div class="inner padding">
-            <div class="flex">
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{% trans from 'ctihome' %} english {% endtrans %}</h4></div>
-
-                    <p style="text-align: left">{% trans from 'ctihome' %} englishNews {% endtrans %}</p>
-                </div>
-
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{% trans from 'ctihome' %} german {% endtrans %}</h4></div>
-                    <p style="text-align: left">{% trans from 'ctihome' %} allemandNews {% endtrans %}</p>
-                </div>
-
-                <div class="hexagon degrade admission-hexagon">
-                    <div class="news-title"><h4>{% trans from 'ctihome' %} computing {% endtrans %}</h4></div>
-                    <p style="text-align: left">{% trans from 'ctihome' %} infoNews {% endtrans %}</p>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
+    @include('actualites')
 
 </div>
 
