@@ -13867,7 +13867,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);
-module.exports = __webpack_require__(45);
+module.exports = __webpack_require__(47);
 
 
 /***/ }),
@@ -13884,7 +13884,9 @@ module.exports = __webpack_require__(45);
 __webpack_require__(13);
 __webpack_require__(36);
 __webpack_require__(37);
-window.Vue = __webpack_require__(38);
+__webpack_require__(38);
+__webpack_require__(39);
+window.Vue = __webpack_require__(40);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -13892,7 +13894,7 @@ window.Vue = __webpack_require__(38);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__(41));
+Vue.component('example-component', __webpack_require__(43));
 
 var app = new Vue({
   el: '#app'
@@ -36174,6 +36176,272 @@ $(document).ready(function () {
 
 /***/ }),
 /* 38 */
+/***/ (function(module, exports) {
+
+/**
+ * Created by tene on 28/01/2018.
+ */
+$(document).ready(function () {
+    console.log("jquery is running");
+
+    $("#sous-titre-anglais").slideDown();
+    $("#left-nav-al-cont").slideDown();
+    $("#sous-titre-lef-nav-an").click(function (e) {
+        if ($("#sous-titre-anglais").is(":visible")) {
+            $("#sous-titre-anglais").slideUp();
+        } else {
+            $("#sous-titre-anglais").slideDown();
+        }
+    });
+
+    $("#sous-titre-lef-nav-al").click(function (e) {
+        if ($("#left-nav-al-cont").is(":visible")) {
+            $("#left-nav-al-cont").slideUp();
+        } else {
+            $("#left-nav-al-cont").slideDown();
+        }
+    });
+
+    $("#sous-titre-lef-nav-it").click(function (e) {
+        $("#sous-titre-lef-nav-it").addClass("darkblue-border");
+        if ($("#left-nav-it-cont").is(":visible")) {
+            $("#left-nav-it-cont").slideUp();
+        } else {
+            $("#left-nav-it-cont").slideDown();
+        }
+    });
+
+    $("#sous-titre-lef-nav-es").click(function (e) {
+        if ($("#left-nav-es-cont").is(":visible")) {
+            $("#left-nav-es-cont").slideUp();
+        } else {
+            $("#left-nav-es-cont").slideDown();
+        }
+    });
+
+    $("#sous-titre-lef-nav-fr").click(function (e) {
+        if ($("#left-nav-fr-cont").is(":visible")) {
+            $("#left-nav-fr-cont").slideUp();
+        } else {
+            $("#left-nav-fr-cont").slideDown();
+        }
+    });
+
+    // for mobile
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // some code..
+        console.log("This is a mobile phone:++ 1");
+    }
+
+    $(".mlist").hide();
+
+    if (IsMobile()) {
+        $("#cti-mobile-nav").show();
+    }
+
+    if (IsMobile()) {
+        //Gestion du menu sur le mobile
+        $(".mlist").slideUp();
+        $(".ftitle").click(function () {
+            /*$(".fcontent").slideToggle();*/
+            var sibling = $(this).next('.fcontent');
+            $(".fcontent").each(function () {
+                var content = $(this);
+                if (!content.is(sibling)) {
+                    $(this).slideUp();
+                }
+            });
+            $(this).siblings(".fcontent").slideToggle();
+
+            //$(this).siblings().slideToggle();
+        });
+
+        $(".mobile-bars").click(function () {
+            $(".mlist").slideToggle();
+        });
+    }
+});
+
+function IsMobile() {
+    var Uagent = navigator.userAgent || navigator.vendor || window.opera;
+    return (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(Uagent) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(Uagent.substr(0, 4))
+    );
+};
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports) {
+
+(function () {
+    var questions = [{
+        question: "What is 2*5?",
+        choices: [2, 5, 10, 15, 20],
+        correctAnswer: 2
+    }, {
+        question: "What is 3*6?",
+        choices: [3, 6, 9, 12, 18],
+        correctAnswer: 4
+    }, {
+        question: "What is 8*9?",
+        choices: [72, 99, 108, 134, 156],
+        correctAnswer: 0
+    }, {
+        question: "What is 1*7?",
+        choices: [4, 5, 6, 7, 8],
+        correctAnswer: 3
+    }, {
+        question: "What is 8*8?",
+        choices: [20, 30, 40, 50, 64],
+        correctAnswer: 4
+    }];
+
+    var questionCounter = 0; //Tracks question number
+    var selections = []; //Array containing user choices
+    var quiz = $('#quiz'); //Quiz div object
+
+    // Display initial question
+    displayNext();
+
+    // Click handler for the 'next' button
+    $('#next').on('click', function (e) {
+        e.preventDefault();
+
+        // Suspend click listener during fade animation
+        if (quiz.is(':animated')) {
+            return false;
+        }
+        choose();
+
+        // If no user selection, progress is stopped
+        if (isNaN(selections[questionCounter])) {
+            alert('Please make a selection!');
+        } else {
+            questionCounter++;
+            displayNext();
+        }
+    });
+
+    // Click handler for the 'prev' button
+    $('#prev').on('click', function (e) {
+        e.preventDefault();
+
+        if (quiz.is(':animated')) {
+            return false;
+        }
+        choose();
+        questionCounter--;
+        displayNext();
+    });
+
+    // Click handler for the 'Start Over' button
+    $('#start').on('click', function (e) {
+        e.preventDefault();
+
+        if (quiz.is(':animated')) {
+            return false;
+        }
+        questionCounter = 0;
+        selections = [];
+        displayNext();
+        $('#start').hide();
+    });
+
+    // Animates buttons on hover
+    $('.button').on('mouseenter', function () {
+        $(this).addClass('active');
+    });
+    $('.button').on('mouseleave', function () {
+        $(this).removeClass('active');
+    });
+
+    // Creates and returns the div that contains the questions and
+    // the answer selections
+    function createQuestionElement(index) {
+        var qElement = $('<div>', {
+            id: 'question'
+        });
+
+        var header = $('<h2>Question ' + (index + 1) + ':</h2>');
+        qElement.append(header);
+
+        var question = $('<p>').append(questions[index].question);
+        qElement.append(question);
+
+        var radioButtons = createRadios(index);
+        qElement.append(radioButtons);
+
+        return qElement;
+    }
+
+    // Creates a list of the answer choices as radio inputs
+    function createRadios(index) {
+        var radioList = $('<ul>');
+        var item;
+        var input = '';
+        for (var i = 0; i < questions[index].choices.length; i++) {
+            item = $('<li>');
+            input = '<input type="radio" name="answer" value=' + i + ' />';
+            input += questions[index].choices[i];
+            item.append(input);
+            radioList.append(item);
+        }
+        return radioList;
+    }
+
+    // Reads the user selection and pushes the value to an array
+    function choose() {
+        selections[questionCounter] = +$('input[name="answer"]:checked').val();
+    }
+
+    // Displays next requested element
+    function displayNext() {
+        quiz.fadeOut(function () {
+            $('#question').remove();
+
+            if (questionCounter < questions.length) {
+                var nextQuestion = createQuestionElement(questionCounter);
+                quiz.append(nextQuestion).fadeIn();
+                if (!isNaN(selections[questionCounter])) {
+                    $('input[value=' + selections[questionCounter] + ']').prop('checked', true);
+                }
+
+                // Controls display of 'prev' button
+                if (questionCounter === 1) {
+                    $('#prev').show();
+                } else if (questionCounter === 0) {
+
+                    $('#prev').hide();
+                    $('#next').show();
+                }
+            } else {
+                var scoreElem = displayScore();
+                quiz.append(scoreElem).fadeIn();
+                $('#next').hide();
+                $('#prev').hide();
+                $('#start').show();
+            }
+        });
+    }
+
+    // Computes score and returns a paragraph element to be displayed
+    function displayScore() {
+        var score = $('<p>', { id: 'question' });
+
+        var numCorrect = 0;
+        for (var i = 0; i < selections.length; i++) {
+            if (selections[i] === questions[i].correctAnswer) {
+                numCorrect++;
+            }
+        }
+
+        score.append('You got ' + numCorrect + ' questions out of ' + questions.length + ' right!!!');
+        return score;
+    }
+})();
+
+/***/ }),
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47136,10 +47404,10 @@ Vue.compile = compileToFunctions;
 
 module.exports = Vue;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(39).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(41).setImmediate))
 
 /***/ }),
-/* 39 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -47195,7 +47463,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(40);
+__webpack_require__(42);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -47209,7 +47477,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 40 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -47402,15 +47670,15 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(6)))
 
 /***/ }),
-/* 41 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(42)
+var normalizeComponent = __webpack_require__(44)
 /* script */
-var __vue_script__ = __webpack_require__(43)
+var __vue_script__ = __webpack_require__(45)
 /* template */
-var __vue_template__ = __webpack_require__(44)
+var __vue_template__ = __webpack_require__(46)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47427,7 +47695,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\ExampleComponent.vue"
+Component.options.__file = "resources/assets/js/components/ExampleComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -47436,9 +47704,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ca92eac", Component.options)
+    hotAPI.createRecord("data-v-7168fb6a", Component.options)
   } else {
-    hotAPI.reload("data-v-0ca92eac", Component.options)
+    hotAPI.reload("data-v-7168fb6a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -47449,7 +47717,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 42 */
+/* 44 */
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -47558,7 +47826,7 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47587,7 +47855,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47625,12 +47893,12 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0ca92eac", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-7168fb6a", module.exports)
   }
 }
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

@@ -6,4 +6,7 @@ return [
     'fre' => 'French',
     'ls' => 'Site language',
 
+    'login' => 'Login',
+    'register' => 'Register',
+
 ];

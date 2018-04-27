@@ -8,6 +8,7 @@
 require('./bootstrap');
 require('./nous-contacter');
 require('./scroll-top');
+require('./left-nav');
 window.Vue = require('vue');
 
 /**

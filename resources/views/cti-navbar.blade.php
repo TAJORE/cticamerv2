@@ -2,7 +2,7 @@
     <div class="ctic-nav" >
         <div class="nav-and-logo">
             <div class="logo">
-                <a href="{{ ('main_homepage') }}">  <img  src="{{ URL::asset('img/logo3.jpg') }}"> </a>
+                <a href="/">  <img  src="{{ URL::asset('img/logo3.jpg') }}"> </a>
             </div>
 
             <div class="nav_bar">
@@ -10,7 +10,7 @@
                 <div class="nav-items">
                     <ul>
                         <li>
-                            <a href="{{ ('main_homepage') }}" class="dropbtn">
+                            <a href="/" class="dropbtn">
                                 CTI-CM
                             </a>
 
@@ -22,10 +22,10 @@
 
                             <div class="dropdown-content">
                                 <a href="/anglais/cours-intensifs"> {{ __('ctinav.CI') }} </a>
-                                <a href="{{ ('main_FormationContinue') }}"> {{ __('ctinav.FC') }} </a>
-                                <a href="{{  ('main_PourEntreprises') }}"> {{ __('ctinav.PE') }} </a>
-                                <a href="{{  ('main_CoursDeVacances') }}"> {{ __('ctinav.CV') }} </a>
-                                <a href="{{  ('main_CoursParticulier') }}"> {{ __('ctinav.CP') }} </a>
+                                <a href="/anglais/formation-continue"> {{ __('ctinav.FC') }} </a>
+                                <a href="/anglais/pour-entreprise"> {{ __('ctinav.PE') }} </a>
+                                <a href="/anglais/cours-de-vacances"> {{ __('ctinav.CV') }} </a>
+                                <a href="/anglais/cours-particuliers"> {{ __('ctinav.CP') }} </a>
                             </div>
 
                         </li>

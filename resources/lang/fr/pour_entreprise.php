@@ -1,0 +1,38 @@
+<?php
+
+return [
+
+    #Bloc META TAGS
+    'descriptionENTREP' => 'Des cours d\'Anglais adaptés aux besoins des Entreprises. L\'équipe du CTI se mets à votre
+                            disposition pour former vos employés en tenant compte de vos besoins et de votre domaine
+                            d\'activité. Nous sommes situé à Bonamoussadi en face l\'entrée Impôts',
+    'keywordENTREP' => 'anglais, entreprise, business, affaires, Douala, Bonamoussadi, Cameroun',
+    'title' => 'CTI, Cours d\'Anglais pour Entreprises au Churchill Training Institute',
+    'entrpANGL' => 'Pour les Entreprises',
+
+    #Messages de la banière
+    'prEntrp' => 'Des formules conçues pour vos entreprises',
+    'object2' => 'Avec Nos formations ciblées et orientées offrez à votre entreprise tout le bilinguisme dont elle a besoins pour
+                            sa croissance.',
+    'serviceENTREP' => 'Apprendre l\'Anglais dans un contexte professionnel est un sujet très délicat. Au CTI, nous vous
+                        propososons des formations orientées suivant différents domaines d activité.',
+
+    # Block FORMULES ADAPTES
+    'formulADAPT' => 'Des Formules adaptées à vos besoins',
+    'text01' => 'Nos formules pour entreprise prennent en compte votre secteur d\'activité et votre disponibilité.',
+
+    # Block PROGRAMME SUR MESURE
+    'progMESUR' => 'Programmes sur mesure',
+    'text02' => 'Vous beneficierez d un programme taillé sur mesure, répondant aux besoins à cours et à moyen terme de votre entreprise.',
+
+    # Block APPROCHE COACHING
+    'apprCOACH' => 'Approche Coaching',
+    'apprTraining' => 'Approche de la formation',
+    'apprTrainingText' => 'Au CTI, nos formateurs adoptent une approche communicative et participative pour les formations en langues.
+                          Cela permet aux apprenants d’améliorer considérablement leur niveau d’Anglais dans des délais très courts.',
+
+    # Block LIEU DES COURS
+    'lieuxDsCours' => 'Lieux des Cours',
+    'text03' => 'Vous pouvez bénéficier d\'une formation au sein de votre entreprise.',
+];
+
