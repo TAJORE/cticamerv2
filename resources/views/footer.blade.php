@@ -29,10 +29,10 @@
             <div class="list-content">
                 <div class="ftitle"><h2> {{ __('footer.langALL') }} </h2></div>
                 <p class="fcontent">
-                    <span><a class="liens_footer" href="main_allemand"> {% trans from 'ctifooter' %} coursAllemand {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_etudierEnAllemagne') }}"> {% trans from 'ctifooter' %} enseignerAllemand {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_regroupementFamilial"> {% trans from 'ctifooter' %} regroupement_familial {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_CoursParticuliersdAll"> {% trans from 'ctifooter' %} cours_particuliers {% endtrans %} </a></span><br>
+                    <span><a class="liens_footer" href="/allemand"> Cours d'Allemand </a></span><br>
+                    <span><a class="liens_footer" href="/allemand/pour_etudier"> Cours Pour Etudes en Allemagne </a></span><br>
+                    <span><a class="liens_footer" href="/allemand/regroupement_familial"> Pour Regroupement familial </a></span><br>
+                    <span><a class="liens_footer" href="/allemand/cours_particuliers_dallemand"> Private German courses. </a></span><br>
                 </p>
             </div>
         </li>
