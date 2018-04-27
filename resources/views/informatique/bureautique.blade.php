@@ -16,9 +16,7 @@
 
         <div class="left-nav">
 
-            {% block left_nav %}
-            {% include 'MainBundle:Inc:left_nav.html.twig' %}
-            {% endblock %}
+            @include('Inc.left-nav')
         </div>
 
         <div class="main-contain-middle">
@@ -26,7 +24,7 @@
             <div class="baniereb">
 
                 <div class="img-et-msg-baniere">
-                    <img class="baniere-img box-baniereb"     src="{{ URL::asset('img/secretaire.jpg') }}"  alt="">
+                    <img class="baniere-img box-baniereb" src="{{ URL::asset('img/secretaire.jpg') }}"  alt="">
                     <div class="messages-baniere">
                         <div class="vertical">
                             <div class="baniere-msgb ">
@@ -58,13 +56,13 @@
             <div class="cat-containerb">
                 <div class="">
                     <div class="category-title">
-                        <h3>{% trans from 'ctihome' %} prochaineRentree {% endtrans %}:
-                            {% trans from 'ctihome' %} debutDesCours {% endtrans %}
+                        <h3>{{ __('actualites.prochaineRentree') }}:
+                            {{ __('actualites.debutDesCours') }}
                         </h3>
                     </div>
                     <div class="datecours">
                         <div class="annonce-inscription">
-                            {% trans from 'ctihome' %} placesDISPO {% endtrans %}
+                            {{ __('actualites.placesDISPO') }}
                         </div>
                     </div>
                 </div>
@@ -74,7 +72,7 @@
             <div class="cat-container">
                 <div class="categorie">
                     <div class="category-title">
-                        <h3><a href="#"> {% trans from 'bureautique' %} SecreBUREAU {% endtrans %} </a></h3>
+                        <h3><a href="#"> {{ __('bureautique.SecreBUREAU') }} </a></h3>
                     </div>
                     <div class="importante"> {{ __('bureautique.Freq_01') }} </div>
 
@@ -89,26 +87,26 @@
                     <div class="category-desktop-contain">
                         <table class="table01">
                             <tr>
-                                <th> {% trans from 'bureautique' %} Element_01 {% endtrans %}  </th>
+                                <th> {{ __('bureautique.Element_01') }}  </th>
                                 <td>
                                     <ul>
                                         <li>{{ __('bureautique.module_01') }} </li>
-                                        <li>{% trans from 'bureautique' %} module_02 {% endtrans %}</li>
-                                        <li>{% trans from 'bureautique' %} module_03 {% endtrans %}</li>
-                                        <li>{% trans from 'bureautique' %} module_04 {% endtrans %}</li>
-                                        <li>{% trans from 'bureautique' %} module_05 {% endtrans %}</li>
-                                        <li>{% trans from 'bureautique' %} module_06 {% endtrans %}</li>
+                                        <li>{{ __('bureautique.module_02') }}</li>
+                                        <li>{{ __('bureautique.module_03') }}</li>
+                                        <li>{{ __('bureautique.module_04') }}</li>
+                                        <li>{{ __('bureautique.module_05') }}</li>
+                                        <li>{{ __('bureautique.module_06') }}</li>
                                     </ul>
                                 </td>
                             </tr>
 
                             <tr>
-                                <th> {% trans from 'bureautique' %} Element_02 {% endtrans %}  </th>
-                                <td> {% trans from 'bureautique' %} Duree_01 {% endtrans %} </td>
+                                <th> {{ __('bureautique.Element_02') }}  </th>
+                                <td> {{ __('bureautique.Duree_01') }} </td>
                             </tr>
                             <tr>
-                                <th> {% trans from 'bureautique' %} Element_03 {% endtrans %}  </th>
-                                <td> {% trans from 'bureautique' %} Freq_01 {% endtrans %} </td>
+                                <th> {{ __('bureautique.Element_03') }}  </th>
+                                <td> {{ __('bureautique.Freq_01') }} </td>
                             </tr>
 
                         </table>
@@ -119,10 +117,10 @@
                     <div class="category-title">
                         <h3><a href="#"> {{ __('bureautique.LogicielBUREAU') }}  </a></h3>
                     </div>
-                    <div class="importante"> {% trans from 'bureautique' %} Frequ_02 {% endtrans %} </div>
+                    <div class="importante"> {{ __('bureautique.Frequ_02') }} </div>
 
                     <div class="datecours">
-                        {% trans from 'bureautique' %} detail_02 {% endtrans %}
+                        {{ __('bureautique.detail_02') }}
                     </div>
 
                     <div class="annonce-inscription but">
@@ -132,23 +130,23 @@
                     <div class="category-desktop-contain">
                         <table class="table01">
                             <tr>
-                                <th> {% trans from 'bureautique' %} Element_11 {% endtrans %}  </th>
+                                <th> {{ __('bureautique.Element_11') }}  </th>
                                 <td>
                                     <ul>
-                                        <li>{% trans from 'bureautique' %} module_11 {% endtrans %}</li>
-                                        <li>{% trans from 'bureautique' %} module_12 {% endtrans %}</li>
-                                        <li>{% trans from 'bureautique' %} module_13 {% endtrans %}</li>
+                                        <li>{{ __('bureautique.module_11') }}</li>
+                                        <li>{{ __('bureautique.module_12') }}</li>
+                                        <li>{{ __('bureautique.module_13') }}</li>
                                     </ul>
                                 </td>
                             </tr>
 
                             <tr>
-                                <th> {% trans from 'bureautique' %} Element_12 {% endtrans %}  </th>
-                                <td> {% trans from 'bureautique' %} Duree_11 {% endtrans %} </td>
+                                <th> {{ __('bureautique.Element_12') }}  </th>
+                                <td> {{ __('bureautique.Duree_11') }} </td>
                             </tr>
                             <tr>
-                                <th> {% trans from 'bureautique' %} Element_13 {% endtrans %}  </th>
-                                <td> {% trans from 'bureautique' %} Frequ_02 {% endtrans %} </td>
+                                <th> {{ __('bureautique.Element_13') }}  </th>
+                                <td> {{ __('bureautique.Frequ_02') }} </td>
                             </tr>
 
                         </table>                        </div>
@@ -158,28 +156,28 @@
 
                 <div class="categorie">
                     <div class="category-title">
-                        <h3> {% trans from 'cours-intensifs' %} HORAIRES {% endtrans %} </h3>
+                        <h3> {{ __('cours-intensifs.HORAIRES') }} </h3>
                     </div>
 
-                    {% trans from 'cours-intensifs' %} messagHORAIRE {% endtrans %}
+                    {{ __('cours-intensifs.messagHORAIRE') }}
 
                     <div class="">
                         <div class=" horaire ">
-                            <div class="news-title"><h4>{% trans from 'cours-intensifs' %} periode1 {% endtrans %}</h4></div>
+                            <div class="news-title"><h4>{{ __('cours-intensifs.periode1') }}</h4></div>
 
-                            <div class="news-title"><p>{% trans from 'cours-intensifs' %} heures1 {% endtrans %} </p></div>
+                            <div class="news-title"><p>{{ __('cours-intensifs.heures1') }} </p></div>
                         </div>
 
                         <div class=" horaire ">
-                            <div class="news-title"><h4>{% trans from 'cours-intensifs' %} periode2 {% endtrans %}</h4></div>
+                            <div class="news-title"><h4>{{ __('cours-intensifs.periode2') }}</h4></div>
 
-                            <div class="news-title"><p>{% trans from 'cours-intensifs' %} heures2 {% endtrans %}</p></div>
+                            <div class="news-title"><p>{{ __('cours-intensifs.heures2') }}</p></div>
                         </div>
 
                         <div class="horaire">
-                            <div class="news-title"><h4>{% trans from 'cours-intensifs' %} periode3 {% endtrans %}</h4></div>
+                            <div class="news-title"><h4>{{ __('cours-intensifs.periode3') }}</h4></div>
 
-                            <div class="news-title"><p>{% trans from 'cours-intensifs' %} heures3 {% endtrans %}</p></div>
+                            <div class="news-title"><p>{{ __('cours-intensifs.heures3') }}</p></div>
                         </div>
 
                     </div>
@@ -188,9 +186,9 @@
                 </div>
                 <div class="categorie">
                     <div class="category-title">
-                        <h3><a href="{{ ('main_CoursParticulier') }}">{% trans from 'formation-continu' %} crsParti {% endtrans %}</a></h3>
+                        <h3><a href="{{ ('main_CoursParticulier') }}">{{ __('formation_continue.crsParti') }}</a></h3>
                     </div>
-                    {% trans from 'formation-continu' %} presentationCoursParti {% endtrans %}
+                    {{ __('formation_continue.presentationCoursParti') }}
                 </div>
             </div>
 
@@ -199,13 +197,7 @@
         </div>
     </div>
 
-    <div class="section programmes-main-div ">
-        {% block ACTUALITE %}
-        {% include 'MainBundle:Inc:actualites.html.twig' %}
-        {% endblock %}
-
-    </div>
-
+@include('Inc.actualites')
 </div>
 
 @endsection

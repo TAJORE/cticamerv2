@@ -148,7 +148,7 @@
 
     <div class="separator"></div>
 
-    @include('actualites')
+    @include('Inc.actualites')
 
 </div>
 

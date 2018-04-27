@@ -223,7 +223,7 @@
             </div>
         </div>
 
-        @include('actualites')
+        @include('Inc.actualites')
 
     </div>
 
