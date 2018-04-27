@@ -17,7 +17,7 @@
 
             <div class="left-nav">
 
-                @include('left-nav')
+                @include('Inc.left-nav')
 
             </div>
 
