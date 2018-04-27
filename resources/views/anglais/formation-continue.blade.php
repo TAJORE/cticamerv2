@@ -212,7 +212,7 @@
         </div>
 
 
-        @include('actualites')
+        @include('Inc.actualites')
     </div>
 
 @endsection

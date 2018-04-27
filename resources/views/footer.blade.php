@@ -17,11 +17,12 @@
             <div class="list-content">
                 <div class="ftitle"><h2> {{ __('footer.langAngl') }} </h2></div>
                 <p class="fcontent">
-                    <span><a class="liens_footer" href="/main_anglais"> {{ __('footer.coursAngl') }} </a></span><br>                    <span><a class="liens_footer" href="main_CoursIntensifs'"> {% trans from 'ctifooter' %} enseignerANGLAIS {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_FormationContinue"> {% trans from 'ctifooter' %} examANGLAIS {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_PourEntreprises"> {% trans from 'ctifooter' %} inscrLIGNE {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_CoursDeVacances"> {% trans from 'ctifooter' %} coursvacances {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_CoursParticulier"> {% trans from 'ctifooter' %} pourquoiANGLAIS {% endtrans %} </a></span><br>
+                    <span><a class="liens_footer" href="/anglais"> {{ __('footer.coursAngl') }} </a></span><br>
+                    <span><a class="liens_footer" href="/anglais/cours-intensifs"> {{ __('footer.enseignerANGLAIS') }} </a></span><br>
+                    <span><a class="liens_footer" href="/anglais/formation-continue"> {{ __('footer.examANGLAIS') }} </a></span><br>
+                    <span><a class="liens_footer" href="/anglais/pour-entreprise"> {{ __('footer.inscrLIGNE') }} </a></span><br>
+                    <span><a class="liens_footer" href="/anglais/cours-de-vacances"> {{ __('footer.coursvacances') }} </a></span><br>
+                    <span><a class="liens_footer" href="/anglais/cours-particuliers"> {{ __('footer.pourquoiANGLAIS') }} </a></span><br>
                 </p>
             </div>
         </li>
@@ -29,10 +30,10 @@
             <div class="list-content">
                 <div class="ftitle"><h2> {{ __('footer.langALL') }} </h2></div>
                 <p class="fcontent">
-                    <span><a class="liens_footer" href="/allemand"> Cours d'Allemand </a></span><br>
-                    <span><a class="liens_footer" href="/allemand/pour_etudier"> Cours Pour Etudes en Allemagne </a></span><br>
-                    <span><a class="liens_footer" href="/allemand/regroupement_familial"> Pour Regroupement familial </a></span><br>
-                    <span><a class="liens_footer" href="/allemand/cours_particuliers_dallemand"> Private German courses. </a></span><br>
+                    <span><a class="liens_footer" href="/allemand"> {{ __('footer.langALL') }} </a></span><br>
+                    <span><a class="liens_footer" href="/allemand/pour_etudier">{{ __('footer.enseignerAllemand') }}  </a></span><br>
+                    <span><a class="liens_footer" href="/allemand/regroupement_familial"> {{ __('footer.regroupement_familial') }} </a></span><br>
+                    <span><a class="liens_footer" href="/allemand/cours_particuliers_dallemand">{{ __('footer.cours_particuliers') }}  </a></span><br>
                 </p>
             </div>
         </li>
@@ -42,12 +43,12 @@
                 <div class="ftitle"><h2> {{ __('footer.informatique') }} </h2></div>
                 <p class="fcontent">
 
-                    <span><a class="liens_footer" href="main_LogicielsBureautique"> {% trans from 'ctifooter' %} bureautique {% endtrans %}  </a></span><br>
-                    <span><a class="liens_footer" href="main_Design> {% trans from 'ctifooter' %} design {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_Internet"> {% trans from 'ctifooter' %} internet {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_SecuriteInfo"> {% trans from 'ctifooter' %} secuINFO {% endtrans %} </a></span><br>
-                    <span><a class="liens_footer" href="main_AppliWeb"> {% trans from 'ctifooter' %} appWEB {% endtrans %}  </a></span><br>
-                    <span><a class="liens_footer" href="main_missionEtObjectifs"> {% trans from 'ctifooter' %} pourquoiCTI {% endtrans %} </a></span><br>
+                    <span><a class="liens_footer" href="/informatique/bureautique"> {{ __('footer.bureautique') }}  </a></span><br>
+                    <span><a class="liens_footer" href="main_Design"> {{ __('footer.design') }} </a></span><br>
+                    <span><a class="liens_footer" href="main_Internet"> {{ __('footer.internet') }} </a></span><br>
+                    <span><a class="liens_footer" href="main_SecuriteInfo"> {{ __('footer.secuINFO') }} </a></span><br>
+                    <span><a class="liens_footer" href="main_AppliWeb"> {{ __('footer.appWEB') }}  </a></span><br>
+                    <span><a class="liens_footer" href="main_missionEtObjectifs"> {{ __('footer.pourquoiCTI') }} </a></span><br>
                 </p>
 
             </div>
@@ -57,8 +58,8 @@
             <div class="list-content">
                 <div class="ftitle"><h2> {{ __('footer.ctiQUI') }} </h2></div>
                 <p class="fcontent">
-                    <span><a href="main_missionEtObjectifs"> {% trans from 'ctifooter' %} mission {% endtrans %} </a></span><br>
-                    <span><a href="main_contactEtHoraires"> {% trans from 'ctifooter' %} contactEtHORAIRES {% endtrans %} </a></span><br>
+                    <span><a href="main_missionEtObjectifs"> {{ __('footer.mission') }} </a></span><br>
+                    <span><a href="main_contactEtHoraires"> {{ __('footer.contactEtHORAIRES') }} </a></span><br>
 
                 </p>
 
@@ -66,11 +67,11 @@
         </li>
     </ul>
     <div class="copyright-div">
-        <span class="copy copyright-div-item">© 2018 CTI. {% trans from 'ctifooter' %} DB {% endtrans %} <a href="http://www.semanticatechnologies.com/">STC</a></span>
+        <span class="copy copyright-div-item">© 2018 CTI. {{ __('footer.DB') }} <a href="http://www.semanticatechnologies.com/">STC</a></span>
         <div class="footer-botom-items">
             <span class="link-footer-botom-constrction">
-                 {% trans from 'ctifooter' %} construction1 {% endtrans %}
-                <a  class="link-footer-botom-constrctions" href="http://semanticatechnologies.com/en/"> {% trans from 'ctifooter' %} construction2 {% endtrans %} </a>
+                 {{ __('footer.construction1') }}
+                <a  class="link-footer-botom-constrctions" href="http://semanticatechnologies.com/en/"> {{ __('footer.construction2') }} </a>
             </span>
         </div>
     </div>

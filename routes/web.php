@@ -59,7 +59,7 @@ Route::group(['prefix' => 'informatique'], function() {
 
 
     Route::get('/', function () {
-        return view('informatique');
+        return view('informatique/informatique');
     });
 
     Route::get('/bureautique', function () {

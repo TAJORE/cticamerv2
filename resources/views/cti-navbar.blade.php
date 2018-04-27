@@ -61,7 +61,7 @@
                         </li>
 
                         <li class="ctidropdown">
-                            <a href="{{  ('main_CoursDeVacances') }}"> {{ __('ctinav.CV_T') }} </a>
+                            <a href="/anglais/cours-de-vacances"> {{ __('ctinav.CV_T') }} </a>
 
                         </li>
 

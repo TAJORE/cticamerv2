@@ -26,29 +26,29 @@ We are located in Bonamoussadi, Douala, Cameroon, opposite the entrance Taxes.',
     'detail_01'=> '( Executive Assistant )',
     'messag_01'=> 'This formula offers a complete training in computer science and the notions of secretarial and arrangement,
            giving you the qualification of executive secretary. The content is focused on mastering software and good practices.',
-'Element_01: Training modules
-module_01: Introduction to computer science
-module_02: MS Word, MS Excel
-module_03: Microsoft Powerpoint
-module_04: Internet
-module_05: English
-module_06: Secretarial and Arrangement
-Element_02: Training duration
-Duree_01: 6 months
-Element_03: Frequency
+'Element_01' => 'Training modules',
+'module_01' => 'Introduction to computer science',
+'module_02' => 'MS Word, MS Excel',
+'module_03' => 'Microsoft Powerpoint',
+'module_04' => 'Internet',
+'module_05' => 'English',
+'module_06' => 'Secretarial and Arrangement',
+'Element_02' => 'Training duration',
+'Duree_01' => '6 months',
+'Element_03' => 'Frequency',
 
 
-LogicielBUREAU: OFFICE SOFTWARE
-Frequ_02: 3 TIMES A WEEK
-detail_02: (Mastery of Office Software)
-messag_02: This formula is for people wishing to acquire knowledge about office software. At the end of this training,
-           you will have the perfect mastery of useful secretarial software.
-Element_11: Training modules
-module_11: Introduction to computer science
-module_12: MS Word, MS Excel
-module_13: Microsoft Powerpoint
-Element_12: Training duration
-Duree_11: 6 months
-Element_13: Frequency'
+'LogicielBUREAU' => 'OFFICE SOFTWARE',
+'Frequ_02' => '3 TIMES A WEEK',
+'detail_02' => '(Mastery of Office Software)',
+'messag_02' => 'This formula is for people wishing to acquire knowledge about office software. At the end of this training,
+           you will have the perfect mastery of useful secretarial software.',
+'Element_11' => 'Training modules',
+'module_11' => 'Introduction to computer science',
+'module_12' => 'MS Word, MS Excel',
+'module_13' => 'Microsoft Powerpoint',
+'Element_12' => 'Training duration',
+'Duree_11' => '6 months',
+'Element_13' => 'Frequency',
 
 ];
