@@ -27,7 +27,7 @@ return [
     'text11'=> 'Goethe Zertifikat B1 : Aspekte B1, 2 months + practical sessions',
     'text12'=> 'Goethe Zertifikat B2 : Aspekte B2, 2 months + practical sessions',
     'text13'=> 'Goethe Zertifikat C1 : Aspekte C1, 2 months + practical sessions',
-    'text14'=> 'NB: Only levels A1, A2 and B1 are required to obtain a visa',
+    'text14'=> ' Only levels A1, A2 and B1 are required to obtain a visa',
     'text15'=> 'The quality of our training guarantees your success in the German language
                 exams organized by the Goetthe Institute in Yaoundé; Goethe-zertifikat A1, A2, B1.',
     'text16'=> 'COURSE SCHEDULES ',
