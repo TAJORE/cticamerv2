@@ -97,6 +97,10 @@ Route::group(['prefix' => 'anglais'], function() {
         return view('anglais/cours-de-vacances');
     });
 
+    Route::get('/test', function () {
+        return view('anglais/quiz-anglais');
+    });
+
 
 
 });
