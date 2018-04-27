@@ -518,7 +518,7 @@
 
                     <div class="section programmes-main-div ">
 
-                        @include('Inc/actualite')
+                        @include('Inc/actualites')
 
                     </div>
 
