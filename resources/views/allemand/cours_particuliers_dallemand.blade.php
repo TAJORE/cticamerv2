@@ -203,6 +203,29 @@
 
                     </div>
                 </div>
+                <div class="cat-container">
+                    <div class="">
+                        <div class="nos-rentrees">
+                            {{ __('actualites.choixRENTREE') }}
+                        </div>
+                        <table class="table02">
+                            <tr>
+                                <td class="abc"> {{ __('actualites.rentree1') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree2') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree3') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree4') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree5') }}  </td>
+                                <td class="abc"> {{ __('actualites.rentree6') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree7') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree8') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree9') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree10') }} </td>
+                                <td class="abc"> {{ __('actualites.rentree11') }}  </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
                 <div class="separator"></div>
 
             </div>
