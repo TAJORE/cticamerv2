@@ -37,8 +37,8 @@
         <div class="left-nav-links">
             <a href="/informatique/bureautique"> {{ __('ctinav.logiBur') }}  </a>
             <a href="/informatique/infographie-design-media"> {{ __('ctinav.art') }} </a>
-            <a href="{{  ('main_Internet') }}"> {{ __('ctinav.internet') }} </a>
-            <a href="{{  ('main_AppliWeb') }}"> {{ __('ctinav.appWeb') }} </a>
+            <a href="/informatique/utilisation-d-internet"> {{ __('ctinav.internet') }} </a>
+            <a href="/informatique/developpement-web"> {{ __('ctinav.appWeb') }} </a>
             <a href="{{  ('main_SecuriteInfo') }}"> {{ __('ctinav.secuInfo') }} </a>
             <a href="{{  ('main_CoursParticuliersdInfo') }}"> {{ __('ctinav.coursPartiInfo') }} </a>
 
