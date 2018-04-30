@@ -47,7 +47,7 @@
                     <span><a class="liens_footer" href="/informatique/infographie-design-media"> {{ __('footer.design') }} </a></span><br>
                     <span><a class="liens_footer" href="/informatique/utilisation-d-internet"> {{ __('footer.internet') }} </a></span><br>
                     <span><a class="liens_footer" href="main_SecuriteInfo"> {{ __('footer.secuINFO') }} </a></span><br>
-                    <span><a class="liens_footer" href="main_AppliWeb"> {{ __('footer.appWEB') }}  </a></span><br>
+                    <span><a class="liens_footer" href="/informatique/developpement-web"> {{ __('footer.appWEB') }}  </a></span><br>
                     <span><a class="liens_footer" href="main_missionEtObjectifs"> {{ __('footer.pourquoiCTI') }} </a></span><br>
                 </p>
 
