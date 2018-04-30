@@ -59,10 +59,10 @@
         }
     </style>
 
-    <div id="main_regroupement_familial">
+        <div id="main_sousRubriqAngl">
 
         <div class="sous-menu">
-            {{ __('regroupement_familial.title2') }}
+            {{ __('pour_etudier.title2') }}
 
         </div>
 
@@ -71,9 +71,7 @@
 
             <div class="left-nav">
 
-                {% block left_nav %}
-                {% include 'MainBundle:Inc:left_nav.html.twig' %}
-                {% endblock %}
+                @include('Inc.left-nav')
 
             </div>
 
@@ -82,33 +80,33 @@
                 <div class="baniereb">
 
                     <div class="img-et-msg-baniere">
-                        <img class="baniere-img " src="{{ URL::asset('img/regroupement-famille.gif') }}" alt="">
+                        <img class="baniere-img " src="{{ URL::asset('img/students1.jpg') }}" alt="">
                         <div class="messages-baniere">
                             <div class="vertical">
                                 <div class="">
-                                    <h2>{{ __('regroupement_familial.title1') }}</h2>
+                                    <h2>{{ __('pour_etudier.title1') }}</h2>
                                 </div>
                                 <div class="baniere-msg-2">
-                                    {{ __('regroupement_familial.text1') }}
+                                    {{ __('pour_etudier.text1') }}
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="lineb">
-                        {{ __('regroupement_familial.text2') }}
+                        {{ __('pour_etudier.text2') }}
                     </div>
                 </div>
                 <div class="cat-containerb">
                     <div class="">
                         <div class="category-title">
                             <h4>
-                                {{ __('regroupement_familial.rentree') }}
+                                {{ __('pour_etudier.rentree') }}
 
                             </h4>
                         </div>
                         <div class="datecours">
                             <div class="annonce-inscription">
-                                {{ __('regroupement_familial.text3') }}
+                                {{ __('pour_etudier.text3') }}
                             </div>
                         </div>
                     </div>
@@ -118,11 +116,11 @@
                 <div class="cat-container">
                     <div class="categorie">
                         <div class="category-title">
-                            <h3> {{ __('regroupement_familial.text4') }}
+                            <h3> {{ __('pour_etudier.text4') }}
                             </h3>
                         </div>
                         <div class="datecours">
-
+                            {{ __('pour_etudier.text5') }}
                         </div>
                         <div class="annonce-inscription">
 
@@ -130,23 +128,23 @@
                         <div class="category-desktop-contain">
 
                         </div>
-                        {{ __('regroupement_familial.text5') }}
+                        <div style="text-align: justify">{{ __('pour_etudier.text6') }}</div>
                     </div>
                     <div class="categorie">
                         <div class="category-title">
-                            <h3> {{ __('regroupement_familial.text7') }}</h3>
+                            <h3> {{ __('pour_etudier.text7') }}</h3>
                         </div>
                         {{ __('pour_etudier.text8') }}<br>
                         <div class="category-desktop-contain">
                             <ul>
-                                <li>{{ __('regroupement_familial.text9') }}</li>
-                                <li>{{ __('regroupement_familial.text10') }}</li>
-                                <li>{{ __('regroupement_familial.text11') }}</li>
-                                <li>{{ __('regroupement_familial.text12') }}</li>
-                                <li>{{ __('regroupement_familial.text13') }}</li>
+                                <li>{{ __('pour_etudier.text9') }}</li>
+                                <li>{{ __('pour_etudier.text10') }}</li>
+                                <li>{{ __('pour_etudier.text11') }}</li>
+                                <li>{{ __('pour_etudier.text12') }}</li>
+                                <li>{{ __('pour_etudier.text13') }}</li>
                             </ul>
-                             {{ __('regroupement_familial.text14') }}
-                            {{ __('regroupement_familial.text15') }}
+                            NB: {{ __('pour_etudier.text14') }}<br>
+                            {{ __('pour_etudier.text15') }}
 
                         </div>
                         <div class="category-desktop-contain">
@@ -160,27 +158,27 @@
                     </div>
                     <div class="categorie">
                         <div class="category-title">
-                            <h3> {{ __('regroupement_familial.text16') }} </h3>
+                            <h3> {{ __('pour_etudier.text16') }} </h3>
                         </div>
 
-                        {{ __('regroupement_familial.text17') }}
+                        {{ __('pour_etudier.text17') }}
                         <div class="">
                             <div class=" horaire ">
-                                <div class="news-title"><h4>{{ __('regroupement_familial.text18') }}</h4></div>
+                                <div class="news-title"><h4>{{ __('pour_etudier.text18') }}</h4></div>
 
-                                <div class="news-title"><p>{{ __('regroupement_familial.text19') }}</p></div>
+                                <div class="news-title"><p>{{ __('pour_etudier.text19') }}</p></div>
                             </div>
 
                             <div class=" horaire ">
-                                <div class="news-title"><h4>{{ __('regroupement_familial.text20') }}</h4></div>
+                                <div class="news-title"><h4>{{ __('pour_etudier.text20') }}</h4></div>
 
-                                <div class="news-title"><p>{{ __('regroupement_familial.text21') }}</p></div>
+                                <div class="news-title"><p>{{ __('pour_etudier.text21') }}</p></div>
                             </div>
 
                             <div class="horaire">
-                                <div class="news-title"><h4>{{ __('regroupement_familial.text22') }}</h4></div>
+                                <div class="news-title"><h4>{{ __('pour_etudier.text22') }}</h4></div>
 
-                                <div class="news-title"><p>{{ __('regroupement_familial.text23') }}</p></div>
+                                <div class="news-title"><p>{{ __('pour_etudier.text23') }}</p></div>
                             </div>
 
                         </div>
@@ -188,24 +186,17 @@
                     </div>
                     <div class="categorie">
                         <div class="category-title">
-                            <h3>{{ __('regroupement_familial.text241') }}</h3>
+                            <h3><a href="{{ __('main_CoursParticulier') }}">{{ __('pour_etudier.text24') }}</a></h3>
                         </div>
-                        <ul>
-                            <li>{{ __('regroupement_familial.text242') }}</li>
-                            <li>{{ __('regroupement_familial.text243') }}</li>
-                        </ul>
-                        <div class="category-title">
-                            <h3>{{ __('regroupement_familial.text24') }}</h3>
-                        </div>
-                        {{ __('regroupement_familial.text25') }}
-                        <span>{{ __('regroupement_familial.text261') }}</span>
+                        {{ __('pour_etudier.text25') }} <br>
+                        {{ __('pour_etudier.text26') }}
                     </div>
                 </div>
                 <div class="separator"></div>
 
             </div>
         </div>
-        @include('actualites')
+            @include('actualites')
     </div>
 
 

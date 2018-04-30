@@ -36,19 +36,19 @@ Route::group(['prefix' => 'allemand'], function() {
         return view('allemand');
     });
 
-    Route::get('/cours_particuliers_dallemand', function () {
-        return view('/allemand/cours_particuliers_dallemand');
+    Route::get('/cours-particuliers-dallemand', function () {
+        return view('/allemand/cours-particuliers-dallemand');
     });
 
-    Route::get('/pour_etudier', function () {
-        return view('/allemand/pour_etudier');
+    Route::get('/pour-etudier', function () {
+        return view('/allemand/pour-etudier');
     });
 
-    Route::get('/regroupement_familial', function () {
-        return view('/allemand/regroupement_familial');
+    Route::get('/regroupement-familial', function () {
+        return view('/allemand/regroupement-familial');
     });
 
-   
+
 });
 
 

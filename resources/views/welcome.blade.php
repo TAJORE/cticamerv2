@@ -524,7 +524,7 @@
 
                 </div>
 
-                @include('magnetique')
+
 
         </div>
     @include('footer')

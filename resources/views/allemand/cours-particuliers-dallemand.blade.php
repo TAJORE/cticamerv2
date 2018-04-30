@@ -70,11 +70,7 @@
         <div class="flex-contain">
 
             <div class="left-nav">
-
-                {% block left_nav %}
-                {% include 'MainBundle:Inc:left_nav.html.twig' %}
-                {% endblock %}
-
+                    @include('Inc.left-nav')
             </div>
 
             <div class="main-contain-middle">
