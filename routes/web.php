@@ -66,6 +66,23 @@ Route::group(['prefix' => 'informatique'], function() {
         return view('informatique/bureautique');
     });
 
+    Route::get('/infographie-design-media', function () {
+        return view('informatique/infographie');
+    });
+
+    Route::get('/utilisation-d-internet', function () {
+        return view('informatique/internet');
+    });
+    Route::get('/developpement-web', function () {
+        return view('informatique/developpement-web');
+    });
+    Route::get('/securite-informatique', function () {
+        return view('informatique/securite-informatique');
+    });
+
+    Route::get('/cours-particuliers', function () {
+        return view('informatique/cours-particuliers');
+    });
 
 });
 
