@@ -2,30 +2,30 @@
 <?php
 
 return [
-    'rentree'=> 'Prochaine RentrÈe: 30 avril 2018. ',
+    'rentree'=> 'Prochaine Rentr√©e: 30 avril 2018. ',
     'text3'=> 'Les Inscriptions sont en cours. Il y a encore quelques places disponibles.',
     'text4'=> 'COURS D\'ALLEMAND POUR SEJOUR ET REGROUPEMENT FAMILIAL',
-    'text5'=> ' Vous bÈnÈficiez des cours structurÈs et ciblÈs suivant vos objectifs. Passez votre Goethe Zertifikat de niveau A1 et A2 necessaire pour obtenir un visa de sÈjour en Allemagne. En effet, le Goethe-Zertifikat A1; Start Deutsch 1 est un examen díallemand pour adultes. Il atteste des connaissances linguistiques simples correspondant au premier niveau (A1) des six que comporte líÈchelle des compÈtences du Cadre europÈen commun de rÈfÈrence pour les langues (CECRL). ',
+    'text5'=> ' Vous b√©n√©ficiez des cours structur√©s et cibl√©s suivant vos objectifs. Passez votre Goethe Zertifikat de niveau A1 et A2 necessaire pour obtenir un visa de s√©jour en Allemagne. En effet, le Goethe-Zertifikat A1; Start Deutsch 1 est un examen d‚Äôallemand pour adultes. Il atteste des connaissances linguistiques simples correspondant au premier niveau (A1) des six que comporte l‚Äô√©chelle des comp√©tences du Cadre europ√©en commun de r√©f√©rence pour les langues (CECRL). ',
     'text6'=> ' Le Churchill Training Institute offres des cours de langue allemande
-                aux jeunes souhaitant Ètudier en Allemagne. Nous prÈparons les candidats aux examens de langue
-                allemande NÈcessaires pour obtenir un visa Ètudiant ( Goethe-Zertifikat A1; Start Deutsch1, Goethe-Zertifikat B1,
-                Goethe-Zertifikat B2, Test-DaF) offerts par líInstitut-Goethe ‡ YaoundÈ.',
+                aux jeunes souhaitant √©tudier en Allemagne. Nous pr√©parons les candidats aux examens de langue
+                allemande N√©cessaires pour obtenir un visa √©tudiant ( Goethe-Zertifikat A1; Start Deutsch1, Goethe-Zertifikat B1,
+                Goethe-Zertifikat B2, Test-DaF) offerts par l‚ÄôInstitut-Goethe √† Yaound√©.',
     'text7'=> 'MANUELS REQUIS ',
     'text8'=> 'Pour votre formation, vous avez droit aux meilleurs manuels d\'apprentissage; principalement les manuels des
-                collections MENSCHEN et Aspekte. Nos cours sont conÁus díaprËs le Cadre EuropÈen Commun de
-                RÈfÈrence pour les Langues (CECR).',
+                collections MENSCHEN et Aspekte. Nos cours sont con√ßus d‚Äôapr√®s le Cadre Europ√©en Commun de
+                R√©f√©rence pour les Langues (CECR).',
     'text9'=> 'Goethe Zertifikat A1 (Start Deutsch 1): Menschen A1, 2 mois + sessions pratiques',
     'text10'=> 'Goethe Zertifikat A2 : Menschen A2, 2 mois + sessions pratiques',
     'text11'=> 'Goethe Zertifikat B1 : Aspekte B1, 2 mois + sessions pratiques',
     'text12'=> 'Goethe Zertifikat B2 : Aspekte B2, 2 mois + sessions pratiques',
     'text13'=> 'Goethe Zertifikat C1 : Aspekte C1, 2 mois + sessions pratiques',
     'text14'=> 'NB: Seuls les niveaux A1, A2 et B1 sont requis pour obtenir un visa',
-    'text15'=> 'La qualitÈ de nos formation garantit votre succËs aux examens de langue Allemande organisÈs par le Goetthe Institut ‡ YaoundÈ; Goethe-zertifikat A1, A2, B1.',
+    'text15'=> 'La qualit√© de nos formation garantit votre succ√®s aux examens de langue Allemande organis√©s par le Goetthe Institut √† Yaound√©; Goethe-zertifikat A1, A2, B1.',
     'text16'=> 'HORAIRES DE COURS',
-    'text17'=> 'Tous les jours, du lundi au vendredi, Choisissez vos heures de cours en fonction de votre disponibilitÈ. ',
-    'text18'=> 'MatinÈes',
+    'text17'=> 'Tous les jours, du lundi au vendredi, Choisissez vos heures de cours en fonction de votre disponibilit√©. ',
+    'text18'=> 'Matin√©es',
     'text19'=> '08H00 - 10h00',
-    'text20'=> 'AprËs-midi',
+    'text20'=> 'Apr√®s-midi',
     'text21'=> '14H00 - 16h00',
     'text22'=> 'Cours du Soirs',
     'text23'=> '18H30 - 20h30',
@@ -33,19 +33,19 @@ return [
     'text241'=> 'DUREE DE LA FORMATION ',
     'text242'=> 'Goethe Zertifikat A1 (Start Deutsch 1): Menschen A1, 2 mois + sessions pratiques.',
     'text243'=> 'Goethe Zertifikat A2 : Menschen A2, 2 mois + sessions pratiques.',
-    'text25'=> 'Cours basÈs sur des contenus particuliers, destinÈs ‡ des groupes-cibles spÈciaux ou pour líexercice díaptitudes uniques.',
-    'text261'=> 'NíhÈsitez pas ‡ nous contacter si vous souhaitez suivre une formation ‡ la carte dans un de nos domaines de compÈtence. ',
+    'text25'=> 'Cours bas√©s sur des contenus particuliers, destin√©s √† des groupes-cibles sp√©ciaux ou pour l‚Äôexercice d‚Äôaptitudes uniques.',
+    'text261'=> 'N‚Äôh√©sitez pas √† nous contacter si vous souhaitez suivre une formation √† la carte dans un de nos domaines de comp√©tence. ',
     'keywordEtudALL'=> 'edudes, Cours, Allemand, Allemagne, Formation, A1, A2, B1, B2, C1, C2, Goethe-zertifikat, Douala, Bonamoussadi, Cameroun.',
     'title1'=>'COURS DE LANGUE POUR REGROUPEMENT FAMILLIAL EN ALLEMAGNE.',
     'title2'=> 'Pour regroupement familial ',
-    'descriptionALL' => 'Des cours d\'Allemand ‡ votre rythme pour une progression efficace. Obtenez votre Goethe Zertifikat pour
-                vos Ètudes en Allemagne gr‚ce au Churchil Training Institute situÈ ‡ Bonamoussadi, Douala, Cameroun',
-    'keywordALL'=> 'allemand, Ètudes, regroupement familial, Allemagne, cours, formation, Goethe-zertifikat, Douala, Bonamoussadi,
+    'descriptionALL' => 'Des cours d\'Allemand √† votre rythme pour une progression efficace. Obtenez votre Goethe Zertifikat pour
+                vos √©tudes en Allemagne gr√¢ce au Churchil Training Institute situ√© √† Bonamoussadi, Douala, Cameroun',
+    'keywordALL'=> 'allemand, √©tudes, regroupement familial, Allemagne, cours, formation, Goethe-zertifikat, Douala, Bonamoussadi,
             Cameroun,, A1, A2, B1, B2, C1, C2, CTI',
-    'title'=> "Cours d'Allemand ‡ Douala au CHURCHILL TRAINING INSTITUTE - Centre linguistique de RefÈrence",
-    'title21'=> 'COURS DE PR…PARATION AUX EXAMENS D\'ALLEMAND.',
-    'text1'=>'Le Churchill Training Institute vous aide ‡ atteindre le niveau de langue requis en peu de temps.',
-    'text2'=> 'Avec nos mÈthodes d apprentissage conformes aux standards europÈens, vivez l\'expÈrience d un apprentissage efficace. ',
+    'title'=> "Cours d'Allemand √† Douala au CHURCHILL TRAINING INSTITUTE - Centre linguistique de Ref√©rence",
+    'title21'=> 'COURS DE PR√âPARATION AUX EXAMENS D\'ALLEMAND.',
+    'text1'=>'Le Churchill Training Institute vous aide √† atteindre le niveau de langue requis en peu de temps.',
+    'text2'=> 'Avec nos m√©thodes d apprentissage conformes aux standards europ√©ens, vivez l\'exp√©rience d un apprentissage efficace. ',
 
 
 ];
