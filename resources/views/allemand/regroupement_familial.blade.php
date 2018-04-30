@@ -122,15 +122,15 @@
                             </h3>
                         </div>
                         <div class="datecours">
-                            {{ __('regroupement_familial.text5') }}
+
                         </div>
                         <div class="annonce-inscription">
-                            {{ __('regroupement_familial.text6') }}
+
                         </div>
                         <div class="category-desktop-contain">
 
                         </div>
-
+                        {{ __('regroupement_familial.text5') }}
                     </div>
                     <div class="categorie">
                         <div class="category-title">
@@ -188,14 +188,14 @@
                     </div>
                     <div class="categorie">
                         <div class="category-title">
-                            <h3><a href="{{ __('main_CoursParticulier') }}">{{ __('regroupement_familial.text241') }}</a></h3>
+                            <h3>{{ __('regroupement_familial.text241') }}</h3>
                         </div>
                         <ul>
                             <li>{{ __('regroupement_familial.text242') }}</li>
                             <li>{{ __('regroupement_familial.text243') }}</li>
                         </ul>
                         <div class="category-title">
-                            <h3><a href="{{ __('main_CoursParticulier') }}">{{ __('regroupement_familial.text24') }}</a></h3>
+                            <h3>{{ __('regroupement_familial.text24') }}</h3>
                         </div>
                         {{ __('regroupement_familial.text25') }}
                         <span>{{ __('regroupement_familial.text261') }}</span>

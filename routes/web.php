@@ -48,10 +48,7 @@ Route::group(['prefix' => 'allemand'], function() {
         return view('/allemand/regroupement_familial');
     });
 
-    Route::get('/cours_specialises', function () {
-        return view('/allemand/cours_specialises');
-    });
-
+   
 });
 
 

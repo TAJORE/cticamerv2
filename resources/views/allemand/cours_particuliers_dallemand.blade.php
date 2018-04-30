@@ -113,8 +113,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="cat-container">
                     <div class="categorie">
                         <div class="category-title">
@@ -124,8 +122,11 @@
                         <div class="datecours">
                             {{ __('cours_particuliers_dallemand.text5') }}
                         </div>
-                        <div class="annonce-inscription">
 
+                        <div class="category-desktop-contain">
+
+                        </div>
+                        <div class="">
                             <div>
                                 <ul>
                                     <li>{{ __('cours_particuliers_dallemand.text6') }}</li>
@@ -136,11 +137,6 @@
                             </div>
                             {{ __('cours_particuliers_dallemand.text64') }}
                         </div>
-
-                        <div class="category-desktop-contain">
-
-                        </div>
-
                     </div>
                     <div class="categorie">
                         <div class="category-title">
@@ -230,6 +226,7 @@
 
             </div>
         </div>
+
         @include('actualites')
     </div>
 

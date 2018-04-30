@@ -39,8 +39,6 @@
                                 <a href="/allemand/pour_etudier"> {{ __('ctinav.etudeAll') }} </a>
                                 <a href="/allemand/regroupement_familial"> {{ __('ctinav.regrFamill') }} </a>
                                 <a href="/allemand/cours_particuliers_dallemand">  {{ __('ctinav.coursParti') }} </a>
-                                <a href="/allemand/cours_specialises"> {{ __('ctinav.coursSpec') }}</a>
-
                             </div>
                         </li>
 

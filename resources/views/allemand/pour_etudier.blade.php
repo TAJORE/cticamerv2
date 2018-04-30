@@ -125,12 +125,12 @@
                             {{ __('pour_etudier.text5') }}
                         </div>
                         <div class="annonce-inscription">
-                            {{ __('pour_etudier.text6') }}
+
                         </div>
                         <div class="category-desktop-contain">
 
                         </div>
-
+                        <div style="text-align: justify">{{ __('pour_etudier.text6') }}</div>
                     </div>
                     <div class="categorie">
                         <div class="category-title">
