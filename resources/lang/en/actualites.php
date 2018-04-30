@@ -3,7 +3,7 @@
 return [
 
     'prochaineRentree'=> 'Next start date',
-    'debutDesCours'=> 'April 30th, 2018.',
+    'debutDesCours'=> 'May 14th, 2018.',
     'placesDISPO'=> 'Registrations are in progress. There are still some places available.',
 
     'choixRENTREE'=> 'Choose one of our back-to-school days for your day and evening classes in English (2017-2018)',

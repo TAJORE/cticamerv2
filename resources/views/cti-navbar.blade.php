@@ -55,8 +55,8 @@
                                 <a href="/informatique/infographie-design-media"> {{ __('ctinav.art') }} </a>
                                 <a href="/informatique/utilisation-d-internet"> {{ __('ctinav.internet') }} </a>
                                 <a href="/informatique/developpement-web"> {{ __('ctinav.appWeb') }} </a>
-                                <a href="{{  ('main_SecuriteInfo') }}"> {{ __('ctinav.secuInfo') }} </a>
-                                <a href="{{  ('main_CoursParticuliersdInfo') }}"> {{ __('ctinav.coursPartiInfo') }} </a>
+                                <a href="/informatique/securite-informatique"> {{ __('ctinav.secuInfo') }} </a>
+                                <a href="/informatique/cours-particuliers"> {{ __('ctinav.coursPartiInfo') }} </a>
                             </div>
                         </li>
 

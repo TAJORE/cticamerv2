@@ -3,7 +3,7 @@
 return [
 
     'prochaineRentree'=> 'Prochaine Rentrée',
-    'debutDesCours'=> '30 avril 2018.',
+    'debutDesCours'=> '14 mai 2018.',
     'placesDISPO'=> 'Les Inscriptions sont en cours. Il y a encore quelques places disponibles.',
 
     'choixRENTREE'=> 'Choisissez une de nos rentrées pour vos cours du jour et soir en Anglais (2017-2018)',
