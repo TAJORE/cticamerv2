@@ -52,7 +52,7 @@
 
                             <div class="dropdown-content">
                                 <a href="/informatique/bureautique"> {{ __('ctinav.logiBur') }}  </a>
-                                <a href="{{  ('main_Design') }}"> {{ __('ctinav.art') }} </a>
+                                <a href="/informatique/infographie-design-media"> {{ __('ctinav.art') }} </a>
                                 <a href="{{  ('main_Internet') }}"> {{ __('ctinav.internet') }} </a>
                                 <a href="{{  ('main_AppliWeb') }}"> {{ __('ctinav.appWeb') }} </a>
                                 <a href="{{  ('main_SecuriteInfo') }}"> {{ __('ctinav.secuInfo') }} </a>
